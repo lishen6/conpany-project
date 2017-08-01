@@ -926,5 +926,385 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 @media only screen and (min-width: 1824px) {
 }
 /* 通用 */
+.manage-banner {
+  background: #172326;
+  border-bottom: solid 0.15rem #172326;
+}
+.manage-banner > img {
+  width: 100%;
+}
+.manage-banner .banner-article {
+  position: absolute;
+  top: 4rem;
+  right: 0.5rem;
+  z-index: 8;
+  display: inline-block;
+  padding: 0.25rem 0rem 0.5rem 0.5rem;
+  overflow: hidden;
+  background: rgba(41, 171, 226, 0.5);
+}
+.manage-banner .banner-article.paddr {
+  padding-right: 0.5rem;
+}
+.manage-banner .banner-article > h3 {
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  padding-right: 5rem;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.manage-banner .banner-article > h3 > span {
+  font-size: 1.1rem;
+}
+.manage-banner .banner-article h3:nth-child(2) {
+  padding-right: 0px;
+  padding-left: 5rem;
+}
+.manage-banner .banner-article > h4 {
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  color: #fff;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.manage-banner .banner-article > p {
+  font-size: 0.6rem;
+  line-height: 1rem;
+  text-align: center;
+  color: #fff;
+}
+.postionRE {
+  position: relative;
+  overflow: visible;
+  padding-top: 2rem;
+}
+.doManage {
+  font-size: 0.8rem;
+  line-height: 2.5rem;
+  position: absolute;
+  top: -1.5rem;
+  left: 50%;
+  margin-left: -3rem;
+  width: 6rem;
+  height: 2.5rem;
+  background: #fff;
+  text-align: center;
+  color: #29abe2;
+  z-index: 99;
+  border-bottom: solid 0.2rem #172326;
+}
+.doManage-list > li {
+  padding-bottom: 0.5rem;
+}
+.doManage-list > li > div {
+  border: solid 1px #00b7ee;
+}
+.doManage-list > li > div > div {
+  border-bottom: none;
+  color: #172326;
+  text-align: justify;
+}
+.manage-bottom {
+  height: 8rem;
+  background: url(../images/manage-bg.jpg) center;
+  background-size: cover;
+}
+.manage-bottom > p {
+  font-size: 0.9rem;
+  line-height: 1rem;
+  color: #fff;
+  text-align: center;
+  padding-top: 2rem;
+}
+.manage-bottom .down-btn {
+  text-align: center;
+  margin-top: 2rem;
+}
+.manage-bottom .zhuceshiyong {
+  width: 5.55rem;
+  height: 1.15rem;
+  border: 1px solid #c3d6df;
+  text-align: center;
+  line-height: 1.15rem;
+  color: #fff;
+  font-size: 0.5rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.manage-bottom .zhuceshiyong > img {
+  width: 0.25rem;
+}
+.manage-bottom .zhuceshiyong.active {
+  background: #29abe2;
+  border: 1px solid #29abe2;
+}
+.list-title {
+  font-size: 0.9rem;
+  text-align: center;
+  height: 2.8rem;
+  line-height: 2.8rem;
+}
+.list-title > img {
+  width: 1rem;
+}
+.list-title i {
+  font-style: normal;
+  color: #29abe2;
+}
+.online-banner {
+  background: #40b2e8;
+  border-bottom: solid 0.15rem #40b2e8;
+}
+.online-banner .banner-article {
+  top: 5rem;
+}
+.online-div {
+  padding-top: 1rem;
+}
+.online-div > h1 {
+  font-size: 1.3rem;
+  height: 3rem;
+  line-height: 2rem;
+  color: #40b2e8;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+.four-step {
+  margin: 0 0.75rem;
+  height: 7rem;
+}
+.four-step > li {
+  float: left;
+  width: 50%;
+  margin-bottom: 1rem;
+}
+.four-step > li > img {
+  float: left;
+  width: 1.5rem;
+  margin-top: 5px;
+}
+.four-step > li > div {
+  margin-left: 1.8rem;
+}
+.four-step > li > div span {
+  font-size: 0.7rem;
+  color: #3c3c3c;
+  line-height: 0.9rem;
+}
+.four-step > li > div span i {
+  font-size: 0.8rem;
+  color: #40b2e8;
+}
+.four-step > li > div p {
+  font-size: 0.5rem;
+  color: #999;
+  line-height: 0.9rem;
+}
+.two-service {
+  margin: 0 0.75rem;
+}
+.two-service li {
+  border: solid 1px #c6c6c6;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.two-service li:nth-child(2) {
+  margin-bottom: 0px;
+}
+.two-service li > h5 {
+  font-weight: normal;
+  width: 7rem;
+  margin-left: -3.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #40b2e8;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  position: absolute;
+  top: -0.75rem;
+  left: 50%;
+  background: #fff;
+}
+.two-service li p.picture {
+  margin-top: 1.5rem;
+  text-align: center;
+  height: 2.5rem;
+}
+.two-service li p.picture > img {
+  width: 2.5rem;
+}
+.two-service li p {
+  font-size: 0.65rem;
+  color: #999;
+  text-align: center;
+  height: 2.2rem;
+  line-height: 1.2rem;
+}
+.two-service li dl dt {
+  position: relative;
+}
+.two-service li dl dt > img {
+  width: 107%;
+  margin-left: -0.62rem;
+}
+.two-service li dl dt > span {
+  position: absolute;
+  top: 0.2rem;
+  left: 0px;
+  font-size: 0.8rem;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  line-height: 2rem;
+}
+.two-service li dl dd {
+  height: 3rem;
+  line-height: 3rem;
+  margin-bottom: 0.5rem;
+}
+.two-service li dl dd > img {
+  float: left;
+  width: 2.3rem;
+  margin-left: 0.8rem;
+}
+.two-service li dl dd > p {
+  font-size: 0.7rem;
+  margin-left: 4rem;
+  line-height: 1rem;
+  color: #333;
+  text-align: left;
+  position: relative;
+  top: 0.5rem;
+}
+.online-bottom {
+  background: url(../images/color-bg.jpg) center;
+}
+/* 客户赊销管理 */
+.cost-banner {
+  position: relative;
+  background: #40b2e8;
+  border-bottom: solid 0.2rem #40b2e8;
+}
+.cost-banner > img {
+  width: 100%;
+}
+.cost-banner .wz {
+  position: absolute;
+  color: #fff;
+  border-top: solid 3px #fff;
+  border-bottom: solid 3px #fff;
+  bottom: 1rem;
+  left: 1rem;
+  height: 3rem;
+  padding: 0.2rem 1rem 0.2rem 0;
+}
+.cost-banner .wz p {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+}
+.cost-banner .wz .small {
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+}
+.table-title {
+  padding: 1rem 0;
+  text-align: center;
+}
+.table-title .pay-money {
+  font-size: 1.1rem;
+  color: #40b2e8;
+  height: 2rem;
+  margin-top: 1rem;
+}
+.table-title .pay-money > p {
+  font-size: 0.7rem;
+  color: #40b2e8;
+  margin-top: 0.2rem;
+}
+.table-title p {
+  font-size: 0.7rem;
+  color: #172326;
+  line-height: 1.1rem;
+  height: 1.1rem;
+}
+.table-title p > img {
+  width: 1rem;
+}
+.table-title p > span {
+  color: #40b2e8;
+}
+.t-table {
+  display: block;
+  font-size: 0.6rem;
+  color: #172326;
+  line-height: 1rem;
+  text-align: center;
+}
+.t-table span {
+  color: #2aa5da!important;
+}
+.t-table td {
+  min-width: 2.4rem;
+  padding: 5px;
+  border-right: solid 1px #d2d2d2;
+  text-align: center;
+}
+.t-table tr {
+  border-bottom: solid 1px #d2d2d2;
+}
+.t-table thead tr {
+  background: #eee;
+}
+.t-table .t-border {
+  border-top: solid 1px #d2d2d2;
+  border-bottom: solid 1px #d2d2d2;
+}
+.table-div {
+  overflow: auto;
+}
+.table-div > .t-table td {
+  min-width: 4rem;
+  padding: 5px;
+  border-right: solid 1px #d2d2d2;
+  text-align: center;
+}
+.money {
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 0.8rem;
+  color: #172326;
+  text-align: center;
+  border-bottom: solid 1px #d2d2d2;
+  margin-bottom: 1rem;
+}
+.money span {
+  font-size: 1rem;
+}
+.money span i {
+  font-style: normal;
+  color: #40b2e8;
+}
+.small-tips {
+  font-size: 0.5rem;
+  color: #636363;
+  height: 1.5rem;
+  line-height: 1rem;
+  margin: 1rem 0.75rem;
+  text-align: center;
+}
+.big-tips {
+  font-size: 0.7rem;
+  color: #2aa5da;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  padding: 0 0.75rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+/* 客户赊销管理 */
 
 /*# sourceMappingURL=allcss.css.map */
