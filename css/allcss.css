@@ -1268,7 +1268,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .cost-banner {
   position: relative;
   background: #40b2e8;
-  border-bottom: solid 0.2rem #40b2e8;
+  border-bottom: solid 0.1rem #40b2e8;
 }
 .cost-banner > img {
   width: 100%;
@@ -1532,6 +1532,58 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
           box-sizing: border-box;
 }
 /* 数据工具 */
+.service-list {
+  margin: 1rem 0.75rem 0;
+}
+.service-list li {
+  padding-bottom: 1.5rem;
+  overflow: hidden;
+}
+.service-list li img {
+  float: left;
+  width: 50%;
+}
+.service-list li p {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 0.5rem;
+  color: #000000;
+  line-height: 1rem;
+  width: 50%;
+  float: left;
+  padding-left: 0.5rem;
+}
+.service-list li p span {
+  display: block;
+  font-size: 0.7rem;
+  color: #40b2e8;
+  line-height: 1.3rem;
+}
+.service-list li p .wz {
+  font-style: normal;
+  margin-left: 0.5rem;
+}
+.service-list li i.iconfont {
+  margin-right: 0.2rem;
+}
+.knows {
+  background-color: #eee;
+  padding: 0.5rem 0.75rem 1rem;
+}
+.knows > h6 {
+  font-size: 0.7rem;
+  color: #626262;
+  line-height: 1.4rem;
+  height: 1.4rem;
+  font-weight: normal;
+}
+.knows p {
+  line-height: 1rem;
+  font-size: 0.5rem;
+  color: #626262;
+}
+/* 服务 */
 .search-box {
   width: 100%;
   overflow: hidden;
