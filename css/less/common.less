@@ -98,14 +98,30 @@ and (max-device-width : 480px) {
 
 // Smartphones (landscape) -----------
 @media only screen
-and (min-width : 321px) {
-// Styles
+and (min-width : 400px) {
+    .download-bottom-flex{
+        &.shujugongju-bottom{
+            li{
+                span{
+                    height: 8rem!important;
+                }
+            }
+        }
+    }
 }
 
 // Smartphones (portrait) -----------
 @media only screen
 and (max-width : 320px) {
-// Styles
+    .download-bottom-flex{
+        &.shujugongju-bottom{
+            li{
+                span{
+                    height: 9.2rem!important;
+                }
+            }
+        }
+    }
 }
 
 // iPads (portrait and landscape) -----------
