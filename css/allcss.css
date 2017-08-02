@@ -104,25 +104,13 @@ a:hover {
   height: auto;
 }
 /* 基础页面布局所有相关Less变量 */
-/**
- * iconfont.less -- 系统字体图标
-**/
-/*
- * 第一步: 定义字体,并加载iconfont字体库,注意字体文件路径
-*/
 @font-face {
   font-family: "iconfont";
-  src: url('fonts/iconfont/iconfont.eot?t=1499871892080');
+  src: url('fonts/iconfont.eot?t=1501254356722');
   /* IE9*/
-  src: url('fonts/iconfont/iconfont.eot?t=1499871892080#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('fonts/iconfont/iconfont.woff?t=1499871892080') format('woff'), /* chrome, firefox */ url('fonts/iconfont/iconfont.ttf?t=1499871892080') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('fonts/iconfont/iconfont.svg?t=1499871892080#iconfont') format('svg');
+  src: url('fonts/iconfont.eot?t=1501254356722#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('fonts/iconfont.woff?t=1501254356722') format('woff'), /* chrome, firefox */ url('fonts/iconfont.ttf?t=1501254356722') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('fonts/iconfont.svg?t=1501254356722#iconfont') format('svg');
   /* iOS 4.1- */
 }
-/*
- *  第二步 - 使用
- *  方式一( class + 编码方式 ):
- *  在标签添加class="iconfont"
- *  并且在标签里添加字体编码,完整示例如: <i class="iconfont icon-diqu"></i>
-*/
 .iconfont {
   font-family: "iconfont" !important;
   font-size: 16px;
@@ -130,11 +118,98 @@ a:hover {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.icon-jikediancanicon21:before {
+  content: "\e783";
+}
+.icon-shoukuan:before {
+  content: "\e691";
+}
+.icon-bangzhu:before {
+  content: "\e609";
+}
+.icon-shouxu:before {
+  content: "\e7a8";
+}
+.icon-buchongiconsvg02:before {
+  content: "\e65c";
+}
+.icon-xiayiye:before {
+  content: "\e623";
+}
+.icon-dianhua:before {
+  content: "\e604";
+}
+.icon-shenqing:before {
+  content: "\e673";
+}
+.icon-renminbi:before {
+  content: "\e619";
+}
 .icon-caidan-copy:before {
   content: "\e601";
 }
+.icon-xingming:before {
+  content: "\e63a";
+}
+.icon-weixin:before {
+  content: "\e605";
+}
+.icon-jiantou-copy:before {
+  content: "\e613";
+}
+.icon-fabuxuqiu:before {
+  content: "\e627";
+}
+.icon-fangkuanqueren:before {
+  content: "\e60c";
+}
+.icon-caidantubiao-03:before {
+  content: "\e634";
+}
+.icon-rongzi:before {
+  content: "\e649";
+}
+.icon-xin:before {
+  content: "\e602";
+}
+.icon-liaotian:before {
+  content: "\e603";
+}
+.icon-shouji:before {
+  content: "\e61b";
+}
+.icon-jishufuwu:before {
+  content: "\e7df";
+}
+.icon-ZHicon-:before {
+  content: "\e624";
+}
+.icon-pinggu:before {
+  content: "\e611";
+}
+.icon-gongsi:before {
+  content: "\e67d";
+}
+.icon-zhangdan:before {
+  content: "\e67f";
+}
+.icon-erp:before {
+  content: "\e669";
+}
+.icon-youjian:before {
+  content: "\e622";
+}
 .icon-sanjiao:before {
   content: "\e600";
+}
+.icon-wangguan:before {
+  content: "\eaf2";
+}
+.icon-edit:before {
+  content: "\e616";
+}
+.icon-duigoudown:before {
+  content: "\e71";
 }
 /* 页面布局系统图标 */
 .header1 {
@@ -601,20 +676,20 @@ a:hover {
 }
 .footer .footer-btn a {
   font-size: 0.45rem;
-  color: #747474;
+  color: #fff;
   padding: 0.45rem 0.3rem;
   text-decoration: none;
 }
 .footer h3 {
   line-height: 0.75rem;
-  color: #585858;
+  color: #fff;
   text-align: center;
   font-size: 0.55rem;
   font-weight: normal;
 }
 .footer h4 {
   line-height: 0.65rem;
-  color: #585858;
+  color: #fff;
   text-align: center;
   font-size: 0.35rem;
   font-weight: normal;
@@ -625,14 +700,14 @@ a:hover {
 }
 .footer h5 {
   line-height: 0.65rem;
-  color: #585858;
+  color: #fff;
   text-align: center;
   font-size: 0.35rem;
   font-weight: normal;
 }
 .footer h6 {
   line-height: 0.75rem;
-  color: #585858;
+  color: #fff;
   text-align: center;
   font-size: 0.35rem;
   font-weight: normal;
@@ -911,9 +986,15 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 }
-@media only screen and (min-width: 321px) {
+@media only screen and (min-width: 400px) {
+  .download-bottom-flex.shujugongju-bottom li span {
+    height: 8rem!important;
+  }
 }
 @media only screen and (max-width: 320px) {
+  .download-bottom-flex.shujugongju-bottom li span {
+    height: 9.2rem!important;
+  }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 }
@@ -1308,7 +1389,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 /* 客户赊销管理 */
 .shujugongju-title1 {
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.85rem;
   color: #172326;
   height: 2rem;
   line-height: 2rem;
@@ -1332,7 +1413,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin: 0 0 0 0.1rem;
 }
 .shujugongju-title2 {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #40b2e8;
   text-align: center;
   font-weight: normal;
@@ -1344,6 +1425,141 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   text-align: center;
   margin-bottom: 0.4rem;
 }
+.download-bottom-flex {
+  width: 92%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.download-bottom-flex.borderNone li {
+  border: none;
+  width: 26%;
+  margin: 0 3.4% 2.875rem;
+  padding-bottom: 1.15rem;
+}
+.download-bottom-flex.borderNone li img {
+  width: 3.325rem;
+}
+.download-bottom-flex.borderNone li span {
+  margin: 0 auto;
+}
+.download-bottom-flex.shujugongju-bottom {
+  margin-top: 1.2rem;
+}
+.download-bottom-flex.shujugongju-bottom li {
+  width: 30%;
+  margin: 0 1.4% 2rem;
+}
+.download-bottom-flex.shujugongju-bottom li span {
+  margin: 0 auto;
+  height: 8.85rem;
+  padding: 0 10%;
+}
+.download-bottom-flex.shujuanquan-height li span {
+  height: 5rem;
+}
+.download-bottom-flex.shujuanquan-bottom {
+  width: 98%;
+}
+.download-bottom-flex.shujuanquan-bottom li {
+  width: 31%;
+  margin: 0 1.2% 2.875rem;
+  border: 1px #d2d2d2 solid;
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1.15rem 0 1.5rem;
+}
+.download-bottom-flex.shujuanquan-bottom li img {
+  width: 1.75rem;
+  display: block;
+  margin: 0 auto;
+}
+.download-bottom-flex.shujuanquan-bottom li p {
+  height: 2.6rem;
+  line-height: 0.8rem;
+  font-size: 0.6rem;
+  color: #000;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.download-bottom-flex.shujuanquan-bottom li span {
+  height: 6.15rem;
+  line-height: 0.8rem;
+  display: block;
+  font-size: 0.4rem;
+  color: #666666;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 10%;
+}
+.download-bottom-flex li {
+  width: 26%;
+  margin: 0 3.4% 2.875rem;
+  border: 1px #d2d2d2 solid;
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1.15rem 0 1.5rem;
+}
+.download-bottom-flex li img {
+  width: 1.75rem;
+  display: block;
+  margin: 0 auto;
+}
+.download-bottom-flex li p {
+  height: 1.5rem;
+  line-height: 1.5rem;
+  font-size: 0.7rem;
+  color: #000;
+  text-align: center;
+}
+.download-bottom-flex li span {
+  height: 1.15rem;
+  line-height: 0.9rem;
+  display: block;
+  font-size: 0.25rem;
+  color: #666666;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 /* 数据工具 */
+.search-box {
+  width: 100%;
+  overflow: hidden;
+  background: #29abe2;
+}
+.search-top {
+  width: 90%;
+  margin: 0 auto;
+}
+.search-input {
+  width: 100%;
+  height: 1.6rem;
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.search-input input {
+  width: 75%;
+  height: 1.6rem;
+  border: 0;
+  outline: none;
+}
+.search-input img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+/* 搜索 */
 
 /*# sourceMappingURL=allcss.css.map */
