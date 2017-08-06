@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>企业系</title>
+	<meta name="description" content="">
+	<meta name="author" content="author">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+	<!--Safari 将会对有内容溢出 Viewport 区域的页面进行缩放适配，使溢出的内容完整展示而不出现滚动条，而在 Viewport 设置中引入了一个新属性 shrink-to-fit = no，该属性可以禁止这种缩放行为的发生。-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<meta name="apple-mobile-web-app-title" content="标题">
+	<link rel="stylesheet" href="css/allcss.css">
+
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- IOS / Android 主屏图标 -->
+	<link href="/images/webappicon/icon.png" rel="apple-touch-icon" />
+	<link href="/images/webappicon/icon-76.png" rel="apple-touch-icon" sizes="76x76" />
+	<link href="/images/webappicon/icon-120.png" rel="apple-touch-icon" sizes="120x120" />
+	<link href="/images/webappicon/icon-152.png" rel="apple-touch-icon" sizes="152x152" />
+	<link href="/images/webappicon/icon-180.png" rel="apple-touch-icon" sizes="180x180" />
+	<link href="/images/webappicon/icon-192.png" rel="icon" sizes="192x192" />
+	<link href="/images/webappicon/icon-128.png" rel="icon" sizes="128x128" />
+	<!-- Tile icon for Win8 (144x144 + tile color) -->
+	<!-- win 8 磁贴颜色 -->
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<!-- win 8 磁贴图标 -->
+	<meta name="msapplication-TileImage" content="/images/webappicon/apple-touch-icon-120x120.png">
+	<meta name="msapplication-tooltip" content="Tooltip">
+	<meta http-equiv="Cache-Control" content="no-siteapp">
+	<!--调试阶段禁止缓存,例如微信，QQ浏览器缓存-->
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+	<!-- Enable iOS 自动检测电话号码 -->
+	<meta name="format-detection" content="telephone=no" />
+	<!-- 禁止百度转码 -->
+	<meta http-equiv="Cache-Control" content="no-siteapp">
+	<!-- Favicons -->
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+	<!-- 针对手持设备优化  -->
+	<!-- uc强制竖屏 -->
+	<!-- <meta name="screen-orientation" content="portrait"> -->
+	<!-- QQ强制竖屏 -->
+	<!-- <meta name="x5-orientation" content="portrait"> -->
+	<meta name="x5-fullscreen" content="true">
+	<!-- UC强制全屏 -->
+	<meta name="full-screen" content="yes">
+	<!-- UC应用模式 -->
+	<!--使用了application这种应用模式后，页面讲默认全屏，禁止长按菜单，禁止手势，标准排版，以及强制图片显示-->
+	<meta name="browsermode" content="application">
+	<!-- QQ应用模式 -->
+	<meta name="x5-page-mode" content="app">
+</head>
+
+<body>
+	<div class="header1">
+		<a href="#" class="go-logo"><img src="images/logo.png" alt="" class="logo"/></a>
+		<div class="header1-tab">
+			<div class="header1-tab-btn1"><div>
+				<a class="active">首页</a>
+				<a class="yingyong-btn" style="position: relative;">应用
+				   <ul class="header-nav-ul">
+                    	<li class="gouseone">客户赊销管理</li>
+                    	<li class="goduizhang">智能对账收款</li>
+                    	<li class="goxinyongrongzhi">在线信用融资</li>
+                    	<li class="godianzizhengshu">电子证书签章</li>
+                    </ul>
+				</a>
+				<a href="cost.html">价格</a>
+				<a href="download.html">下载</a>
+				<a href="service.html">服务</a>
+			</div></div>
+			<!--<div class="header1-tab-btn2"><span>登录</span>/<span>注册</span></div>-->
+			<i class="iconfont icon-caidan-copy caidan"></i>
+		</div>
+		
+		<div class="swiper-container1 swiper-container" id='swiper-head'>
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide">
+		        	<img src="images/Header1111.jpg" alt="" />
+		        	<div class="header1-box">
+		        		<h6>我们解决</h6>
+						<h4>企业赊销和收款问题</h4>
+						<img src="images/line.png" class="line-img" alt="" />
+						<h5>平衡销售增长与信用风险，获得最大商业回报</h5>
+						<div>
+							<p class="marginp"><img src="images/free.png"/>免费注册使用</p>
+							<p class="active"><img src="images/download.png"/>下载企业系客户端</p>
+						</div>
+					</div>
+		        </div>
+		         <div class="swiper-slide">
+		        	<img src="images/headerimg2.jpg" alt="" />
+		        	<div class="header1-box">
+						<h4>赊，心痛无法承受？</h4>
+						<img src="images/line.png" class="line-img" alt="" />
+						<h5>客户信用账期、对账催款、收款核销<br/>一个互联网工具帮您解决</h5>
+						<div>
+							<p class="marginp"><img src="images/free.png"/>免费注册使用</p>
+							<p class="active"><img src="images/download.png"/>下载企业系客户端</p>
+						</div>
+					</div>
+		        </div>
+		         <div class="swiper-slide">
+		        	<img src="images/headerimg3.jpg" alt="" />
+		        	<div class="header1-box header1-box-left">
+		        		<h6>更快收款</h6>
+						<h4>哪来得及手工录入</h4>
+						<img src="images/line.png" class="line-img" alt="" />
+						<h5>我们为您准备了客户端工具，各类ERP进销存快<br/>速互通快速评估快捷对账</h5>
+						<div>
+							<p class="marginp"><img src="images/free.png"/>免费注册使用</p>
+							<p class="active"><img src="images/download.png"/>下载企业系客户端</p>
+						</div>
+					</div>
+		        </div>
+		         <div class="swiper-slide">
+		        	<img src="images/headerimg4.jpg" alt="" />
+		        	<div class="header1-box header1-box-center">
+						<h4>还有更多惊喜</h4>
+						<img src="images/line.png" class="line-img" alt="" />
+						<h5>基于信用提升，在线即可申请自身应收融资，或<br/>协助客户融资</h5>
+						<div>
+							<p class="marginp"><img src="images/free.png"/>免费注册使用</p>
+							<p class="active"><img src="images/download.png"/>下载企业系客户端</p>
+						</div>
+					</div>
+		        </div>
+		    </div>
+		    <!-- 如果需要分页器 -->
+		    <div class="swiper-pagination"></div>
+		</div>
+	</div>
+	<div class="body1">
+		<h4>超过 <b>37,000</b> 家企业组织正在使用企业系</h4>
+		<h5>为您突破内外部业务壁垒，以信用连接客户与金融</h5>
+		<ul class="body1-ul">
+			<li class="">
+				<div class="active go-userone">
+					<!--<img class="show1" src="images/B2_Icon1-1.png" alt="" />-->
+					<img class="show1" src="images/B2_Icon1-2.png" alt="" />
+					<h4>客户赊销管理</h4>
+					<div class="top12">拒绝盲目，协助您做出数据分析，提供客户信用量化建议。轻松建立客户信用管理体系，额度应收和账期账龄一目了然。</div>
+					<p>0背景</p>
+					<span>不需要学习数据分析</span>
+				</div>
+			</li>
+			<li class="">
+				<div class="go-duizhang">
+					<!--<img class="show1" src="images/B2_Icon2-1.png" alt="" />-->
+					<img class="show1" src="images/B2_Icon2-2.png" alt="" />
+					<h4>智能对账收款</h4>
+					<div class="top12">无论是单据内部审批流转，还是与客户沟通协作。无论是后台系统，还是微信邮件，无论是对账催款还是支付转账，我们已为您联通。</div>
+					<p>0电话</p>
+					<span>轻松掌握收款进程</span>
+				</div>
+			</li>
+			<li class="">
+				<div class="go-rongzi">
+					<!--<img class="show1" src="images/B2_Icon3-1.png" alt="" />-->
+					<img class="show1" src="images/B2_Icon3-2.png" alt="" />
+					<h4>在线信用融资</h4>
+					<div class="top34">联合多家金融机构，为企业系用户专供的信用融资产品。无论是企业自身融资还是协助客户融资，在线即可申请。</div>
+					<p>只1键</p>
+					<span>申请出账全线上</span>
+				</div>
+			</li>
+			<li class="">
+				<div class="go-qianzhang">
+					<!--<img class="show1" src="images/B2_Icon4-1.png" alt="" />-->
+					<img class="show1" src="images/B2_Icon4-2.png" alt="" />
+					<h4>电子证书签章</h4>
+					<div class="top34">采用CFCA中国金融认证中心的数字证书和电子签章，为每一笔业务合法合规保驾护航。</div>
+					<p>每1笔</p>
+					<span>业务都合规</span>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="body2">
+		<span class="kuang"></span>
+		<h4>一切只为创造更好的生意环境</h4>
+		<h5>>>商业无边界  规模无大小</h5>
+		<h3>更快销售回款智能适配</h3>
+		<div>
+			<a>></a><p>各种企业后台ERP和进销存系统智能性适配，快速对接联通，支持批量客户信用评估建议和快捷对账</p>
+		</div>
+		<h3>更低收款成本钱包收款</h3>
+		<div>
+			<a>></a><p>专属企业系钱包，随时随地2C, 2B各类收付款方式，成本更低，钱帐合一</p>
+		</div>
+		<h3>更高数据安全无忧保障</h3>
+		<div>
+			<a>></a><p>三大安全权威机构认证，全天候多层次安全措施保障以及独到的数据脱敏措施确保只有您自主控制您的数据</p>
+		</div>
+	</div>
+	<div class='body3'>
+		<p>我们携手金融机构<br/>为您提供更便捷收款和融资服务</p>
+		<img src="images/line2.png" class="line-img line-img2" /> 
+		<div class="row3">
+			<div class="heng1 go-qianzhang"><img src="./images/heng1-icon.png" alt="" /><p>电子证书签章</p></div>
+			<div class="heng2"><img src="./images/heng2-icon.png" alt="" /><p>在线支付通道与钱包</p></div>
+			<div class="heng3 go-rongzi"><img src="./images/heng3-icon.png" alt="" /><p>在线信用融资</p></div>
+		</div>
+	</div>
+	<div class="body4">
+		<div class="body4-head">
+			<h4>媒体报道与奖项</h4>
+			<img src="images/line2.png" class="line-img line-img2" /> 
+			<div class="body4-title">
+				<span class="active">最佳B2B协作</span> /
+				<span>B2B 50 强</span> /
+				<span>征信金鼎</span> /
+				<span>供应链金融标杆</span> /
+				<span>最佳风控</span>
+			</div>
+			<div class="swiper-container" id='swiper-body4'>
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide">
+			        	<img src="images/power1.jpg" alt="" class="body4-swpier-img"/>
+			        	<p class="body4-swpier-p"><b>“</b><span>最佳B2B协作</span><b>”</b></p>
+			        </div>
+			        <div class="swiper-slide">
+			        	<img src="images/power2.jpg" alt=""  class="body4-swpier-img"/>
+			        	<p class="body4-swpier-p"><b>“</b><span>B2B 50 强</span><b>”</b></p>
+			        </div>
+			        <div class="swiper-slide">
+			        	<img src="images/power3.jpg" alt=""  class="body4-swpier-img"/>
+			        	<p class="body4-swpier-p"><b>“</b><span>征信金鼎</span><b>”</b></p>
+			        </div>
+			        <div class="swiper-slide">
+			        	<img src="images/power4.jpg" alt=""  class="body4-swpier-img"/>
+			        	<p class="body4-swpier-p"><b>“</b><span>供应链金融标杆</span><b>”</b></p>
+			        </div>
+			        <div class="swiper-slide">
+			        	<img src="images/power5.jpg" alt=""  class="body4-swpier-img"/>
+			        	<p class="body4-swpier-p"><b>“</b><span>最佳风控</span><b>”</b></p>
+			        </div>
+			    </div>
+			    <div class="swiper-button-prev"></div>
+    			<div class="swiper-button-next"></div>
+			</div>
+		</div>
+	</div>
+	<div class="body5">
+		<div class="body5-content">
+			<h4>《文沥应邀担任中国供应链金融产业 生态联盟副理事长》</h4>
+			<p>受邀担任“中国供应链金融产业生态联盟”副理事长一职，上海文沥信息技术有限公司CEO钟胜九先生表示：联盟成立旨在促进和规范供应链金融行业的发展，为业内提供全面、专业、高效的融资、数据和业务咨询等全方位服务；同时也搭建一个互联互通的资源信息交互的大数据平台，从而构筑银行、企业和商品供应链互利共存、持续发展和良性互动的生态产业，共同推动我国供应链金融的发展。</p>
+			<a href="#">MORE>></a>
+		</div>
+		<div class="swiper-container swiper-body5" id='swiper-body5'>
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide active">
+			        	<i class="iconfont icon-sanjiao"></i>
+			        	<img src="images/Jingjiwang.jpg" alt="" class="body5-swpier-img show1"/>
+	        	<img src="images/Jingjiwang_1.jpg" alt="" class="body5-swpier-img show2"/>
+			        </div>
+			        <div class="swiper-slide">
+			        	<i class="iconfont icon-sanjiao"></i>
+			        	<img src="images/163.jpg" alt=""  class="body5-swpier-img show1"/>
+			    <img src="images/163_1.jpg" alt=""  class="body5-swpier-img show2"/>
+			        </div>
+			        <div class="swiper-slide">
+			        	<i class="iconfont icon-sanjiao"></i>
+			        	<img src="images/Sohu.jpg" alt="" class="body5-swpier-img show1"/>
+	        	<img src="images/Sohu_1.jpg" alt="" class="body5-swpier-img show2"/>
+			        </div>
+			         <div class="swiper-slide">
+			         	<i class="iconfont icon-sanjiao"></i>
+			        	<img src="images/iFeng.jpg" alt="" class="body5-swpier-img show1"/>
+	        	<img src="images/iFeng_1.jpg" alt="" class="body5-swpier-img show2"/>
+			        </div>
+			        <div class="swiper-slide">
+			        	<i class="iconfont icon-sanjiao"></i>
+			        	<img src="images/Toutiao.jpg" alt="" class="body5-swpier-img show1"/>
+	        	<img src="images/Toutiao_1.jpg" alt="" class="body5-swpier-img show2"/>
+			        </div>
+			        <div class="swiper-slide">
+			        	<i class="iconfont icon-sanjiao"></i>
+			        	<img src="images/Xiaofeiribao.jpg" alt="" class="body5-swpier-img show1"/>
+	        	<img src="images/Xiaofeiribao_1.jpg" alt="" class="body5-swpier-img show2"/>
+			        </div>
+			         <div class="swiper-slide">
+			         	<i class="iconfont icon-sanjiao"></i>
+			        	<img src="images/Dongfangcaifu.jpg" alt="" class="body5-swpier-img show1"/>
+	        	<img src="images/Dongfangcaifu_1.jpg" alt="" class="body5-swpier-img show2"/>
+			        </div>
+			        <div class="swiper-slide">
+			        	<i class="iconfont icon-sanjiao"></i>
+			        	<img src="images/Dongfangwang.jpg" alt="" class="body5-swpier-img show1"/>
+	        	<img src="images/Dongfangwang_1.jpg" alt="" class="body5-swpier-img show2"/>
+			        </div>
+			    </div>
+			</div>
+	</div>
+	<div class="footer">
+		<p class="footer-btn">
+			<a href="shujuanquan.html">数据安全</a>|
+			<a href="shujugongju.html">数据工具</a>|
+			<a href="feedback.html">意见反馈</a>|
+			<a href="help.html">帮助中心</a>|
+			<a href="friend.html">生态伙伴</a>|
+			<a href="about.html">关于文沥</a>
+		</p>
+		<h3>上海文沥企业信用征信有限公司 </h3>
+		<h4>© 2017 Welinkdata. All Rights Reserved. 各商标由其各所有人持有.</h4>
+		<h5>上海市普陀区中江路388号新城控股大厦B座11楼（200062）</h5>
+		<h6>服务电话：4006-935-465</h6>
+		<div><img src="images/Slogan.png" alt="" width="150" style="margin:0 auto;display:block;"/></div>
+	</div>
+	
+</body>
+<script type="text/javascript" src="js/lib/jquery.min.js" ></script>
+<script type="text/javascript" src="js/app/common.js" ></script>
+<script type="text/javascript" src="js/lib/swiper.min.js" ></script>
+<script type="text/javascript" src="js/app/phoneIndex.js" ></script>
+</html>
