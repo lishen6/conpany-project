@@ -24,6 +24,34 @@ if (typeof jQBrowser != 'undefined') {
     }
 }
 
+//头部应用的点击事件
 $(".yingyong-btn").on("click",function(){
 	$(".header-nav-ul").toggle();
+})
+    $(".header-nav-ul li").on("click",function(){
+    	var _index = $(this).index();
+    	if(_index == 0){
+    		window.location.href = 'useone.html';
+    	}else if(_index == 1){
+    		window.location.href = 'duizhang.html';
+    	}else if(_index == 2){
+    		window.location.href = 'xinyongrongzhi.html';
+    	}else{
+    		window.location.href = 'dianzizhengshu.html';
+    	}
+    	return false;
+    })
+
+//首页的点击事件
+$(".go-userone").on("click",function(){
+	window.location.href = 'useone.html';
+})
+$(".go-duizhang").on("click",function(){
+	window.location.href = 'duizhang.html';
+})
+$(".go-rongzi").on("click",function(){
+	window.location.href = 'xinyongrongzhi.html';
+})
+$(".go-qianzhang").on("click",function(){
+	window.location.href = 'dianzizhengshu.html';
 })
