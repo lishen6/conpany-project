@@ -20,7 +20,22 @@ $(function(){
     
     // 如果需要前进后退按钮
     nextButton: '.swiper-button-next',
-    prevButton: '.swiper-button-prev'
+    prevButton: '.swiper-button-prev',
+    onTransitionEnd: function(swiper){
+	      //console.log(swiper.activeIndex); //切换结束时，告诉我现在是第几个slide
+	      $(".body4-title span").each(function(){
+	      	 $(this).removeClass("active");	      	 
+	      })
+	      switch(swiper.activeIndex){
+	      	 	case 0: $(".body4-title").children('span').eq(4).addClass('active'); break;
+	      	 	case 1: $(".body4-title").children('span').eq(0).addClass('active'); break;
+	      	 	case 2: $(".body4-title").children('span').eq(1).addClass('active'); break;
+	      	 	case 3: $(".body4-title").children('span').eq(2).addClass('active'); break;
+	      	 	case 4: $(".body4-title").children('span').eq(3).addClass('active'); break;
+	      	 	case 5: $(".body4-title").children('span').eq(4).addClass('active'); break;
+	      	 	case 6: $(".body4-title").children('span').eq(0).addClass('active'); break;
+	      	 }
+	    }
   })
   var mySwiper3 = new Swiper ('#swiper-body5', {
      spaceBetween: 10,
