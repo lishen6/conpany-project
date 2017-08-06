@@ -1090,7 +1090,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   padding-bottom: 0.5rem;
 }
 .doManage-list > li > div {
-  border: solid 1px #00b7ee;
+  border: solid 1px #c6c6c6;
 }
 .doManage-list > li > div > div {
   border-bottom: none;
@@ -1405,7 +1405,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   text-align: center;
   font-size: 0.85rem;
   color: #172326;
-  height: 2rem;
+  height: 1.4rem;
   line-height: 2rem;
   margin: 0.8rem 0 0.45rem 0;
   font-weight: normal;
@@ -1427,7 +1427,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin: 0 0 0 0.1rem;
 }
 .shujugongju-title2 {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   color: #40b2e8;
   text-align: center;
   font-weight: normal;
@@ -1578,7 +1578,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   width: 100%;
   overflow: hidden;
   background: #fff;
-  padding-top: 1.75rem;
+  padding-top: 1rem;
 }
 .about-box h4 {
   font-size: 1.2rem;
