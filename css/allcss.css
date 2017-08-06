@@ -2042,6 +2042,10 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .five-download-bottom-box {
   padding: 1rem 0;
 }
+.five-download-bottom-box .download-bottom-flex {
+  width: auto;
+  margin: 0 0.75rem;
+}
 .five-download-bottom-box > h4 {
   font-size: 0.8rem;
   color: #172326;
@@ -2064,23 +2068,26 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin: 0;
   overflow: hidden;
 }
-.five-download-bottom-box.download-reset2 li {
-  margin-bottom: 0.6rem;
-}
 .five-download-bottom-box li {
-  width: 18%;
+  width: 5rem;
   border: 1px #d2d2d2 solid;
   float: left;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 1px 0 1.2px;
+  margin: 0;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  padding: 0.8rem 0.3rem;
 }
-.five-download-bottom-box.download-reset2 li img {
+.five-download-bottom-box li:nth-child(3n) {
+  margin-right: 0px;
+}
+.five-download-bottom-box li img {
   width: 1.8rem;
   display: block;
   margin: 0 auto;
 }
-.five-download-bottom-box.download-reset2 li p {
+.five-download-bottom-box li p {
   font-size: 0.8rem;
 }
 .five-download-bottom-box li p {
@@ -2090,7 +2097,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   color: #333333;
   text-align: center;
 }
-.five-download-bottom-box.download-reset2 li span {
+.five-download-bottom-box li span {
   font-size: 0.5rem;
 }
 .five-download-bottom-box li span {
@@ -2102,6 +2109,9 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   text-align: center;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+.last-child {
+  padding-left: 3rem;
 }
 /* 下载 */
 .html-reset {
