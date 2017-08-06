@@ -5,7 +5,7 @@ $(function(){
   		$(".header1-tab-btn1>div").stop().animate({'right':'0'},200);
   	}else{
   		$(this).removeClass('caidanShow');
-  		$(".header1-tab-btn1>div").stop().animate({'right':'-100%'},200);
+  		$(".header1-tab-btn1>div").stop().animate({'right':'-130%'},200);
   	}
   	
   })

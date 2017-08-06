@@ -23,3 +23,7 @@ if (typeof jQBrowser != 'undefined') {
         }
     }
 }
+
+$(".yingyong-btn").on("click",function(){
+	$(".header-nav-ul").toggle();
+})
