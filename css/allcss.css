@@ -714,7 +714,7 @@ a:hover {
   line-height: 0.75rem;
   color: #747474;
   text-align: center;
-  font-size: 0.55rem;
+  font-size: 0.35rem;
   font-weight: normal;
 }
 .footer h4 {
@@ -723,7 +723,7 @@ a:hover {
   text-align: center;
   font-size: 0.35rem;
   font-weight: normal;
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.45rem;
   padding: 0 0.2rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -2072,7 +2072,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .download-soft .download-box .download-div-right {
   width: 50%;
   float: left;
-  margin-top: 1.2rem;
+  margin-top: 0.6rem;
   text-align: center;
 }
 .download-soft .download-box .download-div-right > h4 {
@@ -2085,16 +2085,25 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .download-soft .download-box .download-div-right .download-btn {
   display: inline-block;
   text-align: center;
-  color: #47b7e8;
+  color: #fff;
   width: 6.5rem;
-  padding-left: 0.7rem;
   height: 1.5rem;
   line-height: 1.5rem;
   font-size: 0.6rem;
-  background: #fff url(../images/download-blue.png) no-repeat 0.5rem center;
-  background-size: 0.6rem 0.6rem;
+  border: 1px #fff solid;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+.download-soft .download-box .download-div-right .download-btn.download-btn1 {
+  padding-left: 0.7rem;
+  background: url(../images/download.png) no-repeat 0.5rem center;
+  background-size: 0.6rem 0.6rem;
+  margin-bottom: 0.6rem;
+}
+.download-soft .download-box .download-div-right .download-btn.download-btn2 {
+  padding-left: 0.7rem;
+  background: url(../images/free.png) no-repeat 1rem center;
+  background-size: 0.6rem 0.6rem;
 }
 .five-download-bottom-box {
   padding: 1rem 0;
