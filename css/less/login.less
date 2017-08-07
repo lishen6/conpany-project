@@ -82,9 +82,11 @@
             cursor: pointer;
         }        
     }
-    >button{
+    >a{
         width: 13rem;
         height: 2rem;
+        text-align: center;
+        line-height: 2rem;
         border-radius: 0.2rem;
         background: #65a9df;
         font-size: 0.8rem;
@@ -114,7 +116,7 @@
 .sysMain-box{
     width: 100%;
     height: 100%;
-    padding: 3rem 0;
+    padding: 0.5rem 0;
     box-sizing: border-box;
     .maininfo{
         width: 100%;
@@ -129,7 +131,6 @@
         }
          >div>div{
             width: 47%;
-//          height: 8rem;
             padding: 0.3rem 0.3rem 02rem;
             box-sizing: border-box;
             border:1px #c7c7c7 solid;  
@@ -142,7 +143,6 @@
                 float: right;
             }
            >div{
-//              height:3rem;
                 display: inline-block;
                 padding-left: 2.2rem;
                 &.maininfo1{
@@ -194,7 +194,7 @@
     left: 0;
     background: #56a0e5; 
     .logo{
-        top: 1.8rem;
+        top: 0.4rem;
         width: 4.2rem;
         height: auto;
     }       
@@ -231,14 +231,15 @@
     top: 0.3rem;
     right: 0.3rem;
     line-height: 1.2rem;
-//  .peopleinfo-img1{
-//      width: 1.2rem;
-//      float: left;
-//      margin-right: 0.2rem;
-//  }
     .peopleinfo-img2{
         width: 1rem;
         float: right;
         margin:0 0.3rem;
+    }
+}
+@media all and (orientation: landscape) { //横屏
+    .body-reset{
+        background: url(../images/BackgroundImg.jpg) no-repeat center top;
+        background-size: 100% auto;
     }
 }
