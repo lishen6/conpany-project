@@ -303,13 +303,13 @@ a:hover {
 }
 .header1-tab .header1-tab-btn2 {
   position: absolute;
-  top: 0.4rem;
+  top: 1.8rem;
   right: 0.4rem;
   z-index: 8;
   color: #29abe2;
-  font-size: 0.55rem;
+  font-size: 0.65rem;
 }
-.header1-tab .header1-tab-btn2 span {
+.header1-tab .header1-tab-btn2 a {
   display: inline-block;
   padding: 0 0.2rem;
   color: #29abe2;
@@ -2185,6 +2185,11 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   position: relative;
   overflow-x: hidden;
 }
+.body-reset.body-reset1 {
+  height: 115%;
+  background: url(../images/BackgroundImg.jpg) no-repeat center top;
+  background-size: auto 115%;
+}
 .login-footer {
   width: 100%;
   font-size: 0.5rem;
@@ -2313,6 +2318,18 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .login-box .testCode input.name-input {
   width: 13rem;
+}
+.login-box .testCode select {
+  width: 13rem;
+  height: 1.9rem;
+  position: relative;
+  border: 1px solid #888888;
+  -webkit-border-radius: 0.2rem;
+          border-radius: 0.2rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #fff;
+  float: left;
 }
 .login-box .testCode p {
   float: right;
