@@ -1,3 +1,11 @@
+.index-block1{
+    position: relative;
+    .logoimg{
+        width: 5rem;
+        height: 0.9rem;
+        position: absolute;
+    }
+}
 .index-block2{
     width: 100%;
     background: url(../img/index2.png) no-repeat top center;
@@ -13,8 +21,8 @@
         margin-bottom: 1.8rem;
         img{
             width: 2.15rem;
-            height: 2.47;
-            margin-right: 0.2rem;
+            height: 2.47;            
+            margin-right: 0.2rem;            
         }
     }
 }
@@ -327,7 +335,7 @@
 .news-bg{
     margin-top: -20px;
     background: url(../img/news-bg.png) top center no-repeat;
-    background-size:115%;
+    background-size:130%;
 }
 .index-block5-ul{
     margin: 0 auto 0;
@@ -336,9 +344,9 @@
     box-sizing: border-box;
     padding-bottom: 5rem;
    li{
-        font-size: 0.35rem;
+        font-size: 0.4rem;
         color: #000;
-        line-height: 1.1rem;
+        line-height: 1rem;
         i{
             float: left;
             width: 0.125rem;
@@ -351,6 +359,17 @@
         span{
             margin-left: 0.3rem;
             color: #bfbfbf;
+            position: relative;
+            top: -0.3rem;
+        }
+        a{
+            font-size: 0.35rem;
+            color: #000;
+            display: inline-block;  
+            max-width: 10rem;
+             white-space:nowrap; 
+            overflow:hidden; 
+            text-overflow:ellipsis;
         }
 
    }
@@ -364,13 +383,12 @@
         line-height: 1.2rem;
         text-align: center;
         border-radius: 5px;
-        margin: 1rem auto;
+        margin: 0.5rem auto 1.5rem;
    }
 }
 .index-block6{
-    padding-top: 1rem;
     height: 4.75rem;
-    margin: 0 0.75rem;
+    padding: 1rem 0.75rem 0;
     border-top: 1px #d6d6d6 solid;
     img{
         width: 100%;
