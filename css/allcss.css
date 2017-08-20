@@ -883,6 +883,18 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   background: url(../img/contect-banner_01.jpg) no-repeat center;
   background-size: auto 100%;
 }
+.index-block1.about-news-banner {
+  width: 100%;
+  height: 10rem;
+  background: url(../img/news_banner_01.jpg) no-repeat center;
+  background-size: auto 100%;
+}
+.index-block1.about-friend-banner {
+  width: 100%;
+  height: 10rem;
+  background: url(../img/friend-banner_01.jpg) no-repeat center;
+  background-size: auto 100%;
+}
 .banner-title {
   display: inline-block;
   position: absolute;
@@ -892,11 +904,212 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .banner-title img {
   height: 2rem;
+  margin-bottom: 0.3rem;
 }
 .banner-title p {
   font-size: 0.55rem;
   color: #fff;
   line-height: 1rem;
+}
+.about-contect .centerBox-title {
+  text-align: center;
+  margin-bottom: 2.75rem;
+}
+.about-contect .centerBox-title img {
+  width: 6rem;
+}
+.about-contect-ways {
+  width: 95%;
+  height: 12rem;
+  margin: 0 auto;
+  background: url(../img/contect-img2.png) no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.about-contect-ways p {
+  position: absolute;
+  display: inline-block;
+}
+.about-contect-ways p span {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #333333;
+  position: relative;
+  top: -0.2rem;
+}
+.about-contect-ways p i {
+  display: block;
+  color: #333333;
+  font-size: 0.55rem;
+  line-height: 0.75rem;
+  font-style: normal;
+}
+.about-contect-ways p.about-contect-p1 {
+  top: -1.2rem;
+  left: 1rem;
+}
+.about-contect-ways p.about-contect-p2 {
+  top: -1.2rem;
+  left: 9rem;
+}
+.about-contect-ways p.about-contect-p3 {
+  top: 6rem;
+  left: 0.2rem;
+}
+.about-contect-ways p.about-contect-p4 {
+  top: 6rem;
+  left: 6.2rem;
+}
+.about-contect-ways p.about-contect-p5 {
+  top: 6rem;
+  left: 12.3rem;
+}
+.abnews {
+  width: 100%;
+  overflow: hidden;
+}
+.abnews .abnews-title {
+  text-align: center;
+  padding: 0.5rem 0 0 0.2rem;
+  border-bottom: 1px #c9c9c9 solid;
+}
+.abnews .abnews-title span {
+  display: inline-block;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  font-size: 0.55rem;
+  color: ##999;
+  margin-right: 0.5rem;
+}
+.abnews .abnews-title span i {
+  font-size: 0.6rem;
+  color: #333;
+  padding: 0 0.2rem;
+}
+.abnews .abnews-title span.active i {
+  color: #6acce8;
+}
+.abnews-ul li {
+  width: 100%;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+.abnews-ul li.active .abnews-ul-left p {
+  color: #6acce8;
+}
+.abnews-ul li.active .abnews-ul-left h4 {
+  color: #6acce8;
+}
+.abnews-ul li.active .abnews-ul-right {
+  border-bottom: 1px #cacaca solid;
+  padding-bottom: 1rem;
+}
+.abnews-ul li.active .abnews-ul-right img {
+  width: 90%;
+}
+.abnews-ul-left {
+  width: 20%;
+  float: left;
+  text-align: center;
+  padding-top: 1rem;
+}
+.abnews-ul-left p {
+  font-size: 0.6rem;
+  font-weight: bold;
+  line-height: 0.8rem;
+  border-bottom: 1px #cbcbcb solid;
+  display: inline-block;
+  text-align: center;
+  padding: 0 5px 5px;
+  color: #a0a0a0;
+}
+.abnews-ul-left h4 {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #a0a0a0;
+  text-align: center;
+}
+.abnews-ul-right {
+  width: 80%;
+  float: right;
+}
+.abnews-ul-right img {
+  width: 90%;
+  display: block;
+  margin-bottom: 0.55rem;
+}
+.abnews-ul-right h4 {
+  width: 90%;
+  font-size: 0.75rem;
+  color: #333333;
+  line-height: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.abnews-ul-right h4 i {
+  font-size: 0.55rem;
+  color: #999999;
+  font-style: normal;
+}
+.abnews-ul-right h4 span {
+  display: inline-block;
+  font-size: 0.55rem;
+  color: #6acce8;
+  padding: 2px 5px;
+  border: 3px #6acce8 solid;
+  line-height: 0.7rem;
+}
+.abnews-ul-right a {
+  display: inline-block;
+  width: 90%;
+  max-height: 4.8rem;
+  font-size: 0.55rem;
+  line-height: 0.95rem;
+  color: #666666;
+  overflow: hidden;
+  word-break: break-all;
+}
+.loadMore {
+  width: 5rem;
+  height: 1.5rem;
+  font-size: 0.75rem;
+  color: #fff;
+  background: #6acce8;
+  text-align: center;
+  line-height: 1.5rem;
+  margin: 1rem auto 1rem;
+}
+.abfriend ul {
+  padding: 3rem 1rem 0;
+  background: url(../img/earth-bg_01.png) no-repeat;
+  background-size: 100%;
+}
+.abfriend ul li {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  margin-bottom: 0.8rem;
+  border-bottom: 1px #cacaca solid;
+  padding: 0 0 0.8rem;
+}
+.abfriend ul li div {
+  float: left;
+  width: 46%;
+  overflow: hidden;
+}
+.abfriend ul li div img {
+  width: 100%;
+  margin-bottom: 0.3rem;
+}
+.abfriend ul li div p {
+  font-size: 0.55rem;
+  color: #352e2c;
+  line-height: 0.7rem;
 }
 /* 关于文沥 */
 
