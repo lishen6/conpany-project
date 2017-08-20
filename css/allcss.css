@@ -1177,5 +1177,142 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin-top: 0.375rem;
 }
 /* 关于 */
+.time-axis {
+  position: relative;
+  width: 990px;
+  margin: 0 auto;
+  font-size: 12px;
+  color: #434343;
+  line-height: 25px;
+  margin-top: 60px;
+}
+.time-axis > img {
+  width: 100%;
+}
+.time-axis .this-year {
+  position: absolute;
+  width: 260px;
+  top: 0px;
+  left: 0px;
+}
+.time-axis .last-year {
+  position: absolute;
+  width: 260px;
+  bottom: 40px;
+  left: 120px;
+}
+.time-axis .year15 {
+  position: absolute;
+  width: 260px;
+  bottom: 200px;
+  left: 238px;
+}
+.time-axis .year14 {
+  position: absolute;
+  width: 260px;
+  bottom: 90px;
+  left: 348px;
+}
+.time-axis .year13 {
+  position: absolute;
+  width: 260px;
+  bottom: 230px;
+  left: 453px;
+}
+.time-axis .year13 .picture {
+  margin-top: 8px;
+}
+.time-axis .year12 {
+  position: absolute;
+  width: 260px;
+  top: 30px;
+  left: 568px;
+}
+.time-axis .year11 {
+  position: absolute;
+  width: 260px;
+  bottom: 65px;
+  left: 683px;
+}
+.time-axis .year10 {
+  position: absolute;
+  width: 260px;
+  bottom: 235px;
+  left: 790px;
+}
+.time-axis .blue-wz {
+  color: #76c7df;
+}
+.time-axis .picture {
+  margin-top: 15px;
+}
+.honour {
+  background: url(../img/bolang.png) no-repeat top center;
+  background-size: auto 100%;
+  position: relative;
+  margin-bottom: 1.1rem;
+  margin-top: 2.5rem;
+}
+.honour .swiper-pagination .swiper-pagination-bullet {
+  background: #535353;
+  opacity: 1;
+}
+.honour .swiper-pagination .swiper-pagination-bullet-active {
+  background: #6acce8;
+}
+.honour .swiper-pagination {
+  bottom: 0px;
+}
+.honour .honour-con {
+  margin: 0 0.75rem;
+  margin-top: 0.625rem;
+  padding-bottom: 0.75rem;
+}
+.honour .honour-con ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0.375rem;
+}
+.honour .honour-con ul li {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 3.18rem;
+  margin-right: 0.375rem;
+}
+.honour .honour-con ul li:last-child {
+  margin-right: 0px;
+}
+.honour .honour-con ul .img-div {
+  overflow: hidden;
+}
+.honour .honour-con ul .img-div img {
+  width: 100%;
+  height: 100%;
+}
+.honour .honour-con p {
+  font-size: 0.55rem;
+  color: #333;
+  line-height: 0.8rem;
+  margin-top: 0.2rem;
+  height: 2.5rem;
+}
+.wl-title {
+  font-size: 0.75rem;
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+}
+.wl-title > img {
+  height: 3rem;
+}
+.wl-title b {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+/* 大事件 */
 
 /*# sourceMappingURL=allcss.css.map */
