@@ -32,4 +32,22 @@ $(function(){
 		mySwiper1.slideTo(_index, 300, false);//切换到第一个slide，速度为300毫秒
 		$(".pagationBox").children('img').removeClass('active').eq(_index).addClass('active');
 	})
+	
+	//头部的菜单显示隐藏
+	$(".topMenu").on("click",function(even){
+         even.stopPropagation();
+	})
+	$(".topMenu-top i").on("click",function(){
+		if($(".topMenu-bottom").hasClass("hide")){
+			$(".topMenu-bottom").removeClass('hide');
+		}else{
+			$(".topMenu-bottom").addClass('hide');
+		}
+		return false;
+	})
+	$("body").on("click",function(){
+		if(!$(".topMenu-bottom").hasClass("hide")){
+			$(".topMenu-bottom").addClass('hide');
+		}
+	})
 })

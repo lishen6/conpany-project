@@ -377,9 +377,15 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .index-block1 .banner01-content2 {
   width: 10.65rem;
   position: absolute;
-  left: 50%;
-  top: 45%;
+  left: 54%;
+  top: 49%;
   margin-left: -4.825rem;
+}
+.index-block1 .banner01-content2.hisycenter {
+  left: 64%;
+}
+.index-block1 .banner01-content2.vercenter {
+  top: 43%;
 }
 .index-block1 .banner01-content2 .top-titlep {
   height: 0.95rem;
@@ -395,6 +401,77 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   font-weight: bold;
   color: #6acce8;
   margin-right: 0.7rem;
+}
+.index-block1 .banner01-bottom {
+  width: 16rem;
+  height: 3rem;
+  background: url(../img/banner02-bottom.png) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  margin-left: -8rem;
+}
+.index-block1 .topMenu-top {
+  width: 10rem;
+  height: 2rem;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}
+.index-block1 .topMenu-top span {
+  width: 1.5rem;
+  height: 2rem;
+  display: block;
+  background: url(../img/sanjiao1.png) no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  left: -1.5rem;
+}
+.index-block1 .topMenu-top i {
+  font-size: 0.8rem;
+  position: absolute;
+  right: 0.8rem;
+  top: 0.6rem;
+}
+.index-block1 .topMenu-bottom {
+  width: 11.5rem;
+  background: #fff;
+  position: absolute;
+  top: 2rem;
+  right: 0;
+  z-index: 3;
+  border-top: 1px #e4e4e4 solid;
+  padding: 0 0 0.3rem 1.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.index-block1 .topMenu-bottom h4 {
+  font-size: 0.6rem;
+  color: #333;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  margin-top: 0.3rem;
+  position: relative;
+}
+.index-block1 .topMenu-bottom h4 i {
+  display: inline-block;
+  width: 0.2rem;
+  height: 0.2rem;
+  border: 0.1rem #6acce8 solid;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  margin: 0 0.3rem 0 -0.6rem;
+}
+.index-block1 .topMenu-bottom a {
+  font-size: 0.55rem;
+  color: #999;
+  display: block;
+  height: 1.2rem;
+  line-height: 1.2rem;
 }
 .index-block2 {
   width: 100%;
