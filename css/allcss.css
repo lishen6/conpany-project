@@ -1467,14 +1467,18 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin-top: 0.375rem;
 }
 /* 关于 */
+.time-div {
+  overflow: auto;
+  margin: 1rem 0.75rem;
+  font-size: 0.55rem;
+}
 .time-axis {
   position: relative;
-  width: 990px;
+  width: 800px;
   margin: 0 auto;
   font-size: 12px;
   color: #434343;
   line-height: 25px;
-  margin-top: 60px;
 }
 .time-axis > img {
   width: 100%;
@@ -1485,50 +1489,83 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   top: 0px;
   left: 0px;
 }
+.time-axis .this-year > img {
+  width: 2rem;
+}
+.time-axis .this-year .picture {
+  margin-top: 8px;
+}
+.time-axis .this-year .picture > img {
+  width: 4rem;
+}
 .time-axis .last-year {
   position: absolute;
   width: 260px;
-  bottom: 40px;
-  left: 120px;
+  bottom: 30px;
+  left: 100px;
+}
+.time-axis .last-year > img {
+  width: 2rem;
 }
 .time-axis .year15 {
   position: absolute;
   width: 260px;
-  bottom: 200px;
-  left: 238px;
+  bottom: 160px;
+  left: 188px;
+}
+.time-axis .year15 > img {
+  width: 2rem;
 }
 .time-axis .year14 {
   position: absolute;
   width: 260px;
-  bottom: 90px;
-  left: 348px;
+  bottom: 81px;
+  left: 278px;
+}
+.time-axis .year14 > img {
+  width: 2rem;
 }
 .time-axis .year13 {
   position: absolute;
   width: 260px;
-  bottom: 230px;
-  left: 453px;
+  bottom: 189px;
+  left: 365px;
+}
+.time-axis .year13 > img {
+  width: 2rem;
 }
 .time-axis .year13 .picture {
   margin-top: 8px;
+}
+.time-axis .year13 .picture > img {
+  width: 4rem;
 }
 .time-axis .year12 {
   position: absolute;
   width: 260px;
   top: 30px;
-  left: 568px;
+  left: 458px;
+}
+.time-axis .year12 > img {
+  width: 2rem;
 }
 .time-axis .year11 {
   position: absolute;
   width: 260px;
-  bottom: 65px;
-  left: 683px;
+  bottom: 55px;
+  left: 543px;
+}
+.time-axis .year11 > img {
+  width: 2rem;
 }
 .time-axis .year10 {
   position: absolute;
   width: 260px;
-  bottom: 235px;
-  left: 790px;
+  bottom: 190px;
+  left: 640px;
+}
+.time-axis .year10 > img {
+  width: 2rem;
 }
 .time-axis .blue-wz {
   color: #76c7df;
