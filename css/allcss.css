@@ -498,7 +498,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .index-block2-ul li {
   width: 6.8rem;
-  height: 8.4rem;
+  height: 12.5rem;
   border: 1px #3b3b3b solid;
   float: left;
   -webkit-box-sizing: border-box;
@@ -568,7 +568,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .index-block2-ul li p {
   font-size: 0.35rem;
-  line-height: 0.65rem;
+  line-height: 0.85rem;
   color: #666666;
   text-align: justify;
 }
@@ -1297,8 +1297,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .environment .small-span3 {
   left: auto;
-  right: 3.7rem;
-  bottom: 3rem;
+  right: 4rem;
+  bottom: 2.7rem;
 }
 .environment .small-span4 {
   left: auto;
@@ -1431,7 +1431,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .icon-bg {
   height: 7.05rem;
-  background: url(../img/icon-module-bg.jpg) no-repeat;
+  background: #f6f6f6;
   margin: 1rem auto 0;
   padding-top: 1.55rem;
   /*Firefox3.5+*/
@@ -1480,11 +1480,11 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .time-axis {
   position: relative;
-  width: 800px;
+  width: 700px;
   margin: 0 auto;
-  font-size: 12px;
+  font-size: 10px;
   color: #434343;
-  line-height: 25px;
+  line-height: 20px;
 }
 .time-axis > img {
   width: 100%;
@@ -1508,7 +1508,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   position: absolute;
   width: 260px;
   bottom: 30px;
-  left: 100px;
+  left: 80px;
 }
 .time-axis .last-year > img {
   width: 2rem;
@@ -1516,8 +1516,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .time-axis .year15 {
   position: absolute;
   width: 260px;
-  bottom: 160px;
-  left: 188px;
+  bottom: 145px;
+  left: 160px;
 }
 .time-axis .year15 > img {
   width: 2rem;
@@ -1525,8 +1525,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .time-axis .year14 {
   position: absolute;
   width: 260px;
-  bottom: 81px;
-  left: 278px;
+  bottom: 70px;
+  left: 243px;
 }
 .time-axis .year14 > img {
   width: 2rem;
@@ -1534,8 +1534,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .time-axis .year13 {
   position: absolute;
   width: 260px;
-  bottom: 189px;
-  left: 365px;
+  bottom: 167px;
+  left: 320px;
 }
 .time-axis .year13 > img {
   width: 2rem;
@@ -1551,6 +1551,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   width: 260px;
   top: 30px;
   left: 458px;
+  top: 26px;
+  left: 402px;
 }
 .time-axis .year12 > img {
   width: 2rem;
@@ -1558,8 +1560,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .time-axis .year11 {
   position: absolute;
   width: 260px;
-  bottom: 55px;
-  left: 543px;
+  bottom: 50px;
+  left: 474px;
 }
 .time-axis .year11 > img {
   width: 2rem;
@@ -1567,8 +1569,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .time-axis .year10 {
   position: absolute;
   width: 260px;
-  bottom: 190px;
-  left: 640px;
+  bottom: 175px;
+  left: 560px;
 }
 .time-axis .year10 > img {
   width: 2rem;
@@ -1584,7 +1586,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   background-size: auto 100%;
   position: relative;
   margin-bottom: 1.1rem;
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
 }
 .honour .swiper-pagination .swiper-pagination-bullet {
   background: #535353;
@@ -1647,5 +1649,252 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   font-weight: 500;
 }
 /* 大事件 */
+.about-activity {
+  width: 100%;
+  overflow: hidden;
+  background: url(../../img/activity_bg_02.jpg) no-repeat top center;
+  background-size: 100%;
+  padding: 0.5rem 0 1rem;
+}
+.xunzhan .centerBox-title {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #352e2c;
+  margin-bottom: 1rem;
+  line-height: 1.4rem;
+  font-weight: bold;
+}
+.xunzhan .centerBox-title img {
+  width: 3rem;
+  height: 2.5rem;
+  position: relative;
+  top: 0.625rem;
+}
+.xunzhan .centerBox-title b {
+  font-size: 1.05rem;
+}
+.xunzhan-icon {
+  overflow: hidden;
+  padding-left: 0.2rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.xunzhan-icon li {
+  width: 3.3rem;
+  float: left;
+  margin-right: 0.5rem;
+}
+.xunzhan-icon li.lastli {
+  margin-right: 0;
+}
+.xunzhan-icon li img {
+  display: block;
+  margin: 0 auto;
+}
+.xunzhan-icon li img.shenzhen-icon {
+  width: 2.5rem;
+  height: 2rem;
+}
+.xunzhan-icon li img.shanghai-icon {
+  width: 3.3rem;
+  height: 2rem;
+  margin-left: -0.3rem;
+}
+.xunzhan-icon li img.beijing-icon {
+  width: 2.6rem;
+  height: 2rem;
+}
+.xunzhan-icon li p {
+  text-align: center;
+  font-size: 0.55rem;
+  color: #999999;
+  font-weight: bold;
+  height: 0.8rem;
+  line-height: 0.8rem;
+}
+.xunzhan-circle {
+  width: 16rem;
+  height: 1rem;
+  margin: 0.3rem auto 0.2rem;
+  position: relative;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.xunzhan-circle span {
+  float: left;
+  width: 0.6rem;
+  height: 0.6rem;
+}
+.xunzhan-circle span b {
+  width: 0.3rem;
+  height: 0.3rem;
+  display: block;
+  border: 2px #6acce8 solid;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 6px auto 0;
+}
+.xunzhan-circle span.active {
+  border: 3px #ceeef7 solid;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  margin-top: 0.15rem;
+}
+.xunzhan-circle span.active b {
+  background: #6acce8;
+  border: 0;
+  margin-top: 0px;
+}
+.xunzhan-circle i {
+  width: 3.2rem;
+  height: 2px;
+  background: #d8d8d8;
+  float: left;
+  margin-top: 0.4rem;
+}
+.xunzhan-city {
+  width: 18.2rem;
+  margin: 0 auto 0.5rem;
+  position: relative;
+  overflow: hidden;
+}
+.xunzhan-city li {
+  width: 3rem;
+  float: left;
+  margin-right: 0.8rem;
+}
+.xunzhan-city li.lastli {
+  margin-right: 0;
+}
+.xunzhan-city li h4 {
+  font-size: 0.6rem;
+  color: #6acce8;
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+.xunzhan-city li p {
+  font-size: 0.55rem;
+  color: #333333;
+  line-height: 0.8rem;
+  text-align: center;
+}
+.xunzhanzhuti .centerBox-title {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #352e2c;
+  margin-bottom: 1rem;
+  line-height: 1.4rem;
+  font-weight: bold;
+}
+.xunzhanzhuti .centerBox-title img {
+  width: 3rem;
+  height: 2.5rem;
+  position: relative;
+  top: 0.625rem;
+}
+.xunzhanzhuti .centerBox-title b {
+  font-size: 1.05rem;
+}
+.xunzhanzhuti .xunzhanzhuti-top {
+  width: 100%;
+  height: 14.3rem;
+  background: url(../img/activity_jiao1.png) no-repeat;
+  background-size: 100%;
+  padding: 3rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.xunzhanzhuti .xunzhanzhuti-top h4 {
+  font-size: 0.75rem;
+  color: #fff;
+  line-height: 1rem;
+  margin-bottom: 0.3rem;
+}
+.xunzhanzhuti .xunzhanzhuti-top p {
+  font-size: 0.55rem;
+  color: #fff;
+  line-height: 0.8rem;
+}
+.xunzhanzhuti .xunzhanzhuti-bottom {
+  width: 100%;
+  height: 13.1rem;
+  background: url(../img/activity_jiao2.png) no-repeat;
+  background-size: 100%;
+  padding: 3rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.xunzhanzhuti .xunzhanzhuti-bottom h4 {
+  font-size: 0.75rem;
+  color: #fff;
+  line-height: 1rem;
+  margin-bottom: 0.3rem;
+}
+.xunzhanzhuti .xunzhanzhuti-bottom p {
+  font-size: 0.55rem;
+  color: #fff;
+  line-height: 0.8rem;
+}
+.active-hisimg {
+  width: 98%;
+  display: block;
+  margin: 1.8rem auto;
+}
+.xunzhanhuigu .centerBox-title {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #352e2c;
+  margin-bottom: 0.8rem;
+  line-height: 1.4rem;
+  font-weight: bold;
+}
+.xunzhanhuigu .centerBox-title img {
+  width: 3rem;
+  height: 2rem;
+  position: relative;
+  top: -0.45rem;
+  left: 1rem;
+}
+.xunzhanhuigu .centerBox-title b {
+  font-size: 1.05rem;
+}
+.xunzhan-history-contents li {
+  width: 90%;
+  margin: 0 auto 0.5rem;
+  overflow: hidden;
+}
+.xunzhan-history-contents li img {
+  display: block;
+  float: left;
+  width: 40%;
+}
+.xunzhan-history-contents li div {
+  width: 56%;
+  float: right;
+}
+.xunzhan-history-contents li div h4 {
+  font-size: 0.75rem;
+  color: #333;
+  line-height: 1.4rem;
+}
+.xunzhan-history-contents li div h6 {
+  font-size: 0.55rem;
+  color: #999;
+  line-height: 0.9rem;
+  margin: 0 0 0.3rem 0;
+  font-weight: normal;
+}
+.xunzhan-history-contents li div p {
+  font-size: 0.55rem;
+  color: #333;
+  line-height: 0.9rem;
+  margin-bottom: 0.7rem;
+}
+/* 企业活动页面 */
 
 /*# sourceMappingURL=allcss.css.map */
