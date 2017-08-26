@@ -869,7 +869,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   bottom: 0;
   left: 0;
   z-index: 1;
-  background: #f6f6f6;
 }
 .index-block7 {
   width: 100%;
@@ -915,11 +914,17 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   background-size: 100% 100%;
   margin-right: 5px;
 }
-.index-block7-ul li a {
+.index-block7-ul li h4 a {
+  color: #76d1d8;
+}
+.index-block7-ul li span {
   font-size: 0.45rem;
   color: #fff;
   line-height: 0.9rem;
   display: block;
+}
+.index-block7-ul li span a {
+  color: #fff;
 }
 .index-block8 {
   width: 100%;
