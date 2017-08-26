@@ -382,10 +382,11 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin-left: -4.825rem;
 }
 .index-block1 .banner01-content2.hisycenter {
-  left: 64%;
+  left: 59%;
 }
 .index-block1 .banner01-content2.vercenter {
   top: 43%;
+  left: 48%;
 }
 .index-block1 .banner01-content2 .top-titlep {
   height: 0.95rem;
@@ -413,7 +414,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin-left: -8rem;
 }
 .index-block1 .topMenu-top {
-  width: 10rem;
+  width: 12rem;
   height: 2rem;
   background: #fff;
   position: absolute;
@@ -438,7 +439,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   top: 0.6rem;
 }
 .index-block1 .topMenu-bottom {
-  width: 11.5rem;
+  width: 13.5rem;
   background: #fff;
   position: absolute;
   top: 2rem;
@@ -449,7 +450,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-.index-block1 .topMenu-bottom h4 {
+.index-block1 .topMenu-bottom a.titlea {
+  display: block;
   font-size: 0.6rem;
   color: #333;
   height: 1.4rem;
@@ -457,7 +459,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin-top: 0.3rem;
   position: relative;
 }
-.index-block1 .topMenu-bottom h4 i {
+.index-block1 .topMenu-bottom a.titlea i {
   display: inline-block;
   width: 0.2rem;
   height: 0.2rem;
@@ -472,6 +474,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   display: block;
   height: 1.2rem;
   line-height: 1.2rem;
+  white-space: nowrap;
 }
 .index-block2 {
   width: 100%;
@@ -662,7 +665,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .index-block3-ul li h4 {
   font-size: 0.45rem;
   color: #000;
-  line-height: 0.75rem;
+  line-height: 0.95rem;
   font-weight: normal;
   margin-top: 0.625rem;
   padding: 0 0.5rem;
@@ -670,7 +673,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .index-block3-ul li p {
   font-size: 0.35rem;
   color: #666;
-  line-height: 0.75rem;
+  line-height: 0.85rem;
   padding: 0 0.5rem;
 }
 .floatright {
@@ -764,8 +767,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   line-height: 0.8rem;
 }
 .index-block4-ul li .long-tips p {
-  font-size: 0.5rem;
-  line-height: 0.7rem;
+  font-size: 0.6rem;
+  line-height: 0.9rem;
 }
 .index-block4-ul li:last-child {
   margin-bottom: 1.175rem;
@@ -798,8 +801,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   background-size: 130%;
 }
 .index-block5-ul {
-  margin: 0 auto 0;
-  padding-top: 4rem;
+  margin: 0 auto 0.8rem;
+  padding-top: 5rem;
   padding-left: 2.15rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -851,7 +854,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .index-block6 {
   height: 4.75rem;
   padding: 1rem 0.75rem 0;
-  border-top: 1px #d6d6d6 solid;
   position: relative;
 }
 .index-block6 img {
@@ -935,6 +937,9 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+.index-block8 p.bolder {
+  font-weight: bold;
+}
 .index-block8-left-top {
   height: 1.5rem;
   color: #f5f7fa;
@@ -996,15 +1001,22 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .about-contect .centerBox-title {
   text-align: center;
-  margin-bottom: 2.75rem;
+  margin-bottom: 0.8rem;
 }
 .about-contect .centerBox-title img {
   width: 6rem;
 }
-.about-contect-ways {
+.about-contect-ways-box {
   width: 95%;
-  height: 12rem;
+  overflow: hidden;
+  background: url(../img/hengtiao_bg_03.jpg) repeat-y;
+  background-size: 100%;
+  padding-top: 1.95rem;
   margin: 0 auto;
+}
+.about-contect-ways {
+  width: 100%;
+  height: 12rem;
   background: url(../img/contect-img2.png) no-repeat;
   background-size: 100%;
   position: relative;
@@ -1177,7 +1189,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
       -ms-flex-pack: distribute;
           justify-content: space-around;
   margin-bottom: 0.8rem;
-  border-bottom: 1px #cacaca solid;
   padding: 0 0 0.8rem;
 }
 .abfriend ul li div {
@@ -1186,7 +1197,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   overflow: hidden;
 }
 .abfriend ul li div img {
-  width: 100%;
+  width: 80%;
   margin-bottom: 0.3rem;
 }
 .abfriend ul li div p {
@@ -1493,7 +1504,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   position: absolute;
   width: 260px;
   top: 0px;
-  left: 0px;
+  left: 4px;
 }
 .time-axis .this-year > img {
   width: 2rem;
