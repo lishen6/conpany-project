@@ -3476,5 +3476,138 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   display: none;
 }
 /* 行业案例 */
+.industry-detail {
+  background: #fff;
+}
+.industry-detail .one-div {
+  padding-top: 1.25rem;
+  margin-bottom: 1.5rem;
+  /*Firefox3.5+*/
+  -webkit-box-sizing: border-box;
+  /*Safari3.2+*/
+  -o-box-sizing: border-box;
+  /*Opera9.6*/
+  -ms-box-sizing: border-box;
+  /*IE8*/
+  box-sizing: border-box;
+  background: url(../img/shou.jpg) no-repeat bottom center;
+}
+.industry-detail .tab-logo {
+  width: 5rem;
+  height: 5rem;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  -webkit-box-shadow: 0 0 10px #c7c7c7;
+          box-shadow: 0 0 10px #c7c7c7;
+  float: left;
+  margin-left: 0.75rem;
+  overflow: hidden;
+  position: relative;
+  margin-top: 1.7rem;
+}
+.industry-detail .tab-logo > img {
+  width: 4.6rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -2.3rem;
+  margin-top: -1.03rem;
+}
+.industry-detail .tab-content {
+  margin: 0 0.75rem;
+  margin-left: 6.5rem;
+}
+.industry-detail .tab-content h3 {
+  font-size: 0.65rem;
+  line-height: 1.5rem;
+  border-bottom: solid 0.05rem #333;
+}
+.industry-detail .tab-content p {
+  font-size: 0.55rem;
+  color: #a9a9a9;
+  line-height: 0.75rem;
+  letter-spacing: 0.05rem;
+  margin-top: 0.5rem;
+  text-align: justify;
+}
+.industry-detail .steps {
+  position: relative;
+  height: 15rem;
+}
+.industry-detail .steps h3 {
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1.2rem;
+}
+.industry-detail .steps h3 img {
+  width: 1.5rem;
+}
+.industry-detail .steps .step-img {
+  background: #fff;
+  margin: 0.5rem 0.75rem 0;
+  text-align: center;
+  -webkit-box-shadow: 0 0 10px rgba(199, 199, 199, 0.2);
+          box-shadow: 0 0 10px rgba(199, 199, 199, 0.2);
+}
+.industry-detail .steps .step-img > img {
+  width: 100%;
+}
+.industry-detail .twomodules {
+  height: 14.25rem;
+  background: url(../img/gray-bg.jpg) no-repeat center;
+  background-size: 100% 100%;
+  /*Firefox3.5+*/
+  -webkit-box-sizing: border-box;
+  /*Safari3.2+*/
+  -o-box-sizing: border-box;
+  /*Opera9.6*/
+  -ms-box-sizing: border-box;
+  /*IE8*/
+  box-sizing: border-box;
+  margin-top: -4rem;
+  padding: 6rem 0.75rem 0;
+}
+.industry-detail .twomodules > div {
+  float: left;
+  width: 50%;
+  height: 6.75rem;
+  /*Firefox3.5+*/
+  -webkit-box-sizing: border-box;
+  /*Safari3.2+*/
+  -o-box-sizing: border-box;
+  /*Opera9.6*/
+  -ms-box-sizing: border-box;
+  /*IE8*/
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+.industry-detail .twomodules > div h4 {
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  text-align: center;
+  color: #fff;
+}
+.industry-detail .twomodules > div p {
+  font-size: 0.55rem;
+  line-height: 0.6rem;
+  color: #fff;
+  position: relative;
+}
+.industry-detail .twomodules > div b {
+  position: absolute;
+  left: -16px;
+  top: -1px;
+  font-size: 22px;
+}
+.industry-detail .twomodules .first-module {
+  background: url(../img/first-module.png) no-repeat center;
+  background-size: 100% auto;
+}
+.industry-detail .twomodules .second-module {
+  background: url(../img/second-module.png) no-repeat center;
+  background-size: 100% auto;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+}
+/* 行业案例详情 */
 
 /*# sourceMappingURL=allcss.css.map */
