@@ -2780,5 +2780,212 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   color: #6acce8;
 }
 /* 新闻详情 */
+.industry {
+  background: #fff;
+}
+.industry .threetab {
+  height: 1.25rem;
+  margin: 0 auto 0.75rem;
+  position: relative;
+}
+.industry .threetab p {
+  width: 5.2rem;
+  height: 1.25rem;
+  float: left;
+  font-weight: bold;
+  color: #757575;
+  font-size: 0.6rem;
+  line-height: 1.25rem;
+  padding-left: 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+}
+.industry .threetab p.active {
+  color: #6acce8;
+}
+.industry .threetab p.active.threetab1 {
+  background: url(../img/threetab11.png) no-repeat left center;
+  background-size: auto 62%;
+}
+.industry .threetab p.active.threetab2 {
+  background: url(../img/threetab22.png) no-repeat left center;
+  background-size: auto 62%;
+}
+.industry .threetab p.active.threetab3 {
+  background: url(../img/threetab33.png) no-repeat left center;
+  background-size: auto 62%;
+}
+.industry .threetab p.threetab1 {
+  background: url(../img/threetab1.png) no-repeat left center;
+  margin: 0 0.5rem 0 0.7rem;
+  background-size: auto 62%;
+}
+.industry .threetab p.threetab2 {
+  background: url(../img/threetab2.png) no-repeat left center;
+  margin-right: 0.5rem;
+  background-size: auto 62%;
+}
+.industry .threetab p.threetab3 {
+  background: url(../img/threetab3.png) no-repeat left center;
+  margin-left: 0.5rem;
+  background-size: auto 62%;
+}
+.industry .threetab i {
+  width: 0.05rem;
+  height: 0.5rem;
+  display: block;
+  background: #757575;
+  position: absolute;
+  top: 0.4rem;
+}
+.industry .threetab i.lefti {
+  left: 5.9rem;
+}
+.industry .threetab i.righti {
+  left: 11.8rem;
+}
+.industry .one-div {
+  background: #f8f8f8;
+  background: url(../img/bg-anli1.jpg) no-repeat right bottom;
+}
+.industry .one-div > h3 {
+  height: 3.2rem;
+  background: url(../img/industry5.jpg) no-repeat center;
+  text-indent: -9999px;
+  margin-bottom: 0.425rem;
+  background-size: auto 90%;
+}
+.industry .one-div > .three {
+  height: 1.25rem;
+  text-indent: -9999px;
+  margin-bottom: 0.95rem;
+}
+.industry .one-div > .three .center3 {
+  height: 1.25rem;
+  margin: 0 auto;
+}
+.industry .one-div > .three .center3 span {
+  width: 3.75rem;
+  height: 1.25;
+  line-height: 1.75rem;
+  font-weight: bold;
+  color: red;
+  font-size: 0.4rem;
+  background: #fff;
+  float: left;
+}
+.industry .one-div .five-anli {
+  margin: 0 0.75rem;
+}
+.industry .one-div .five-anli li {
+  float: left;
+  width: 5.4rem;
+  margin-right: 0.51rem;
+}
+.industry .one-div .five-anli li:last-child {
+  margin-right: 0px;
+}
+.industry .one-div .five-anli li .img-div {
+  height: 4rem;
+  background: url(../img/anli-bg.png) no-repeat left center;
+  background-size: 100% auto;
+}
+.industry .one-div .five-anli li .img-div img {
+  width: 90%;
+  margin-top: 0.7rem;
+  margin-left: 0.3rem;
+}
+.industry .one-div .five-anli li h5 {
+  font-size: 0.6rem;
+  line-height: 1rem;
+  color: #333;
+  font-weight: normal;
+  padding-left: 0.125rem;
+}
+.industry .one-div .five-anli li p {
+  font-size: 0.55rem;
+  color: #a0a0a0;
+  line-height: 0.7rem;
+  padding-left: 0.125rem;
+}
+.industry .one-div .five-anli li a {
+  font-size: 0.55rem;
+  line-height: 0.65rem;
+  color: #6acce8;
+  padding-left: 0.125rem;
+}
+.industry .one-div .five-anli li a > img {
+  position: relative;
+  top: 0.1rem;
+  left: 0.2rem;
+  width: 0.61rem;
+}
+.industry .data-info-banner {
+  height: 3.2rem;
+  background: url(../img/industry2.jpg) no-repeat top center;
+  background-size: 100%  auto ;
+  margin-top: 1.5rem;
+}
+.industry .industry-banner h3 {
+  height: 3.2rem;
+  background: url(../img/industry4.png) no-repeat center center;
+  background-size: auto 70%;
+  text-indent: -9999px;
+  top: 0.4rem;
+}
+.industry .industry-logo-list {
+  margin: 1rem 0.75rem 0;
+  overflow: hidden;
+  /*Firefox3.5+*/
+  -webkit-box-sizing: border-box;
+  /*Safari3.2+*/
+  -o-box-sizing: border-box;
+  /*Opera9.6*/
+  -ms-box-sizing: border-box;
+  /*IE8*/
+  box-sizing: border-box;
+}
+.industry .industry-logo-list li {
+  float: left;
+  width: 5.4rem;
+  margin-right: 0.51rem;
+  margin-bottom: 0.8rem;
+}
+.industry .industry-logo-list li:nth-child(3n) {
+  margin-right: 0px;
+}
+.industry .industry-logo-list li .img-div {
+  height: 4rem;
+  background: url(../img/anli-bg.png) no-repeat left center;
+  background-size: 100% auto;
+  -webkit-box-shadow: 0px 0px 0.25rem rgba(212, 212, 212, 0.4);
+          box-shadow: 0px 0px 0.25rem rgba(212, 212, 212, 0.4);
+}
+.industry .industry-logo-list li .img-div > img {
+  width: 90%;
+  margin-top: 0.7rem;
+  margin-left: 0.3rem;
+}
+.industry .industry-logo-list li h5 {
+  font-size: 0.6rem;
+  line-height: 1rem;
+  color: #333;
+  font-weight: normal;
+  padding-left: 0.125rem;
+}
+.industry .industry-logo-list li p {
+  font-size: 0.55rem;
+  color: #a0a0a0;
+  line-height: 0.7rem;
+  padding-left: 0.125rem;
+}
+.threetabul {
+  overflow: hidden;
+}
+.hide {
+  display: none;
+}
+/* 行业案例 */
 
 /*# sourceMappingURL=allcss.css.map */
