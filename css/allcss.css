@@ -1021,6 +1021,226 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   width: 2.5rem;
   margin-right: 0.5rem;
 }
+.contectus {
+  width: 100%;
+  overflow: hidden;
+}
+.contectus-left {
+  width: 95%;
+  height: 12.7rem;
+  float: left;
+  position: relative;
+  background: #f3f3f3;
+  -webkit-border-radius: 0 2.5rem 2.5rem 0;
+          border-radius: 0 2.5rem 2.5rem 0;
+  margin-bottom: 6rem;
+}
+.contectus-left .contectus-left-div {
+  width: 100%;
+  max-width: 30rem;
+  position: relative;
+  margin: 0 auto;
+  top: 1rem;
+}
+.contectus-left .contectus-left-div.shenzhendiv {
+  top: -2.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.contectus-left .contectus-left-div.shenzhendiv div {
+  width: 50%;
+  top: 0.45rem;
+}
+.contectus-left .contectus-left-div.shenzhendiv div h4 {
+  margin-top: 6.25rem;
+}
+.contectus-left .contectus-left-div > img {
+  width: 40%;
+  float: left;
+}
+.contectus-left .contectus-left-div div {
+  width: 60%;
+  height: 10rem;
+  float: right;
+  position: relative;
+  top: -0.5rem;
+}
+.contectus-left .contectus-left-div div.shanghai {
+  background: url(../img/contectus12.png) no-repeat right top;
+  background-size: 100% auto;
+  background-position-y: 6rem;
+}
+.contectus-left .contectus-left-div div.shenzhen {
+  background: url(../img/contectus32.png) no-repeat left top;
+  background-size: auto 100%;
+  height: 11.2rem;
+}
+.contectus-left .contectus-left-div div.shenzhen h4 {
+  margin-top: 5.5rem;
+}
+.contectus-left .contectus-left-div div.hefei {
+  width: 53%;
+  height: 11.2rem;
+  top: 1rem;
+  background: url(../img/contectus52.png) no-repeat left top;
+  background-size: auto 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 1.5rem;
+}
+.contectus-left .contectus-left-div div h4 {
+  font-size: 1.2rem;
+  color: #333;
+  height: 1.3rem;
+  margin-bottom: 0.6rem;
+}
+.contectus-left .contectus-left-div div h4 a {
+  display: inline-block;
+  width: 1.15rem;
+  height: 1.15rem;
+  position: relative;
+  left: 3.1rem;
+  top: 0.25rem;
+}
+.contectus-left .contectus-left-div div h4 a.contect-sina {
+  background: url(../img/contectus1.png) no-repeat;
+  background-size: 100%;
+}
+.contectus-left .contectus-left-div div h4 a.contect-qq {
+  background: url(../img/contectus2.png) no-repeat;
+  background-size: 100%;
+  left: 3.25rem;
+}
+.contectus-left .contectus-left-div div p {
+  min-height: 0.9rem;
+  font-size: 0.65rem;
+  line-height: 0.9rem;
+  color: #8e8e8e;
+  padding-left: 1rem;
+  margin-bottom: 0.55rem;
+}
+.contectus-left .contectus-left-div div p.addr {
+  background: url(../img/contectus3.png) no-repeat;
+  background-size: auto 0.9rem;
+}
+.contectus-left .contectus-left-div div p.tel {
+  background: url(../img/contectus4.png) no-repeat;
+  background-size: auto 0.9rem;
+}
+.contectus-left .contectus-left-div div p.chuanzhen {
+  background: url(../img/contectus5.png) no-repeat;
+  background-size: auto 0.9rem;
+}
+.contectus-left .contectus-left-div div p.service {
+  background: url(../img/contectus6.png) no-repeat;
+  background-size: auto 0.9rem;
+}
+.contectus-left .contectus-left-div div p.email {
+  background: url(../img/contectus7.png) no-repeat;
+  background-size: auto 0.9rem;
+}
+.contectus-left .contectus-left-div div p span {
+  color: #333333;
+  font-weight: bold;
+}
+.contectus-right {
+  width: 95%;
+  height: 12.625rem;
+  float: right;
+  position: relative;
+  background: #f3f3f3;
+  -webkit-border-radius: 2.5rem 0 0 2.5rem;
+          border-radius: 2.5rem 0 0 2.5rem;
+  margin-bottom: 6rem;
+}
+.contectus-right .contectus-left-div {
+  width: 100%;
+  max-width: 30rem;
+  position: relative;
+  margin: 0 auto;
+  top: -2.5rem;
+}
+.contectus-right .contectus-left-div.qingdaodiv {
+  top: 2.5rem;
+}
+.contectus-right .contectus-left-div > img {
+  width: 40%;
+  float: left;
+}
+.contectus-right .contectus-left-div div {
+  width: 52%;
+  height: 13rem;
+  float: left;
+  position: relative;
+  top: 0.75rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 7rem 0 0 5rem;
+}
+.contectus-right .contectus-left-div div.beijing {
+  background: url(../img/contectus22.png) no-repeat left top;
+  background-size: 100% auto;
+}
+.contectus-right .contectus-left-div div.qingdao {
+  background: url(../img/contectus42.png) no-repeat left bottom;
+  background-size: 100% auto;
+  height: 11.25rem;
+  padding: 0.9rem 0 0 0;
+}
+.contectus-right .contectus-left-div div h4 {
+  font-size: 1.2rem;
+  color: #333;
+  height: 1.3rem;
+  margin-bottom: 0.55rem;
+}
+.contectus-right .contectus-left-div div h4 a {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  position: relative;
+  left: 3rem;
+  top: 0.25rem;
+}
+.contectus-right .contectus-left-div div h4 a.contect-sina {
+  background: url(../img/contectus1.png) no-repeat;
+}
+.contectus-right .contectus-left-div div h4 a.contect-qq {
+  background: url(../img/contectus2.png) no-repeat;
+  left: 3.25rem;
+}
+.contectus-right .contectus-left-div div p {
+  min-height: 0.9rem;
+  font-size: 0.325rem;
+  line-height: 0.9rem;
+  color: #8e8e8e;
+  padding-left: 1rem;
+  margin-bottom: 0.55rem;
+}
+.contectus-right .contectus-left-div div p.addr {
+  background: url(../img/contectus3.png) no-repeat;
+  background-size: auto 0.9rem;
+}
+.contectus-right .contectus-left-div div p.tel {
+  background: url(../img/contectus4.png) no-repeat;
+  background-size: auto 0.9rem;
+}
+.contectus-right .contectus-left-div div p.chuanzhen {
+  background: url(../img/contectus5.png) no-repeat;
+  background-size: auto 0.9rem;
+}
+.contectus-right .contectus-left-div div p.service {
+  background: url(../img/contectus6.png) no-repeat;
+  background-size: auto 0.9rem;
+}
+.contectus-right .contectus-left-div div p.email {
+  background: url(../img/contectus7.png) no-repeat;
+  background-size: auto 0.9rem;
+}
+.contectus-right .contectus-left-div div p span {
+  color: #333333;
+  font-weight: bold;
+}
+/* 联系我们 */
 .service1 {
   width: 100%;
   height: 17.25;
@@ -1169,7 +1389,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .service3 {
   width: 100%;
-  height: 22.5rem;
+  height: 21.5rem;
   overflow: hidden;
   background-size: 100% ;
 }
@@ -1274,6 +1494,85 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .service3-bottom .service3-bottom-ul li p {
   font-size: 0.65rem;
   color: #999;
+}
+.service4 {
+  width: 100%;
+  height: 16rem;
+  background: #fff url(../img/service43.png) no-repeat right;
+  background-size: 40%;
+  background-position-y: -0.5rem;
+  overflow: hidden;
+}
+.service4 .service4-center {
+  width: 20rem;
+  height: 12.75rem;
+  margin: 1.6rem auto 0;
+}
+.service4 .service4-center > p {
+  font-size: 0.85rem;
+  color: #333;
+  font-weight: bold;
+}
+.service4 .service4-box {
+  width: 20rem;
+  height: 6rem;
+  margin-bottom: 1rem;
+}
+.service4 .service4-box .fir1 {
+  width: 10rem;
+  height: 6rem;
+  float: left;
+  background: url(../img/service41.jpg) no-repeat center center;
+  background-size: 100%;
+}
+.service4 .service4-box .fir2 {
+  width: 10rem;
+  height: 6rem;
+  float: right;
+  background: url(../img/service42.png) no-repeat center;
+  background-size: 100%;
+  background-position-y: 2.25rem;
+}
+.service4-bottom {
+  width: 100%;
+  height: 4.4rem;
+}
+.service4-bottom p {
+  width: 4.1rem;
+  height: 1.5rem;
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: 0.85rem;
+  color: #fff;
+  background: #6acce8;
+  font-weight: bold;
+  margin: 0 0 0.5rem 1.55rem;
+}
+.service4-bottom div {
+  background: url(../img/service44.png) no-repeat left;
+  background-size: auto 100%;
+  padding-left: 2.26rem;
+}
+.service4-bottom div h4 {
+  font-weight: normal;
+  color: #333333;
+  font-size: 0.85rem;
+  line-height: 1rem;
+}
+.channel-btn {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.channel-btn h4 {
+  font-size: 0.85rem;
+  line-height: 1.5rem;
+}
+.channel-btn .channel-btn-a {
+  display: inline-block;
+  padding: 0.3rem 0.25rem;
+  background: #6acce8;
+  text-align: center;
+  color: #fff;
 }
 /* 服务 */
 .channel-account-block2 {
