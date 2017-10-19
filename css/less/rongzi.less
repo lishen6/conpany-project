@@ -1,49 +1,48 @@
 .rongzi{
-    .wl-banner .wl-big-events.channel-baner-title {
-        background: url(../img/rong12.png) no-repeat left center;
-        
-    }
-    .wl-summary{
-        margin-top: 10px;
-    }
-    .wl-banner.channel-banner {
-        background: url(../img/rong2.jpg) no-repeat center;
-        background-size: auto 726px;
-    }
     .data{
-        height: 270px;
-        width: 800px;
+        height: 6.75rem;
         margin: 0 auto;
+        margin-bottom: 2rem;
         .wl-title{
-            margin-bottom: 42px;
+            margin: 0 0.75rem 0.5rem;
         }
         .fl{
             position: relative;
+            width: 50%;
+            >img{
+                width: 90%;
+            }
             >span{
                 position: absolute;
                 text-align: center;
-                top: 64px;
-                left: 13px;
+                top: 1.6rem;
+                left: 0.325rem;
+                font-size: 0.35rem;
                 &:nth-child(3){
-                    left: 110px;
+                    left: 2.75rem;
                 }
                 &:nth-child(4){
-                    left: 228px;
+                    left: 5.7rem;
                 }
             }
         }
         .fr{
             position: relative;
+            width: 50%;
+            >img{
+                width: 90%;
+            }
             >span{
                 position: absolute;
                 text-align: center;
-                top: 53px;
-                left: 15px;
+                top: 1.325rem;
+                left: 0.375rem;
+                font-size: 0.35rem;
                 &:nth-child(3){
-                    left: 160px;
+                    left: 4rem;
                 }
                 &:nth-child(4){
-                    left: 257px;
+                    left: 6.425rem;
                 }
             }
         }
@@ -51,85 +50,98 @@
     }
     .two-model-div{
         background: url(../img/rong-step.jpg) no-repeat bottom center;
-        padding-bottom: 65px;
+        background-size: 100% auto;
+        padding-bottom: 1.625rem;
     }
     .two-model{
-        width: 800px;
-        margin: 0 auto;
+        margin: 0 0.75rem;
         overflow: hidden;
-        
         dt{
-            margin-bottom: 62px;
+            margin-bottom: 1.55rem;
         }
          dd{
             float: left;
             text-align: center;
-            width: 353px;
+            width: 48%;
             border: solid 1px #b4b4b4;
-            padding: 56px 70px 30px;
+            padding: 1rem 0.25rem ;
             -moz-box-sizing: border-box;  /*Firefox3.5+*/
              -webkit-box-sizing: border-box; /*Safari3.2+*/
              -o-box-sizing: border-box; /*Opera9.6*/
              -ms-box-sizing: border-box; /*IE8*/
              box-sizing: border-box;
              position: relative;
+             margin-right: 0.5rem;
+             &:last-child{
+                margin-right: 0px;
+             }
              >.img-div{
                 position: absolute;
-                top: -30px;
+                top: -0.75rem;
                 left: 50%;
-                margin-left: -50px;
-                width: 100px;
+                margin-left: -1.25rem;
+                width: 1.5rem;
                 text-align: center;
                 background: #fff;
+                >img{
+                    width: 100%;
+                }
              }
              h5{
-                font-size: 18px;
+                font-size: 0.45rem;
                 color: #333;
-                line-height: 30px;
-
+                line-height: 0.75rem;
              }
              .gray-span{
-                margin-bottom: 13px;
+                margin-bottom: 0.325rem;
              }
              p{
-                font-size: 12px;
+                font-size: 0.35rem;
                 color: #333;
-                line-height: 23px;
+                line-height: 0.7rem;
                 >span{
-                    font-size: 14px;
+                    font-size: 0.35rem;
                     color: #999;
-                    line-height: 24px;
-                    margin-bottom: 20px;
+                    line-height: 0.6rem;
+                    margin-bottom: 0.5rem;
                 }
              }
          }
     }
     .data-info-banner{
-            height: 270px;
+            height: 3rem;
             background: url(../img/rong1.jpg) no-repeat top center;
             background-size: 100% auto;
             h3{
-                font-size: 24px;
-                margin-left: -350px;
+                height: 3rem;
+                font-size: 0.6rem;
+                color: #fff;
+                line-height: 0.65rem;
+                text-align: center;
+                position: relative;
+                top: 1rem;
             }
     }
     .data-info{
+        background: transparent;
         h3{
-            font-size: 18px;
-            line-height: 52px;
+            font-size: 0.45rem;
+            line-height: 1.3rem;
             text-align: center;
-            margin-bottom: 30px;
+            margin-bottom: 0.75rem;
         }
         li{
-            margin-bottom: 20px;
+            margin-bottom: 0.5rem;
+            text-align: center;
             img{
-                float: left;
-                margin-right: 9px;
+                // float: left;
+                // margin-right: 0.25rem;
             }
             p{
-                font-size: 12px;
-                line-height: 18px;
+                font-size: @title3;
                 color:#666;
+                line-height: 0.65rem;
+                margin-top: 0.5rem;
             }
             h5{
                 color:#333;
@@ -137,7 +149,7 @@
 
         }
         li:nth-child(4n) {
-            margin-right: 29px;
+            margin-right: 0;
         }
         li:nth-child(5) {
             margin-right: 0px;
@@ -149,28 +161,41 @@
             margin-right: 0px;
         }
         .bottom-li{
-            margin-top: 35px;
+            margin-top: 0.75rem;
+            width: 50%;
+            padding: 0 0.5rem;
+            box-sizing: border-box;
             h5{
-                margin-bottom: 18px;
+                margin-bottom: 0.5rem;
+                font-size: @title2;
+                line-height: 0.75rem;
             }
             p{
-                line-height: 24px;
+                font-size: @title3;
+                line-height: 0.65rem;
+                text-align: justify;
             }
+
         }
     }
-    .data-info-banner2{
+    .data-info-banner2{ 
         background: url(../img/rong18.jpg) no-repeat top center;
         background-size: 100% auto;
     }
     .data-info2{
         margin-bottom: 0px;
+        position: relative;
+        z-index: 9;
         .img-money{
             width: 100%;
+            >img{
+                width: 100%; 
+            }
         }
         .bottom-li{
-            margin-top: 27px;
+            margin-top: 0.675rem;
             h5{
-                line-height: 25px;
+                line-height: 0.7rem;
             }
         }
     }
@@ -179,99 +204,137 @@
         .partner-bg{
             position: absolute;
             right: 0px;
-            top: -210px;
+            top: -2rem;
             z-index: 1;
+            width: 5rem;
         }
     }
     .partner{
-        width: 800px;
-        margin: 0 auto 40px;
+        margin: 0 auto 0.75rem;
         position: relative;
         z-index: 2;
         .wl-title{
-            padding-top: 40px;
+            padding-top: 0rem;
+            margin-bottom: 0.25rem;
         }
         >p{
-            font-size: 12px;
+            font-size: 0.35rem;
             color: #999;
             text-align: center;
+            margin: 0 0.75rem;
+            line-height: 0.65rem;
+            margin-top: 0.25rem;
         }
         ul{
-            margin-top: 38px;
+            margin-top: 1rem;
             overflow: hidden;
+            margin: 1rem 0.75rem 0;
         }
         li{
             float: left;
+            margin-right: 0.5rem;
+            overflow: hidden;
+            margin-bottom: 0.5rem;
+            width: 48%;
+            .img-div{
+                float: left;
+            }
+            img{
+                width: 3.5rem;
+            }
             &:nth-child(1){
-                width: 157px;
+                // width: 2.9rem;
                 text-align: center;
+                img{
+                    width: 2.5rem;
+                }
+                p{
+                    margin-left: 3rem;
+                }
             }
             &:nth-child(2){
-                width: 246px;
+                // width: 5rem;
                 text-align: center;
+                margin-right: 0px;
             }
             &:nth-child(3){
-                width: 140px;
+                // width: 2.8rem;
                 text-align: center;
+                img{
+                    width: 2.5rem;
+                }
+                p{
+                    margin-left: 3rem;
+                }
             }
             &:nth-child(4){
-                width: 250px;
+                // width: 5rem;
                 text-align: center;
+                margin-right: 0px
             }
             p{
-                font-size: 12px;
+                font-size: @title3;
                 color: #333;
-                text-align: center;
-                line-height: 24px;
-                margin-top: 10px;
+                text-align: left;
+                line-height: 0.65rem;
+                margin-top: 0.25rem;
+                margin-left: 4rem;
             }
         }
     }
     .qiye{
-        width:800px;
-        margin: 0 auto;
+        margin: 0 0.75rem;
         text-align: center;
+        .wl-title{
+            padding-top: 0px;
+        }
         >p{
-            font-size: 12px;
+            font-size: 0.35rem;
             color: #999;
             text-align: center;
+            line-height: 0.65rem;
+            margin-bottom: 0.5rem;
+            margin-top: 0.25rem;
         }
         >img{
-            margin: 20px 0 30px;
+            width: 100%;
         }  
     }
     .channel-block5{
         background: #fff;
         padding: 0px;
-        height: 360px; 
         .wl-title{
-            padding-top: 40px;
+            padding-top: 1rem;
         }
-    }
-    .channel-block5-ul{
-        width: 800px;
+        p{
+            line-height: 0.65rem;
+            margin-top: 0.25rem;
+        }
     }
     .channel-block5 .channel-block5-ul {
         background: url(../img/rong10.jpg) no-repeat left top;
+        background-size: 100% auto;
     }
     .index-block6 img{
-        margin-top: 26px;
+        margin-top: 0.65rem;
     }
 }
 .wl-title{
-    font-size: 18px;
+    font-size: @title1;
     color: #333;
     text-align: center;
-    height: 60px;
-    line-height: 27px;
+    line-height: 1rem;
     font-weight: 600;
-    padding-top: 50px;
+    padding-top: 1.25rem;
     >span{
-        font-size: 30px;
+        font-size: 1.1rem;
     }
     i{
         position: relative;
-        top: -5px;
-        right: 5px;
+        top: -0.125rem;
+        right: 0.125rem;
+        >img{
+            width: 1.5rem;
+        }
     }
 }

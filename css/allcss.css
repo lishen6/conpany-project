@@ -3568,6 +3568,281 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   color: #6acce8;
 }
 /* 新闻详情 */
+.sell .channel-block5 {
+  background: #f6f6f6;
+  height: 290px;
+}
+.sell .wl-banner .wl-big-events.channel-baner-title {
+  background: url(../img/sell-channel.png) no-repeat left center;
+}
+.sell .wl-summary {
+  margin-top: 10px;
+}
+.sell .wl-banner.channel-banner {
+  background: url(../img/sell1.png) no-repeat center;
+  background-size: auto 726px;
+}
+.sell .step1 {
+  height: 400px;
+  background: url(../img/sell-step.jpg) no-repeat top center;
+}
+.sell .step1 .middle {
+  height: 100%;
+}
+.sell .step1 .middle p {
+  font-size: 12px;
+  color: #333;
+  position: absolute;
+  line-height: 25px;
+  width: 390px;
+}
+.sell .step1 .middle p:nth-child(1) {
+  color: #fff;
+  font-size: 14px;
+  left: 263px;
+  top: 131px;
+}
+.sell .step1 .middle p:nth-child(2) {
+  left: 257px;
+  top: 166px;
+  color: #999;
+}
+.sell .step1 .middle p:nth-child(3) {
+  left: 257px;
+  top: 196px;
+}
+.sell .step1 .bottom-tips {
+  font-size: 12px;
+  color: #333;
+  position: absolute;
+  bottom: 37px;
+  left: 0px;
+  text-align: center;
+  width: 100%;
+  line-height: 24px;
+}
+.sell .step2 {
+  width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.sell .step2 li {
+  float: left;
+  width: 50%;
+}
+.sell .step2 li:nth-child(2) > p {
+  margin: 10px 0 0 39px;
+}
+.sell .step2 li > p {
+  font-size: 12px;
+  color: #333;
+  line-height: 24px;
+  margin: 10px 0 0 34px;
+}
+.sell .step4 {
+  height: 600px;
+  background: url(../img/sell-step4.jpg) no-repeat top center;
+  background-position-y: 70px;
+  margin-bottom: 110px;
+}
+.sell .step4 .middle {
+  height: 100%;
+}
+.sell .step4 .middle > p {
+  font-size: 12px;
+  color: #333;
+  position: absolute;
+  line-height: 25px;
+  width: 420px;
+}
+.sell .step4 .middle > p:nth-child(1) {
+  color: #fff;
+  font-size: 14px;
+  left: 263px;
+  top: 162px;
+}
+.sell .step4 .middle > p:nth-child(2) {
+  left: 257px;
+  top: 196px;
+  color: #999;
+}
+.sell .step4 .middle > p:nth-child(3) {
+  left: 257px;
+  top: 226px;
+}
+.sell .step4 .middle .bottom-wz {
+  position: absolute;
+  bottom: 20px;
+  right: 0px;
+  width: 350px;
+}
+.sell .step4 .middle .bottom-wz > h5 {
+  font-weight: 500;
+  font-size: 14px;
+  color: #77d0ea;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.sell .step4 .middle .bottom-wz > p {
+  line-height: 25px;
+  font-size: 12px;
+  color: #333;
+}
+.sell .data-info-banner {
+  height: 270px;
+  background: url(../img/sell5.jpg) no-repeat top center;
+  background-size: 100% auto;
+}
+.sell .data-info-banner h3 {
+  font-size: 0.75rem;
+  color: #fff;
+  line-height: 26px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+.sell .data-info {
+  background: #fff;
+  padding: 0.75rem;
+  overflow: hidden;
+  /*Firefox3.5+*/
+  -webkit-box-sizing: border-box;
+  /*Safari3.2+*/
+  -o-box-sizing: border-box;
+  /*Opera9.6*/
+  -ms-box-sizing: border-box;
+  /*IE8*/
+  box-sizing: border-box;
+}
+.sell .data-info li {
+  float: left;
+  width: 25%;
+}
+.sell .data-info li:nth-child(4n) {
+  margin-right: 0px;
+}
+.sell .data-info li > h5 {
+  font-size: 14px;
+  color: #6acce8;
+  line-height: 30px;
+  margin-bottom: 12px;
+}
+.sell .data-info li > p {
+  font-size: 12px;
+  color: #333;
+  line-height: 25px;
+  margin-bottom: 0.25rem;
+}
+.sell .data-info li > div {
+  font-size: 12px;
+  color: #f0f0f0;
+}
+.sell .data-info li > div span {
+  color: #a9a9a9;
+}
+.get-data {
+  height: 600px;
+  background: url(../img/sell2.png) no-repeat center;
+}
+.get-data > h4 {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  position: relative;
+  top: 50px;
+}
+.get-data > h4 span {
+  font-size: 30px;
+}
+.middle {
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+.sell-block {
+  width: 800px;
+  margin: 0 auto;
+}
+.sell-block li {
+  margin-bottom: 100px;
+  min-height: 255px;
+}
+.sell-block .sell-detail1 {
+  margin-left: 400px;
+  padding-top: 20px;
+}
+.sell-block .sell-detail1 h4 {
+  font-size: 18px;
+  margin-bottom: 39px;
+}
+.sell-block .sell-detail1 h4 span {
+  font-size: 24px;
+}
+.sell-block .sell-detail1 h4 i {
+  position: relative;
+  top: -20px;
+  margin-right: 5px;
+}
+.sell-block .sell-detail1 p {
+  font-size: 12px;
+  color: #333;
+  line-height: 24px;
+  margin-bottom: 23px;
+}
+.sell-block .sell-detail1 p span {
+  color: #6acce8;
+}
+.sell-block .sell-detail2 {
+  margin-right: 400px;
+}
+.sell-block .sell-detail2 h4 {
+  font-size: 18px;
+  margin-bottom: 39px;
+  line-height: 30px;
+}
+.sell-block .sell-detail2 h4 span {
+  font-size: 24px;
+}
+.sell-block .sell-detail2 h4 i {
+  position: relative;
+  top: -20px;
+  margin-right: 5px;
+}
+.sell-block .sell-detail2 p {
+  font-size: 12px;
+  color: #333;
+  line-height: 24px;
+  margin-bottom: 23px;
+}
+.sell-block .sell-detail2 p span {
+  color: #6acce8;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.channel-btn {
+  text-align: center;
+  margin-bottom: 75px;
+}
+.channel-btn h4 {
+  font-size: 24px;
+  line-height: 60px;
+}
+.channel-btn .channel-btn-a {
+  display: inline-block;
+  width: 170px;
+  height: 50px;
+  background: #6acce8;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+}
+/* 销售 */
 .industry {
   background: #fff;
 }
@@ -3908,72 +4183,72 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   padding: 0.5rem 0.5rem 0.5rem 1rem;
 }
 /* 行业案例详情 */
-.rongzi .wl-banner .wl-big-events.channel-baner-title {
-  background: url(../img/rong12.png) no-repeat left center;
-}
-.rongzi .wl-summary {
-  margin-top: 10px;
-}
-.rongzi .wl-banner.channel-banner {
-  background: url(../img/rong2.jpg) no-repeat center;
-  background-size: auto 726px;
-}
 .rongzi .data {
-  height: 270px;
-  width: 800px;
+  height: 6.75rem;
   margin: 0 auto;
+  margin-bottom: 2rem;
 }
 .rongzi .data .wl-title {
-  margin-bottom: 42px;
+  margin: 0 0.75rem 0.5rem;
 }
 .rongzi .data .fl {
   position: relative;
+  width: 50%;
+}
+.rongzi .data .fl > img {
+  width: 90%;
 }
 .rongzi .data .fl > span {
   position: absolute;
   text-align: center;
-  top: 64px;
-  left: 13px;
+  top: 1.6rem;
+  left: 0.325rem;
+  font-size: 0.35rem;
 }
 .rongzi .data .fl > span:nth-child(3) {
-  left: 110px;
+  left: 2.75rem;
 }
 .rongzi .data .fl > span:nth-child(4) {
-  left: 228px;
+  left: 5.7rem;
 }
 .rongzi .data .fr {
   position: relative;
+  width: 50%;
+}
+.rongzi .data .fr > img {
+  width: 90%;
 }
 .rongzi .data .fr > span {
   position: absolute;
   text-align: center;
-  top: 53px;
-  left: 15px;
+  top: 1.325rem;
+  left: 0.375rem;
+  font-size: 0.35rem;
 }
 .rongzi .data .fr > span:nth-child(3) {
-  left: 160px;
+  left: 4rem;
 }
 .rongzi .data .fr > span:nth-child(4) {
-  left: 257px;
+  left: 6.425rem;
 }
 .rongzi .two-model-div {
   background: url(../img/rong-step.jpg) no-repeat bottom center;
-  padding-bottom: 65px;
+  background-size: 100% auto;
+  padding-bottom: 1.625rem;
 }
 .rongzi .two-model {
-  width: 800px;
-  margin: 0 auto;
+  margin: 0 0.75rem;
   overflow: hidden;
 }
 .rongzi .two-model dt {
-  margin-bottom: 62px;
+  margin-bottom: 1.55rem;
 }
 .rongzi .two-model dd {
   float: left;
   text-align: center;
-  width: 353px;
+  width: 48%;
   border: solid 1px #b4b4b4;
-  padding: 56px 70px 30px;
+  padding: 1rem 0.25rem ;
   /*Firefox3.5+*/
   -webkit-box-sizing: border-box;
   /*Safari3.2+*/
@@ -3983,67 +4258,80 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   /*IE8*/
   box-sizing: border-box;
   position: relative;
+  margin-right: 0.5rem;
+}
+.rongzi .two-model dd:last-child {
+  margin-right: 0px;
 }
 .rongzi .two-model dd > .img-div {
   position: absolute;
-  top: -30px;
+  top: -0.75rem;
   left: 50%;
-  margin-left: -50px;
-  width: 100px;
+  margin-left: -1.25rem;
+  width: 1.5rem;
   text-align: center;
   background: #fff;
 }
+.rongzi .two-model dd > .img-div > img {
+  width: 100%;
+}
 .rongzi .two-model dd h5 {
-  font-size: 18px;
+  font-size: 0.45rem;
   color: #333;
-  line-height: 30px;
+  line-height: 0.75rem;
 }
 .rongzi .two-model dd .gray-span {
-  margin-bottom: 13px;
+  margin-bottom: 0.325rem;
 }
 .rongzi .two-model dd p {
-  font-size: 12px;
+  font-size: 0.35rem;
   color: #333;
-  line-height: 23px;
+  line-height: 0.7rem;
 }
 .rongzi .two-model dd p > span {
-  font-size: 14px;
+  font-size: 0.35rem;
   color: #999;
-  line-height: 24px;
-  margin-bottom: 20px;
+  line-height: 0.6rem;
+  margin-bottom: 0.5rem;
 }
 .rongzi .data-info-banner {
-  height: 270px;
+  height: 3rem;
   background: url(../img/rong1.jpg) no-repeat top center;
   background-size: 100% auto;
 }
 .rongzi .data-info-banner h3 {
-  font-size: 24px;
-  margin-left: -350px;
+  height: 3rem;
+  font-size: 0.6rem;
+  color: #fff;
+  line-height: 0.65rem;
+  text-align: center;
+  position: relative;
+  top: 1rem;
+}
+.rongzi .data-info {
+  background: transparent;
 }
 .rongzi .data-info h3 {
-  font-size: 18px;
-  line-height: 52px;
+  font-size: 0.45rem;
+  line-height: 1.3rem;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 0.75rem;
 }
 .rongzi .data-info li {
-  margin-bottom: 20px;
-}
-.rongzi .data-info li img {
-  float: left;
-  margin-right: 9px;
+  margin-bottom: 0.5rem;
+  text-align: center;
 }
 .rongzi .data-info li p {
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.55rem;
   color: #666;
+  line-height: 0.65rem;
+  margin-top: 0.5rem;
 }
 .rongzi .data-info li h5 {
   color: #333;
 }
 .rongzi .data-info li:nth-child(4n) {
-  margin-right: 29px;
+  margin-right: 0;
 }
 .rongzi .data-info li:nth-child(5) {
   margin-right: 0px;
@@ -4055,13 +4343,21 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin-right: 0px;
 }
 .rongzi .data-info .bottom-li {
-  margin-top: 35px;
+  margin-top: 0.75rem;
+  width: 50%;
+  padding: 0 0.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .rongzi .data-info .bottom-li h5 {
-  margin-bottom: 18px;
+  margin-bottom: 0.5rem;
+  font-size: 0.6rem;
+  line-height: 0.75rem;
 }
 .rongzi .data-info .bottom-li p {
-  line-height: 24px;
+  font-size: 0.55rem;
+  line-height: 0.65rem;
+  text-align: justify;
 }
 .rongzi .data-info-banner2 {
   background: url(../img/rong18.jpg) no-repeat top center;
@@ -4069,15 +4365,20 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .rongzi .data-info2 {
   margin-bottom: 0px;
+  position: relative;
+  z-index: 9;
 }
 .rongzi .data-info2 .img-money {
   width: 100%;
 }
+.rongzi .data-info2 .img-money > img {
+  width: 100%;
+}
 .rongzi .data-info2 .bottom-li {
-  margin-top: 27px;
+  margin-top: 0.675rem;
 }
 .rongzi .data-info2 .bottom-li h5 {
-  line-height: 25px;
+  line-height: 0.7rem;
 }
 .rongzi .partner-div {
   position: relative;
@@ -4085,99 +4386,133 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .rongzi .partner-div .partner-bg {
   position: absolute;
   right: 0px;
-  top: -210px;
+  top: -2rem;
   z-index: 1;
+  width: 5rem;
 }
 .rongzi .partner {
-  width: 800px;
-  margin: 0 auto 40px;
+  margin: 0 auto 0.75rem;
   position: relative;
   z-index: 2;
 }
 .rongzi .partner .wl-title {
-  padding-top: 40px;
+  padding-top: 0rem;
+  margin-bottom: 0.25rem;
 }
 .rongzi .partner > p {
-  font-size: 12px;
+  font-size: 0.35rem;
   color: #999;
   text-align: center;
+  margin: 0 0.75rem;
+  line-height: 0.65rem;
+  margin-top: 0.25rem;
 }
 .rongzi .partner ul {
-  margin-top: 38px;
+  margin-top: 1rem;
   overflow: hidden;
+  margin: 1rem 0.75rem 0;
 }
 .rongzi .partner li {
   float: left;
+  margin-right: 0.5rem;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+  width: 48%;
+}
+.rongzi .partner li .img-div {
+  float: left;
+}
+.rongzi .partner li img {
+  width: 3.5rem;
 }
 .rongzi .partner li:nth-child(1) {
-  width: 157px;
   text-align: center;
+}
+.rongzi .partner li:nth-child(1) img {
+  width: 2.5rem;
+}
+.rongzi .partner li:nth-child(1) p {
+  margin-left: 3rem;
 }
 .rongzi .partner li:nth-child(2) {
-  width: 246px;
   text-align: center;
+  margin-right: 0px;
 }
 .rongzi .partner li:nth-child(3) {
-  width: 140px;
   text-align: center;
+}
+.rongzi .partner li:nth-child(3) img {
+  width: 2.5rem;
+}
+.rongzi .partner li:nth-child(3) p {
+  margin-left: 3rem;
 }
 .rongzi .partner li:nth-child(4) {
-  width: 250px;
   text-align: center;
+  margin-right: 0px;
 }
 .rongzi .partner li p {
-  font-size: 12px;
+  font-size: 0.55rem;
   color: #333;
-  text-align: center;
-  line-height: 24px;
-  margin-top: 10px;
+  text-align: left;
+  line-height: 0.65rem;
+  margin-top: 0.25rem;
+  margin-left: 4rem;
 }
 .rongzi .qiye {
-  width: 800px;
-  margin: 0 auto;
+  margin: 0 0.75rem;
   text-align: center;
+}
+.rongzi .qiye .wl-title {
+  padding-top: 0px;
 }
 .rongzi .qiye > p {
-  font-size: 12px;
+  font-size: 0.35rem;
   color: #999;
   text-align: center;
+  line-height: 0.65rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.25rem;
 }
 .rongzi .qiye > img {
-  margin: 20px 0 30px;
+  width: 100%;
 }
 .rongzi .channel-block5 {
   background: #fff;
   padding: 0px;
-  height: 360px;
 }
 .rongzi .channel-block5 .wl-title {
-  padding-top: 40px;
+  padding-top: 1rem;
 }
-.rongzi .channel-block5-ul {
-  width: 800px;
+.rongzi .channel-block5 p {
+  line-height: 0.65rem;
+  margin-top: 0.25rem;
 }
 .rongzi .channel-block5 .channel-block5-ul {
   background: url(../img/rong10.jpg) no-repeat left top;
+  background-size: 100% auto;
 }
 .rongzi .index-block6 img {
-  margin-top: 26px;
+  margin-top: 0.65rem;
 }
 .wl-title {
-  font-size: 18px;
+  font-size: 0.75rem;
   color: #333;
   text-align: center;
-  height: 60px;
-  line-height: 27px;
+  line-height: 1rem;
   font-weight: 600;
-  padding-top: 50px;
+  padding-top: 1.25rem;
 }
 .wl-title > span {
-  font-size: 30px;
+  font-size: 1.1rem;
 }
 .wl-title i {
   position: relative;
-  top: -5px;
-  right: 5px;
+  top: -0.125rem;
+  right: 0.125rem;
+}
+.wl-title i > img {
+  width: 1.5rem;
 }
 /* 行业案例详情 */
 
