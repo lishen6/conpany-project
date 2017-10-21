@@ -1,15 +1,6 @@
 .sell{
-    .channel-block5{
-        background: #f6f6f6;
-//      height: 403px;
-        height: 290px;
-        .channel-block5-ul{
-//              background: url(../img/gray-logo.png) no-repeat left top;
-        }
-    }
     .wl-banner .wl-big-events.channel-baner-title {
         background: url(../img/sell-channel.png) no-repeat left center;
-        
     }
     .wl-summary{
         margin-top: 10px;
@@ -19,134 +10,143 @@
         background-size: auto 726px;
     }
     .step1{
-        height: 400px;
+        height: 10rem;
         background: url(../img/sell-step.jpg) no-repeat top center;
+        background-size: 30rem auto;
         .middle{
             height: 100%;
             p{
-                font-size: 12px;
+                font-size: @title3;
                 color: #333;
                 position: absolute;
-                line-height: 25px;
-                width: 390px;
+                line-height: 0.625rem;
+                width: 9rem;
             }
             p:nth-child(1){
                     color: #fff;
-                    font-size: 14px;
-                    left: 263px;
-                    top: 131px;
+                    font-size: 0.35rem;
+                    left: 5.3rem;
+                    top: 2.9rem;
             } 
             p:nth-child(2){
-                    left: 257px;
-                    top: 166px;
+                    left: 5.45rem;
+                    top: 3.8rem;
                     color: #999;
+                    font-size: 0.35rem;
             }  
             p:nth-child(3){
-                left: 257px;
-                top: 196px;
+                left: 6.43rem;
+                top: 4.9rem;
 
             }    
         }
         .bottom-tips{
-            font-size: 12px;
+            font-size: @title3;
             color: #333;
             position: absolute;
-            bottom: 37px;
+            bottom: 0rem;
             left: 0px;
-            text-align: center;
+            text-align: justify;
             width: 100%;
-            line-height: 24px;
+            line-height: 0.65rem;
 
         }
     }
     .step2{
-        width: 800px;
-        margin: 0 auto;
+        margin: 1rem 0.75rem 1.5rem;
         overflow: hidden;
         li{
             float: left;
             width: 50%;
+            img{
+                width: 7rem;
+            }
             &:nth-child(2){
                 >p{
-                    margin: 10px 0 0 39px;
+                    margin: 0.25rem 0 0 1rem;
                 }
             }
             >p{
-                font-size: 12px;
+                font-size: @title3;
                 color: #333;
-                line-height: 24px;
-                margin: 10px 0 0 34px;
+                line-height: 0.65rem;
+                margin: 0.25rem 0 0 0.85rem;
+                text-align: justify;
             }
         }
 
     }
     .step4{
-        height: 600px;
+        height: 15rem;
         background: url(../img/sell-step4.jpg) no-repeat  top center;
-        background-position-y: 70px;
-        margin-bottom: 110px;
+        background-size: 35rem auto;
+        background-position: -6.5rem 0;
+        margin-bottom: 2.75rem;
         .middle{
             height: 100%;
             >p{
-                font-size: 12px;
+                font-size: @title3;
                 color: #333;
                 position: absolute;
-                line-height: 25px;
-                width: 420px;
+                line-height: 0.625rem;
             }
             >p:nth-child(1){
                     color: #fff;
-                    font-size: 14px;
-                    left: 263px;
-                    top: 162px;
+                    font-size: 0.35rem;
+                    left: 6.7rem;
+                    top: 4.2rem;
             } 
             >p:nth-child(2){
-                    left: 257px;
-                    top: 196px;
+                    left: 6.5rem;
+                    top: 5rem;
                     color: #999;
+                    font-size: 0.35rem;
             }  
             >p:nth-child(3){
-                left: 257px;
-                top: 226px;
-
+                left: 6.5rem;
+                top: 5.8rem;
+                font-size: 0.35rem;
+                color: #999;
             }
             .bottom-wz{
                 position: absolute;
-                bottom: 20px;
+                bottom: -1rem;
                 right: 0px;
-                width: 350px;
+                width: 7.5rem;
                 >h5{
                     font-weight: 500;
-                    font-size: 14px;
+                    font-size: 0.5rem;
                     color: #77d0ea;
-                    line-height: 24px;
-                    margin-bottom: 10px;
+                    line-height: 0.65rem;
+                    margin-bottom: 0.25rem;
                 }
                 >p{
-                    line-height: 25px;
-                    font-size: 12px;
+                    line-height: 0.65rem;
+                    font-size: @title3;
                     color: #333;
                 }
             }  
         }
     }
     .data-info-banner{
-        height: 270px;
+        height: 3rem;
         background: url(../img/sell5.jpg) no-repeat top center;
         background-size: 100% auto;
+        img{
+            width: 1.5rem;
+        }
         h3{
-            font-size: @title1;
+            height: 3rem;
+            font-size: 0.6rem;
+            line-height: 0.8rem;
             color: #fff;
-            line-height: 26px;
             text-align: center;
-            position: relative;
-            top: 50px;
+            padding-top: 0.4rem;
         }
     }
     .data-info{
         background: #fff;
         padding: 0.75rem;
-        // margin: -120px auto 28px;
         overflow: hidden;
         -moz-box-sizing: border-box;  /*Firefox3.5+*/
          -webkit-box-sizing: border-box; /*Safari3.2+*/
@@ -155,25 +155,28 @@
          box-sizing: border-box;
         li{
             float: left;
-            width: 25%;
+            width: 50%;
+            margin-bottom: 0.8rem;
             &:nth-child(4n){
                 margin-right: 0px;
             }
             >h5{
-                font-size: 14px;
+                font-size: @title1;
                 color: #6acce8;
-                line-height: 30px;
-//              font-weight: 500;
-                margin-bottom: 12px;
+                line-height: 0.8rem;
+                margin-bottom: 0.3rem;
             }
             >p{
-                font-size: 12px;
+                font-size: @title3;
                 color: #333;
-                line-height: 25px;
-                margin-bottom: 0.25rem;
+                line-height: 0.7rem;
+                margin-bottom: 0.3rem;
+                text-align: justify;
+                padding-right: 0.5rem;
+
             }
             >div{
-                font-size: 12px;
+                font-size: 0.35rem;
                 color: #f0f0f0;
                 span{
                     color: #a9a9a9;
@@ -185,78 +188,58 @@
 
 }
 .get-data{
-    height: 600px;
-    background: url(../img/sell2.png) no-repeat center;
+    height: 13rem;
+    background: url(../img/sell2.png) no-repeat top center;
+    background-size: 30rem auto;
     >h4{
-        font-size: 18px;
+        font-size: @title3;
         color: #333;
         text-align: center;
-        height: 60px;
-        line-height: 60px;
+        height: 1.5rem;
+        line-height: 1.5rem;
         position: relative;
-        top: 50px;
+        top: 1rem;
         span{
-            font-size: 30px;
+            font-size: 0.75rem;
         }
     }
 }
 .middle{
-    width: 800px;
-    margin: 0 auto;
+    margin: 0 0.75rem;
     position:relative;
 }
 .sell-block{
-    width: 800px;
-    margin: 0 auto;
+    margin: 0 0.75rem;
     li{
-        margin-bottom: 100px;
-        min-height: 255px;
+        margin-bottom: 2.5rem;
+        min-height: 6.38rem;
+        img{
+            width: 100%;
+        }
     }
     .sell-detail1{
-        margin-left:400px;
-        padding-top: 20px;
+        padding-top: 0.5rem;
         h4{
-            font-size: 18px;
-            margin-bottom: 39px;
+            font-size: @title1;
+            margin-bottom: 1rem;
+            line-height: 0.8rem;
+            img{
+                width: 1.5rem;
+            }
             span{
-                font-size: 24px;
+                font-size: @title1;
             }
             i{
                 position: relative;
-                top: -20px;
+                top: -0.8rem;
                 margin-right: 5px;
             }
         }
         p{
-            font-size: 12px;
+            font-size: @title3;
             color: #333;
-            line-height: 24px;
-            margin-bottom: 23px;
-            span{
-                color: #6acce8;
-            }
-        }
-    }
-    .sell-detail2{
-        margin-right:400px;
-        h4{
-            font-size: 18px;
-            margin-bottom: 39px;
-            line-height: 30px;
-            span{
-                font-size: 24px;
-            }
-            i{
-                position: relative;
-                top: -20px;
-                margin-right: 5px;
-            }
-        }
-        p{
-            font-size: 12px;
-            color: #333;
-            line-height: 24px;
-            margin-bottom: 23px;
+            line-height: 0.65rem;
+            margin-bottom: 0.2rem;
             span{
                 color: #6acce8;
             }

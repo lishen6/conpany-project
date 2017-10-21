@@ -3568,10 +3568,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   color: #6acce8;
 }
 /* 新闻详情 */
-.sell .channel-block5 {
-  background: #f6f6f6;
-  height: 290px;
-}
 .sell .wl-banner .wl-big-events.channel-baner-title {
   background: url(../img/sell-channel.png) no-repeat left center;
 }
@@ -3583,123 +3579,134 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   background-size: auto 726px;
 }
 .sell .step1 {
-  height: 400px;
+  height: 10rem;
   background: url(../img/sell-step.jpg) no-repeat top center;
+  background-size: 30rem auto;
 }
 .sell .step1 .middle {
   height: 100%;
 }
 .sell .step1 .middle p {
-  font-size: 12px;
+  font-size: 0.55rem;
   color: #333;
   position: absolute;
-  line-height: 25px;
-  width: 390px;
+  line-height: 0.625rem;
+  width: 9rem;
 }
 .sell .step1 .middle p:nth-child(1) {
   color: #fff;
-  font-size: 14px;
-  left: 263px;
-  top: 131px;
+  font-size: 0.35rem;
+  left: 5.3rem;
+  top: 2.9rem;
 }
 .sell .step1 .middle p:nth-child(2) {
-  left: 257px;
-  top: 166px;
+  left: 5.45rem;
+  top: 3.8rem;
   color: #999;
+  font-size: 0.35rem;
 }
 .sell .step1 .middle p:nth-child(3) {
-  left: 257px;
-  top: 196px;
+  left: 6.43rem;
+  top: 4.9rem;
 }
 .sell .step1 .bottom-tips {
-  font-size: 12px;
+  font-size: 0.55rem;
   color: #333;
   position: absolute;
-  bottom: 37px;
+  bottom: 0rem;
   left: 0px;
-  text-align: center;
+  text-align: justify;
   width: 100%;
-  line-height: 24px;
+  line-height: 0.65rem;
 }
 .sell .step2 {
-  width: 800px;
-  margin: 0 auto;
+  margin: 1rem 0.75rem 1.5rem;
   overflow: hidden;
 }
 .sell .step2 li {
   float: left;
   width: 50%;
 }
+.sell .step2 li img {
+  width: 7rem;
+}
 .sell .step2 li:nth-child(2) > p {
-  margin: 10px 0 0 39px;
+  margin: 0.25rem 0 0 1rem;
 }
 .sell .step2 li > p {
-  font-size: 12px;
+  font-size: 0.55rem;
   color: #333;
-  line-height: 24px;
-  margin: 10px 0 0 34px;
+  line-height: 0.65rem;
+  margin: 0.25rem 0 0 0.85rem;
+  text-align: justify;
 }
 .sell .step4 {
-  height: 600px;
+  height: 15rem;
   background: url(../img/sell-step4.jpg) no-repeat top center;
-  background-position-y: 70px;
-  margin-bottom: 110px;
+  background-size: 35rem auto;
+  background-position: -6.5rem 0;
+  margin-bottom: 2.75rem;
 }
 .sell .step4 .middle {
   height: 100%;
 }
 .sell .step4 .middle > p {
-  font-size: 12px;
+  font-size: 0.55rem;
   color: #333;
   position: absolute;
-  line-height: 25px;
-  width: 420px;
+  line-height: 0.625rem;
 }
 .sell .step4 .middle > p:nth-child(1) {
   color: #fff;
-  font-size: 14px;
-  left: 263px;
-  top: 162px;
+  font-size: 0.35rem;
+  left: 6.7rem;
+  top: 4.2rem;
 }
 .sell .step4 .middle > p:nth-child(2) {
-  left: 257px;
-  top: 196px;
+  left: 6.5rem;
+  top: 5rem;
   color: #999;
+  font-size: 0.35rem;
 }
 .sell .step4 .middle > p:nth-child(3) {
-  left: 257px;
-  top: 226px;
+  left: 6.5rem;
+  top: 5.8rem;
+  font-size: 0.35rem;
+  color: #999;
 }
 .sell .step4 .middle .bottom-wz {
   position: absolute;
-  bottom: 20px;
+  bottom: -1rem;
   right: 0px;
-  width: 350px;
+  width: 7.5rem;
 }
 .sell .step4 .middle .bottom-wz > h5 {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.5rem;
   color: #77d0ea;
-  line-height: 24px;
-  margin-bottom: 10px;
+  line-height: 0.65rem;
+  margin-bottom: 0.25rem;
 }
 .sell .step4 .middle .bottom-wz > p {
-  line-height: 25px;
-  font-size: 12px;
+  line-height: 0.65rem;
+  font-size: 0.55rem;
   color: #333;
 }
 .sell .data-info-banner {
-  height: 270px;
+  height: 3rem;
   background: url(../img/sell5.jpg) no-repeat top center;
   background-size: 100% auto;
 }
+.sell .data-info-banner img {
+  width: 1.5rem;
+}
 .sell .data-info-banner h3 {
-  font-size: 0.75rem;
+  height: 3rem;
+  font-size: 0.6rem;
+  line-height: 0.8rem;
   color: #fff;
-  line-height: 26px;
   text-align: center;
-  position: relative;
-  top: 50px;
+  padding-top: 0.4rem;
 }
 .sell .data-info {
   background: #fff;
@@ -3716,107 +3723,90 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .sell .data-info li {
   float: left;
-  width: 25%;
+  width: 50%;
+  margin-bottom: 0.8rem;
 }
 .sell .data-info li:nth-child(4n) {
   margin-right: 0px;
 }
 .sell .data-info li > h5 {
-  font-size: 14px;
+  font-size: 0.75rem;
   color: #6acce8;
-  line-height: 30px;
-  margin-bottom: 12px;
+  line-height: 0.8rem;
+  margin-bottom: 0.3rem;
 }
 .sell .data-info li > p {
-  font-size: 12px;
+  font-size: 0.55rem;
   color: #333;
-  line-height: 25px;
-  margin-bottom: 0.25rem;
+  line-height: 0.7rem;
+  margin-bottom: 0.3rem;
+  text-align: justify;
+  padding-right: 0.5rem;
 }
 .sell .data-info li > div {
-  font-size: 12px;
+  font-size: 0.35rem;
   color: #f0f0f0;
 }
 .sell .data-info li > div span {
   color: #a9a9a9;
 }
 .get-data {
-  height: 600px;
-  background: url(../img/sell2.png) no-repeat center;
+  height: 13rem;
+  background: url(../img/sell2.png) no-repeat top center;
+  background-size: 30rem auto;
 }
 .get-data > h4 {
-  font-size: 18px;
+  font-size: 0.55rem;
   color: #333;
   text-align: center;
-  height: 60px;
-  line-height: 60px;
+  height: 1.5rem;
+  line-height: 1.5rem;
   position: relative;
-  top: 50px;
+  top: 1rem;
 }
 .get-data > h4 span {
-  font-size: 30px;
+  font-size: 0.75rem;
 }
 .middle {
-  width: 800px;
-  margin: 0 auto;
+  margin: 0 0.75rem;
   position: relative;
 }
 .sell-block {
-  width: 800px;
-  margin: 0 auto;
+  margin: 0 0.75rem;
 }
 .sell-block li {
-  margin-bottom: 100px;
-  min-height: 255px;
+  margin-bottom: 2.5rem;
+  min-height: 6.38rem;
+}
+.sell-block li img {
+  width: 100%;
 }
 .sell-block .sell-detail1 {
-  margin-left: 400px;
-  padding-top: 20px;
+  padding-top: 0.5rem;
 }
 .sell-block .sell-detail1 h4 {
-  font-size: 18px;
-  margin-bottom: 39px;
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+  line-height: 0.8rem;
+}
+.sell-block .sell-detail1 h4 img {
+  width: 1.5rem;
 }
 .sell-block .sell-detail1 h4 span {
-  font-size: 24px;
+  font-size: 0.75rem;
 }
 .sell-block .sell-detail1 h4 i {
   position: relative;
-  top: -20px;
+  top: -0.8rem;
   margin-right: 5px;
 }
 .sell-block .sell-detail1 p {
-  font-size: 12px;
+  font-size: 0.55rem;
   color: #333;
-  line-height: 24px;
-  margin-bottom: 23px;
+  line-height: 0.65rem;
+  margin-bottom: 0.2rem;
 }
 .sell-block .sell-detail1 p span {
-  color: #6acce8;
-}
-.sell-block .sell-detail2 {
-  margin-right: 400px;
-}
-.sell-block .sell-detail2 h4 {
-  font-size: 18px;
-  margin-bottom: 39px;
-  line-height: 30px;
-}
-.sell-block .sell-detail2 h4 span {
-  font-size: 24px;
-}
-.sell-block .sell-detail2 h4 i {
-  position: relative;
-  top: -20px;
-  margin-right: 5px;
-}
-.sell-block .sell-detail2 p {
-  font-size: 12px;
-  color: #333;
-  line-height: 24px;
-  margin-bottom: 23px;
-}
-.sell-block .sell-detail2 p span {
   color: #6acce8;
 }
 .fl {
@@ -3918,6 +3908,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   text-indent: -9999px;
   margin-bottom: 0.425rem;
   background-size: auto 90%;
+  margin-top: 1rem;
 }
 .industry .one-div > .three {
   height: 1.25rem;
@@ -4320,12 +4311,14 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .rongzi .data-info li {
   margin-bottom: 0.5rem;
   text-align: center;
+  width: 25%;
 }
 .rongzi .data-info li p {
   font-size: 0.55rem;
   color: #666;
   line-height: 0.65rem;
   margin-top: 0.5rem;
+  text-align: center;
 }
 .rongzi .data-info li h5 {
   color: #333;
