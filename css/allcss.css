@@ -1898,6 +1898,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 /* 服务 */
 .channel-account-block2 {
   background: url(../../img/account-money_06.jpg) no-repeat 12rem 0;
+  margin-top: 1rem;
 }
 .channel-account-block2-div1 {
   text-align: center;
@@ -4153,20 +4154,21 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .channel-btn {
   text-align: center;
-  margin-bottom: 75px;
+  margin-bottom: 1rem;
 }
 .channel-btn h4 {
-  font-size: 24px;
-  line-height: 60px;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
 }
 .channel-btn .channel-btn-a {
   display: inline-block;
-  width: 170px;
-  height: 50px;
+  width: 4.25rem;
+  height: 1.25rem;
   background: #6acce8;
-  line-height: 50px;
+  line-height: 1.25rem;
   text-align: center;
   color: #fff;
+  font-size: 0.6rem;
 }
 /* 销售 */
 .industry {
@@ -4346,15 +4348,15 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin-right: 0px;
 }
 .industry .industry-logo-list li .img-div {
-  height: 4rem;
-  background: url(../img/anli-bg.png) no-repeat left center;
+  height: 3.5rem;
+  margin-bottom: 0.5rem;
   background-size: 100% auto;
   -webkit-box-shadow: 0px 0px 0.25rem rgba(212, 212, 212, 0.4);
           box-shadow: 0px 0px 0.25rem rgba(212, 212, 212, 0.4);
 }
 .industry .industry-logo-list li .img-div > img {
   width: 90%;
-  margin-top: 0.7rem;
+  margin-top: 0.5rem;
   margin-left: 0.3rem;
 }
 .industry .industry-logo-list li h5 {
