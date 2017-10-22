@@ -4175,7 +4175,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .industry .threetab {
   height: 1.25rem;
-  margin: 0 auto 0.75rem;
+  margin: 0 auto 0.5rem;
   position: relative;
 }
 .industry .threetab p {
@@ -4190,6 +4190,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   cursor: pointer;
+  white-space: nowrap;
 }
 .industry .threetab p.active {
   color: #6acce8;
@@ -4212,13 +4213,15 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   background-size: auto 62%;
 }
 .industry .threetab p.threetab2 {
+  width: 5.8rem;
   background: url(../img/threetab2.png) no-repeat left center;
-  margin-right: 0.5rem;
+  margin-right: 0.3rem;
   background-size: auto 62%;
 }
 .industry .threetab p.threetab3 {
+  width: 5.6rem;
   background: url(../img/threetab3.png) no-repeat left center;
-  margin-left: 0.5rem;
+  margin-left: 0rem;
   background-size: auto 62%;
 }
 .industry .threetab i {
