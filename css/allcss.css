@@ -4473,7 +4473,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .industry-detail .twomodules > div {
   float: left;
   width: 50%;
-  height: 6.75rem;
+  height: 7.5rem;
   /*Firefox3.5+*/
   -webkit-box-sizing: border-box;
   /*Safari3.2+*/
@@ -4482,7 +4482,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   -ms-box-sizing: border-box;
   /*IE8*/
   box-sizing: border-box;
-  padding: 0.5rem;
+  padding: 1.5rem 1rem 0 0.5rem;
 }
 .industry-detail .twomodules > div h4 {
   font-size: 0.75rem;
@@ -4504,12 +4504,12 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .industry-detail .twomodules .first-module {
   background: url(../img/first-module.png) no-repeat center;
-  background-size: 100% auto;
+  background-size: 100% 100%;
 }
 .industry-detail .twomodules .second-module {
   background: url(../img/second-module.png) no-repeat center;
-  background-size: 100% auto;
-  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  background-size: 100% 100%;
+  padding: 1.5rem 0.5rem 0.5rem 1.5rem;
 }
 /* 行业案例详情 */
 .rongzi .data {
