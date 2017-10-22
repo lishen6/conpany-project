@@ -3659,19 +3659,15 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   line-height: 0.75rem;
 }
 .channel-block5-ul {
-  padding-top: 2rem;
   margin: 1rem auto 0;
-  background: url(../img/channel-block5-logo.png) no-repeat left top;
-  background-size: 95% auto;
   overflow: hidden;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 .channel-block5-ul li {
   width: 20%;
   float: left;
+}
+.channel-block5-ul li > img {
+  width: 4rem;
 }
 .channel-block5-ul li p {
   font-size: 0.55rem;
@@ -3684,6 +3680,9 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   font-size: 0.5rem;
   color: #999;
   line-height: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .channel-block5-ul li a {
   font-size: 0.5rem;
@@ -4471,7 +4470,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .industry-detail .twomodules > div {
   float: left;
   width: 50%;
-  height: 6.75rem;
+  height: 7.5rem;
   /*Firefox3.5+*/
   -webkit-box-sizing: border-box;
   /*Safari3.2+*/
@@ -4480,7 +4479,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   -ms-box-sizing: border-box;
   /*IE8*/
   box-sizing: border-box;
-  padding: 0.5rem;
+  padding: 1.5rem 1rem 0 0.5rem;
 }
 .industry-detail .twomodules > div h4 {
   font-size: 0.75rem;
@@ -4502,12 +4501,12 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .industry-detail .twomodules .first-module {
   background: url(../img/first-module.png) no-repeat center;
-  background-size: 100% auto;
+  background-size: 100% 100%;
 }
 .industry-detail .twomodules .second-module {
   background: url(../img/second-module.png) no-repeat center;
-  background-size: 100% auto;
-  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  background-size: 100% 100%;
+  padding: 1.5rem 0.5rem 0.5rem 1.5rem;
 }
 /* 行业案例详情 */
 .rongzi .data {
