@@ -350,15 +350,14 @@
     }
 }
 .channel-block5-ul{
-    padding-top: 2rem;
     margin: 1rem auto 0;
-    background: url(../img/channel-block5-logo.png) no-repeat left top;
-    background-size: 95% auto;
     overflow: hidden;
-    display: flex;
     li{
         width: 20%;
         float: left;
+        >img{
+            width: 4rem;
+        }
         p{
             font-size: 0.55rem;
             color: #333;
@@ -370,6 +369,9 @@
             font-size: 0.5rem;
             color: #999;
             line-height: 1rem;
+            white-space:nowrap; 
+        overflow:hidden; 
+        text-overflow:ellipsis;
         }
         a{
             font-size: 0.5rem;

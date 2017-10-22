@@ -3661,19 +3661,15 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   line-height: 0.75rem;
 }
 .channel-block5-ul {
-  padding-top: 2rem;
   margin: 1rem auto 0;
-  background: url(../img/channel-block5-logo.png) no-repeat left top;
-  background-size: 95% auto;
   overflow: hidden;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 .channel-block5-ul li {
   width: 20%;
   float: left;
+}
+.channel-block5-ul li > img {
+  width: 4rem;
 }
 .channel-block5-ul li p {
   font-size: 0.55rem;
@@ -3686,6 +3682,9 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   font-size: 0.5rem;
   color: #999;
   line-height: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .channel-block5-ul li a {
   font-size: 0.5rem;
