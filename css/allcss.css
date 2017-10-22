@@ -201,7 +201,7 @@ body {
   -moz-tap-highlight-color: rgba(0, 0, 0, 0);
   -ms-tap-highlight-color: rgba(0, 0, 0, 0);
   tap-highlight-color: rgba(0, 0, 0, 0);
-  font-family: -apple-system,'Helvetica Neue',\5FAE\8F6F\96C5\9ED1,'Tohoma';
+  font-family: -apple-system,'Microsoft YaHei', '微软雅黑','Helvetica Neue',\5FAE\8F6F\96C5\9ED1,'Tohoma';
 }
 ol,
 ul {
@@ -447,7 +447,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   position: absolute;
   top: 2rem;
   right: 0;
-  z-index: 3;
+  z-index: 99999999;
   border-top: 1px #e4e4e4 solid;
   padding: 0 0 0.3rem 1.5rem;
   -webkit-box-sizing: border-box;
@@ -2658,7 +2658,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .environment .achievement h4,
 .environment .risk h4 {
-  font-size: 0.6rem;
+  font-size: 0.45rem;
   color: #333;
   line-height: 0.75rem;
   margin-bottom: 0.125rem;
@@ -2666,7 +2666,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .environment .achievement p,
 .environment .risk p {
-  font-size: 0.55rem;
+  font-size: 0.45rem;
   line-height: 0.8rem;
   color: #333;
 }
