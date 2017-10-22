@@ -3043,6 +3043,20 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   font-weight: 500;
 }
 /* 大事件 */
+.bread-nav {
+  position: absolute;
+  bottom: -1rem;
+  left: 3%;
+  z-index: 9999;
+}
+.bread-nav a {
+  padding: 0 0.25rem;
+  font-size: 0.6rem;
+  color: #333;
+}
+.bread-nav a.current {
+  color: #6ACCE8;
+}
 .about-activity {
   width: 100%;
   overflow: hidden;
