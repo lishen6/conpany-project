@@ -1125,27 +1125,27 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .headtech1-ul li h4.headtech1-ul-img1 {
   background: url(../img/headteach22.png) no-repeat left center;
-  background-size: auto 85%;
+  background-size: auto 70%;
 }
 .headtech1-ul li h4.headtech1-ul-img2 {
   background: url(../img/headteach23.png) no-repeat left center;
-  background-size: auto 85%;
+  background-size: auto 70%;
 }
 .headtech1-ul li h4.headtech1-ul-img3 {
   background: url(../img/headteach24.png) no-repeat left center;
-  background-size: auto 85%;
+  background-size: auto 70%;
 }
 .headtech1-ul li h4.headtech1-ul-img4 {
   background: url(../img/headteach25.png) no-repeat left center;
-  background-size: auto 85%;
+  background-size: auto 70%;
 }
 .headtech1-ul li h4.headtech1-ul-img5 {
   background: url(../img/headteach26.png) no-repeat left center;
-  background-size: auto 85%;
+  background-size: auto 70%;
 }
 .headtech1-ul li h4.headtech1-ul-img6 {
   background: url(../img/headteach27.png) no-repeat left center;
-  background-size: auto 85%;
+  background-size: auto 70%;
 }
 .headtech1-ul li p {
   font-size: 0.65rem;
@@ -1174,7 +1174,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .headtech2 .headtech2-left1 {
   width: 45%;
   overflow: hidden;
-  font-size: 0.65rem;
+  font-size: 0.4rem;
   color: #999;
   line-height: 0.9rem;
   position: absolute;
@@ -1182,6 +1182,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   right: -1px;
 }
 .headtech2 .headtech2-left1 {
+  width: 42%;
   position: absolute;
   top: 15.3rem;
   left: 10px;
@@ -1237,21 +1238,23 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .headtech3-center .headtech3-title3,
 .headtech3-center .headtech3-title4,
 .headtech3-center .headtech3-title5 {
-  width: 8.2rem;
-  font-size: 0.45rem;
+  width: 6.35rem;
+  font-size: 0.4rem;
   color: #999;
-  line-height: 0.75rem;
+  line-height: 0.65rem;
   position: absolute;
   top: 4.5rem;
   left: 0.75rem;
 }
 .headtech3-center .headtech3-title4 {
-  font-size: 0.45rem;
+  width: 6.1rem;
+  font-size: 0.4rem;
   top: 15.7rem;
   left: 0.9rem;
 }
 .headtech3-center .headtech3-title5 {
-  font-size: 0.45rem;
+  width: 6.35rem;
+  font-size: 0.4rem;
   top: 24.5rem;
   left: 0.75rem;
 }
@@ -1267,13 +1270,14 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   height: 2.5rem;
   margin: 0 auto;
   background: url(../img/headteach52.png) no-repeat left top;
-  padding: 1.9rem 0 0 1rem;
+  padding: 2.2rem 0 0 1rem;
 }
 .headtech4 .headtech4-title span {
   display: inline-block;
   background: #f6f6f6;
   font-size: 0.9rem;
   color: #333;
+  white-space: nowrap;
 }
 .headtech4 .headtech4-ul {
   margin: 0 auto;
@@ -1334,8 +1338,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   font-size: 0.65rem;
   color: #6acce8;
   background: url(../img/headteach56.png) no-repeat;
-  background-position: 5rem 0.25rem;
-  padding-left: 0.2rem;
+  background-position: 4.7rem 0.35rem;
+  padding-left: 0.65rem;
   margin: 0.5rem auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1621,8 +1625,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin: 2.5rem 0 1.3rem 0;
 }
 .service2-center-ul {
-  width: 100%;
-  overflow: hidden;
+  width: 200%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1646,13 +1649,13 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin-bottom: 0.28rem;
 }
 .service2-center-ul li h4 {
-  font-size: 0.75rem;
+  font-size: 0.6rem;
   color: #333333;
   line-height: 1rem;
   padding-left: 0.28rem;
 }
 .service2-center-ul li p {
-  font-size: 0.65rem;
+  font-size: 0.55rem;
   color: #333;
   line-height: 0.85rem;
   padding: 0 5px 0 0.4rem;
@@ -1668,24 +1671,24 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   height: 5rem;
   float: left;
   background: url(../img/service26.png) no-repeat left center;
-  background-size: 2rem;
+  background-size: 1.8rem;
   padding: 0.5rem 0 0 2.2rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 .service2-ul2 li h4 {
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   color: #959595;
   line-height: 1rem;
 }
 .service2-ul2 li p {
-  font-size: 0.65rem;
+  font-size: 0.55rem;
   color: #959595;
   line-height: 0.9rem;
 }
 .service2-ul2 li.lst {
   background: url(../img/service27.png) no-repeat left center;
-  background-size: 2rem;
+  background-size: 1.8rem;
 }
 .service2-div {
   margin-top: 1rem;
@@ -1737,14 +1740,14 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   overflow: hidden;
 }
 .service3-top h3 {
-  font-size: 0.85rem;
+  font-size: 0.7rem;
   color: #fff;
   line-height: 1rem;
   text-align: center;
   margin-top: 2.5rem;
 }
 .service3-top h4 {
-  font-size: 0.65rem;
+  font-size: 0.6rem;
   color: #edebeb;
   line-height: 1rem;
   font-weight: normal;
@@ -1752,7 +1755,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin-top: 2%;
 }
 .service3-top p {
-  font-size: 0.65rem;
+  font-size: 0.6rem;
   color: #edebeb;
   line-height: 1rem;
   text-align: center;
@@ -1765,7 +1768,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .service3-bottom {
   width: 100%;
   height: 12rem;
-  margin: 0 auto;
+  margin: -0.8rem auto 0;
   background: #333;
 }
 .service3-bottom .service3-bottom-center {
@@ -1774,12 +1777,12 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .service3-bottom img {
   display: block;
-  width: 38%;
+  width: 33%;
   float: left;
-  margin-top: 2rem;
+  margin: 2rem 0 0 1rem;
 }
 .service3-bottom .service3-bottom-ul {
-  width: 60%;
+  width: 58%;
   float: right;
   margin-top: 1.5rem;
 }
@@ -1787,7 +1790,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   height: 1.25rem;
   background: url(../img/service33.png) no-repeat left center;
   background-size: auto 100%;
-  padding-left: 2rem;
+  padding-left: 1.6rem;
   margin-bottom: 0.6rem;
 }
 .service3-bottom .service3-bottom-ul li.lst1 {
@@ -1807,17 +1810,17 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   background-size: auto 100%;
 }
 .service3-bottom .service3-bottom-ul li h4 {
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   color: #6c6c6c;
   line-height: 1rem;
 }
 .service3-bottom .service3-bottom-ul li p {
-  font-size: 0.65rem;
+  font-size: 0.55rem;
   color: #999;
 }
 .service4 {
   width: 100%;
-  height: 16rem;
+  height: 14rem;
   background: #fff url(../img/service43.png) no-repeat right;
   background-size: 40%;
   background-position-y: -0.5rem;
@@ -1829,40 +1832,39 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin: 1.6rem auto 0;
 }
 .service4 .service4-center > p {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   color: #333;
   font-weight: bold;
 }
 .service4 .service4-box {
-  width: 20rem;
+  width: 90%;
   height: 6rem;
-  margin-bottom: 1rem;
 }
 .service4 .service4-box .fir1 {
-  width: 10rem;
-  height: 6rem;
+  width: 40%;
+  height: 5rem;
   float: left;
   background: url(../img/service41.jpg) no-repeat center center;
   background-size: 100%;
 }
 .service4 .service4-box .fir2 {
-  width: 10rem;
+  width: 40%;
   height: 6rem;
   float: right;
   background: url(../img/service42.png) no-repeat center;
   background-size: 100%;
-  background-position-y: 2.25rem;
+  background-position-y: 1.75rem;
 }
 .service4-bottom {
   width: 100%;
   height: 4.4rem;
 }
 .service4-bottom p {
-  width: 4.1rem;
-  height: 1.5rem;
+  width: 3rem;
+  height: 1.3rem;
   text-align: center;
-  line-height: 1.5rem;
-  font-size: 0.85rem;
+  line-height: 1.3rem;
+  font-size: 0.6rem;
   color: #fff;
   background: #6acce8;
   font-weight: bold;
@@ -1874,9 +1876,10 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   padding-left: 2.26rem;
 }
 .service4-bottom div h4 {
+  width: 80%;
   font-weight: normal;
   color: #333333;
-  font-size: 0.85rem;
+  font-size: 0.65rem;
   line-height: 1rem;
 }
 .channel-btn {
@@ -4818,10 +4821,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .rongzi .channel-block5 p {
   line-height: 0.65rem;
   margin-top: 0.25rem;
-}
-.rongzi .channel-block5 .channel-block5-ul {
-  background: url(../img/rong10.jpg) no-repeat left top;
-  background-size: 100% auto;
 }
 .rongzi .index-block6 img {
   margin-top: 0.65rem;
