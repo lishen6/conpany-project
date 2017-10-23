@@ -2237,7 +2237,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .account3-bottom-top-ul li {
   float: left;
   width: 45%;
-  height: 10.7rem;
+  height: 9.7rem;
   position: relative;
   border: 1px #b4b4b4 solid;
   padding-top: 0.95rem;
@@ -2257,17 +2257,20 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin-left: -1.25rem;
 }
 .account3-bottom-top-ul li h3 {
-  font-size: 0.75rem;
+  width: 85%;
+  margin: 0 auto;
+  font-size: 0.7rem;
   color: #333;
-  line-height: 1.1rem;
-  text-align: center;
+  line-height: 1.5rem;
+  text-align: left;
 }
 .account3-bottom-top-ul li p {
+  width: 85%;
+  margin: 0 auto;
   font-size: 0.65rem;
   color: #333;
   line-height: 0.9rem;
-  width: 75%;
-  margin: 0 auto;
+  text-align: left;
 }
 .account3-bottom-top-ul li.lst {
   float: right;
@@ -2301,40 +2304,35 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .account3-bottom-bottom-ul {
   position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: space-around;
-      -ms-flex-pack: distribute;
-          justify-content: space-around;
 }
 .account3-bottom-bottom-ul li {
-  width: 50%;
+  width: 95%;
+  margin: 0 auto;
   height: 3.75rem;
   float: left;
-  padding-left: 3rem;
+  padding-left: 6.4rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: url(../img/account39.png) no-repeat left;
-  background-size: 3rem;
+  background-size: 6rem;
 }
 .account3-bottom-bottom-ul li h3 {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   color: #333;
   line-height: 1rem;
 }
 .account3-bottom-bottom-ul li p {
-  font-size: 0.65rem;
+  font-size: 0.6rem;
   color: #333;
   line-height: 0.9rem;
   word-break: break-word;
 }
 .account3-bottom-bottom-ul li.lst {
-  padding: 0 0.25rem 0 3rem;
+  padding: 0 0.25rem 0 6.4rem;
   background: url(../img/account310.png) no-repeat;
-  background-size: 3rem;
+  background-size: 6rem;
   background-position-x: -0.4rem;
+  margin-top: 1rem;
 }
 /* 渠道管理对账 */
 .index-block1.about-context-banner {
@@ -3302,7 +3300,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .channel-box {
   overflow: hidden;
   position: relative;
-  height: 14rem;
+  height: 26rem;
   margin-bottom: 0.5rem;
 }
 .channel-box-bg {
@@ -3336,17 +3334,23 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .channel-block2-ul {
   margin: 1rem 0.75rem 0;
-  height: 10rem;
+  height: 21rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 .channel-block2-ul li {
-  width: 7rem;
-  height: 10rem;
+  width: 46%;
+  height: 10.2rem;
   display: inline-block;
-  margin-right: 0.8rem;
+  margin-bottom: 1.5rem;
   position: relative;
   background: #fff;
   border: 1px #666666 solid;
@@ -3359,7 +3363,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .channel-block2-ul li .channel-num1,
 .channel-block2-ul li .channel-num2,
-.channel-block2-ul li .channel-num3 {
+.channel-block2-ul li .channel-num3,
+.channel-block2-ul li .channel-num4 {
   width: 2rem;
   height: 1.2rem;
   display: block;
@@ -3376,6 +3381,10 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .channel-block2-ul li .channel-num3 {
   background: #fff url(../img/channel-num3.png) no-repeat center;
+  background-size: 0.65rem auto;
+}
+.channel-block2-ul li .channel-num4 {
+  background: #fff url(../img/channel-num44.png) no-repeat center;
   background-size: 0.65rem auto;
 }
 .channel-block2-ul li .channel-num1-icon {
@@ -3555,14 +3564,12 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   right: 1rem;
 }
 .channel-block4-top {
-  height: 2.4rem;
-  background: url(../img/channel-block4-logo.png) no-repeat left top;
-  background-size: 5rem auto;
+  height: 1.4rem;
   overflow: hidden;
   border-bottom: 1px #e1e1e1 solid;
 }
 .channel-block4-top p {
-  margin-top: 1.5rem;
+  margin: 0.2rem 0 0;
   font-size: 0.55rem;
   color: #6acce8;
   font-weight: bold;
@@ -3574,13 +3581,13 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .channel-block4-center {
   height: 6rem;
-  background: url(../img/channel-04-bg.jpg) no-repeat left top;
-  background-size: 100%;
+  background: url(../img/channel-04-bg.png) no-repeat left top;
+  background-size: 83%;
   margin: 0.5rem 0 0;
   position: relative;
 }
 .channel-block4-center span {
-  font-size: 0.5rem;
+  font-size: 0.45rem;
   color: #333333;
   position: absolute;
 }
@@ -3594,19 +3601,19 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .channel-block4-center span.block4-span3 {
   top: 85px;
-  left: 185px;
+  left: 147px;
 }
 .channel-block4-center span.block4-span4 {
-  top: 5px;
-  left: 323px;
+  top: -6px;
+  left: 265px;
 }
 .channel-block4-center span.block4-span5 {
-  top: 53px;
-  left: 323px;
+  top: 35px;
+  left: 266px;
 }
 .channel-block4-center span.block4-span6 {
-  top: 102px;
-  left: 323px;
+  top: 76px;
+  left: 267px;
 }
 .channel-block4-bottom .channel-block4-bottom-left,
 .channel-block4-bottom .channel-block4-bottom-right {
@@ -4019,8 +4026,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .sell .step4 .middle .bottom-wz > p {
   line-height: 0.65rem;
-  font-size: 0.55rem;
-  color: #333;
+  font-size: 0.35rem;
+  color: #999;
 }
 .sell .data-info-banner {
   height: 3rem;
@@ -4081,9 +4088,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   color: #a9a9a9;
 }
 .get-data {
-  height: 13rem;
-  background: url(../img/sell2.png) no-repeat top center;
-  background-size: 30rem auto;
+  height: 14.5rem;
 }
 .get-data > h4 {
   font-size: 0.55rem;
@@ -4096,6 +4101,15 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .get-data > h4 span {
   font-size: 0.75rem;
+}
+.get-data > div {
+  width: 100%;
+  height: 13rem;
+  overflow-x: auto;
+}
+.get-data > div img {
+  display: block;
+  height: 100%;
 }
 .middle {
   margin: 0 0.75rem;
@@ -4133,7 +4147,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .sell-block .sell-detail1 p {
   font-size: 0.55rem;
   color: #333;
-  line-height: 0.65rem;
+  line-height: 0.95rem;
   margin-bottom: 0.2rem;
 }
 .sell-block .sell-detail1 p span {
@@ -4152,13 +4166,14 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .channel-btn h4 {
   font-size: 0.75rem;
   line-height: 1.5rem;
+  margin-bottom: 0.6rem;
 }
 .channel-btn .channel-btn-a {
   display: inline-block;
   width: 4.25rem;
-  height: 1.25rem;
+  height: 0.9rem;
   background: #6acce8;
-  line-height: 1.25rem;
+  line-height: 0.9rem;
   text-align: center;
   color: #fff;
   font-size: 0.6rem;
@@ -4518,7 +4533,11 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .rongzi .data .fl {
   position: relative;
-  width: 50%;
+  width: 90%;
+  float: none;
+  margin: 0 auto;
+  left: 1rem;
+  z-index: 3;
 }
 .rongzi .data .fl > img {
   width: 90%;
@@ -4526,19 +4545,24 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .rongzi .data .fl > span {
   position: absolute;
   text-align: center;
-  top: 1.6rem;
+  top: 3.1rem;
   left: 0.325rem;
   font-size: 0.35rem;
 }
 .rongzi .data .fl > span:nth-child(3) {
-  left: 2.75rem;
+  left: 5.75rem;
 }
 .rongzi .data .fl > span:nth-child(4) {
-  left: 5.7rem;
+  left: 10.9rem;
 }
 .rongzi .data .fr {
   position: relative;
-  width: 50%;
+  width: 93%;
+  float: none;
+  margin: 0 auto;
+  left: 0.6rem;
+  top: 0.5rem;
+  z-index: 2;
 }
 .rongzi .data .fr > img {
   width: 90%;
@@ -4546,15 +4570,15 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .rongzi .data .fr > span {
   position: absolute;
   text-align: center;
-  top: 1.325rem;
+  top: 2.125rem;
   left: 0.375rem;
   font-size: 0.35rem;
 }
 .rongzi .data .fr > span:nth-child(3) {
-  left: 4rem;
+  left: 6.7rem;
 }
 .rongzi .data .fr > span:nth-child(4) {
-  left: 6.425rem;
+  left: 11.225rem;
 }
 .rongzi .two-model-div {
   background: url(../img/rong-step.jpg) no-repeat bottom center;
@@ -4583,7 +4607,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   /*IE8*/
   box-sizing: border-box;
   position: relative;
-  margin-right: 0.5rem;
+  margin: 0.2rem 0.5rem 0 0;
 }
 .rongzi .two-model dd:last-child {
   margin-right: 0px;
@@ -4807,6 +4831,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .rongzi .channel-block5 {
   background: #fff;
   padding: 0px;
+  margin-top: 1rem;
 }
 .rongzi .channel-block5 .wl-title {
   padding-top: 1rem;
@@ -4822,7 +4847,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   font-size: 0.75rem;
   color: #333;
   text-align: center;
-  line-height: 1rem;
+  line-height: 2rem;
   font-weight: 600;
   padding-top: 1.25rem;
 }
