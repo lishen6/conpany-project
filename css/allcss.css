@@ -1906,15 +1906,15 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   text-align: center;
   font-size: 0.75rem;
   color: #352e2c;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0rem;
   line-height: 1.4rem;
   font-weight: bold;
+  padding-top: 0.5rem;
 }
 .channel-account-block2-div1 img {
-  width: 2rem;
-  height: 2rem;
+  width: 1rem;
+  height: 1rem;
   position: relative;
-  top: 0.625rem;
 }
 .channel-account-block2-div1 b {
   font-size: 1rem;
@@ -1970,27 +1970,27 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   background-size: 100% 100%;
 }
 .channel-account-block2-ul1 li img {
-  width: 2rem;
+  width: 1.6rem;
   display: block;
   margin: 0rem auto 0;
   position: relative;
-  top: -1.3rem;
+  top: -0.8rem;
 }
 .channel-account-block2-ul1 li h4 {
-  font-size: 0.45rem;
+  font-size: 0.6rem;
   color: #333;
   text-align: center;
   margin-bottom: 0.5rem;
 }
 .channel-account-block2-ul1 li p {
-  font-size: 0.35rem;
+  font-size: 0.55rem;
   line-height: 0.85rem;
   color: #666666;
   text-align: justify;
 }
 .channel-account-block2-ul1 li span {
   width: 3.5rem;
-  margin-left: 1.8rem;
+  margin-left: 1rem;
 }
 .channelaccount-block2 {
   width: 100%;
@@ -2001,17 +2001,17 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .channelaccount-block2-box {
   width: 100%;
   overflow: hidden;
-  margin: 0.75rem auto 0;
+  margin: 0.5rem auto 0;
 }
 .channelaccount-block2-top {
   width: 90%;
-  height: 3.75rem;
+  height: 3rem;
   margin: 0 auto;
-  font-size: 0.85rem;
+  font-size: 0.6rem;
   color: #fff;
   background: url(../img/account-block2-bg2_03.png) no-repeat left top;
   background-size: 4rem;
-  padding: 1.35rem 0 0 0;
+  padding: 1.5rem 0 0 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-weight: bold;
@@ -2027,7 +2027,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .account2-ul li {
   width: 42%;
-  height: 15rem;
+  height: 13.5rem;
   margin: 0 4%;
   float: left;
   overflow: hidden;
@@ -2125,7 +2125,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .channelaccount-block3 {
   width: 100%;
   min-height: 15.25rem;
-  margin-top: 3.1rem;
+  margin-top: 1.5rem;
   overflow: hidden;
 }
 .channelaccount-block3-bg {
@@ -2135,9 +2135,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   background-size: 100%;
 }
 .channelaccount-block3-top {
-  width: 20.3rem;
   overflow: hidden;
-  margin: 0 auto;
+  margin: 0 0.75rem;
 }
 .channelaccount-block3-top .account3-top-title {
   text-align: center;
@@ -2160,12 +2159,10 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin-right: 0.25rem;
 }
 .channelaccount-block3-top .account3-top-content {
-  width: 20.2rem;
-  height: 5.4rem;
   background: #fff;
 }
 .channelaccount-block3-top .account3-top-content div {
-  width: 45%;
+  width: 48%;
   float: left;
   padding: 0.75rem;
   -webkit-box-sizing: border-box;
@@ -2186,14 +2183,12 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   font-size: 0.65rem;
   color: #333;
   line-height: 0.85rem;
-  width: 7rem;
 }
 .channelaccount-block3-bottom {
   width: 100%;
-  min-height: 20.2rem;
   overflow: hidden;
   position: relative;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 .channelaccount-block3-bottom .cardHand {
   position: absolute;
@@ -2202,9 +2197,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   z-index: 99;
 }
 .account3-bottom-top {
-  width: 20.2rem;
   overflow: hidden;
-  margin: 0 auto;
+  margin: 0 0.75rem;
   position: relative;
   z-index: 9;
 }
@@ -2242,7 +2236,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .account3-bottom-top-ul li {
   float: left;
-  width: 8.825rem;
+  width: 45%;
   height: 10.7rem;
   position: relative;
   border: 1px #b4b4b4 solid;
@@ -2283,9 +2277,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   background-size: 100% 100%;
 }
 .account3-bottom-bottom {
-  width: 20.2rem;
   height: 8.325rem;
-  margin: 0 auto;
+  margin: 0 0.75rem;
   position: relative;
   z-index: 10;
 }
@@ -2293,7 +2286,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   text-align: center;
   font-size: 0.75rem;
   color: #333;
-  margin: 3.75rem 0 1rem;
+  margin: 1rem 0 1rem;
   font-weight: bold;
 }
 .account3-bottom-bottom .account3-bottom-bottom-title b {
@@ -2307,7 +2300,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin-right: 0.25rem;
 }
 .account3-bottom-bottom-ul {
-  width: 100%;
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2321,11 +2313,11 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   width: 50%;
   height: 3.75rem;
   float: left;
-  padding-left: 5rem;
+  padding-left: 3rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: url(../img/account39.png) no-repeat left;
-  background-size: 5rem;
+  background-size: 3rem;
 }
 .account3-bottom-bottom-ul li h3 {
   font-size: 0.75rem;
@@ -2339,9 +2331,9 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   word-break: break-word;
 }
 .account3-bottom-bottom-ul li.lst {
-  padding: 0 0.25rem 0 3.7rem;
+  padding: 0 0.25rem 0 3rem;
   background: url(../img/account310.png) no-repeat;
-  background-size: 5rem;
+  background-size: 3rem;
   background-position-x: -0.4rem;
 }
 /* 渠道管理对账 */
@@ -3646,8 +3638,9 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   float: right;
 }
 .channel-block5 {
-  margin: 0 0.75rem;
+  padding: 0 0.75rem 0.5rem;
   overflow: hidden;
+  background: #f8f8f8;
 }
 .channel-block5 > h4 {
   font-size: 0.6rem;
