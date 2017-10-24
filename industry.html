@@ -76,9 +76,10 @@
 	</div>
 	<div class="one-div">
 		<h3>主要案例</h3>
-		<div class="threetab"><p class="threetab1 active" data-index="0">食品饮料酒水</p><i class="lefti"></i><p class="threetab2" data-index="1">消费电器电子</p><i class="righti"></i><p class="threetab3" data-index="2">汽车配件和医疗</p></div>
+		<div class="threetab" style="display: flex;justify-content: center;"><p class="threetab1 active" data-index="0" style="position: relative;left: -0.2rem;">食品饮料酒水</p><p class="threetab0" data-index="1">日化化妆品</p></div>
+		<div class="threetab" style="display: flex;justify-content: center;"><p class="threetab2" data-index="2">消费电器电子</p><p class="threetab3" data-index="3">汽车配件和医疗</p></div>
 		<div class="threetabul">
-			<ul class="five-anli" >
+			<ul class="five-anli" style="padding-left: 2.8rem;">
 				<li>
 					<div class="img-div">
 						<img src="img/logo/clogo-7.jpg" />
@@ -94,13 +95,24 @@
 					<h5>雀巢</h5>
 					<p>雀巢渠道管理解决方案</p>
 					<a href="#">获取案例分析<img src="img/right.jpg"  /></a>
-				</li>
+				</li>				
+			</ul>
+			<ul class="five-anli hide" style="padding-left: 2.8rem;">
 				<li>
 					<div class="img-div">
 						<img src="img/logo/clogo-6.jpg" />
 					</div>
 					<h5>纳爱斯</h5>
 					<p>纳爱斯渠道管理解决方案</p>
+					<a href="#">获取案例分析<img src="img/right.jpg"  /></a>
+				</li>
+				<li>
+					<div class="img-div">
+						<img src="img/logo/clogo-5.jpg" style="width: 70%;margin: 1.4rem 0 0 0.8rem;"/>
+					</div>
+					<h5>高露洁</h5>
+					<p>...</p>
+					<p>&nbsp;</p>
 					<a href="#">获取案例分析<img src="img/right.jpg"  /></a>
 				</li>
 			</ul>
@@ -700,6 +712,7 @@
 			var _index = $(this).attr('data-index');
 			console.log(_index);
 			$(this).addClass("active").siblings().removeClass("active");
+			$(this).parent().siblings('.threetab').children('p').removeClass("active");
 			$(".threetabul").children("ul").hide().eq(_index).show();
 		}
 	})

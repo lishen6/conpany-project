@@ -4204,6 +4204,10 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .industry .threetab p.active {
   color: #6acce8;
 }
+.industry .threetab p.active.threetab0 {
+  background: url(../img/threetab00.png) no-repeat left center;
+  background-size: auto 62%;
+}
 .industry .threetab p.active.threetab1 {
   background: url(../img/threetab11.png) no-repeat left center;
   background-size: auto 62%;
@@ -4214,6 +4218,11 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .industry .threetab p.active.threetab3 {
   background: url(../img/threetab33.png) no-repeat left center;
+  background-size: auto 62%;
+}
+.industry .threetab p.threetab0 {
+  background: url(../img/threetab0.png) no-repeat left center;
+  margin: 0 0.5rem 0 0.7rem;
   background-size: auto 62%;
 }
 .industry .threetab p.threetab1 {
