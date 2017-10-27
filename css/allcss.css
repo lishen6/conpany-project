@@ -805,6 +805,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   padding-left: 5.4rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  padding-bottom: 2rem;
 }
 .index-block4-ul li {
   color: #fff;
@@ -2376,6 +2377,22 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   color: #fff;
   line-height: 1rem;
 }
+.banner-title-two {
+  display: inline-block;
+  position: absolute;
+  top: 3.5rem;
+  left: 2rem;
+  padding-right: 1rem;
+}
+.banner-title-two img {
+  height: 2rem;
+  margin-bottom: 0.3rem;
+}
+.banner-title-two p {
+  font-size: 0.55rem;
+  color: #fff;
+  line-height: 1rem;
+}
 .about-contect .centerBox-title {
   text-align: center;
   margin-bottom: 0.8rem;
@@ -2850,6 +2867,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .icon-module li:last-child {
   margin-right: 0px;
+  width: 2.6rem;
 }
 .icon-module li .img-div {
   overflow: hidden;
@@ -3540,6 +3558,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .channel-block4 {
   width: 100%;
+  height: 21rem;
   overflow: hidden;
   position: relative;
   border-top: 0.75rem #7ad1d5 solid;
@@ -3555,7 +3574,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   position: absolute;
   top: 0;
   right: 0rem;
-  left: 1.7rem;
+  left: 0.75rem;
 }
 .channel-block4-box {
   position: absolute;
@@ -3604,16 +3623,16 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   left: 147px;
 }
 .channel-block4-center span.block4-span4 {
-  top: -6px;
-  left: 265px;
+  top: 0.25rem;
+  left: 14rem;
 }
 .channel-block4-center span.block4-span5 {
-  top: 35px;
-  left: 266px;
+  top: 2.3rem;
+  left: 14rem;
 }
 .channel-block4-center span.block4-span6 {
-  top: 76px;
-  left: 267px;
+  top: 4.3rem;
+  left: 14rem;
 }
 .channel-block4-bottom .channel-block4-bottom-left,
 .channel-block4-bottom .channel-block4-bottom-right {
@@ -4119,7 +4138,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin: 0 0.75rem;
 }
 .sell-block li {
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
   min-height: 6.38rem;
 }
 .sell-block li img {
@@ -4131,7 +4150,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .sell-block .sell-detail1 h4 {
   font-size: 0.75rem;
   margin-bottom: 1rem;
-  line-height: 0.8rem;
+  line-height: 1rem;
 }
 .sell-block .sell-detail1 h4 img {
   width: 1.5rem;
@@ -4141,7 +4160,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .sell-block .sell-detail1 h4 i {
   position: relative;
-  top: -0.8rem;
+  top: 0;
   margin-right: 5px;
 }
 .sell-block .sell-detail1 p {
@@ -4533,9 +4552,9 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 /* 行业案例详情 */
 .rongzi .data {
-  height: 6.75rem;
   margin: 0 auto;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
 }
 .rongzi .data .wl-title {
   margin: 0 0.75rem 0.5rem;
