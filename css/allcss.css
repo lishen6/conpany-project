@@ -887,7 +887,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .news-bg {
   margin-top: -20px;
   background: url(../img/news-bg.png) top center no-repeat;
-  background-size: 124%;
+  background-size: 120%;
   background-position-y: 37px;
 }
 .index-block5-ul {
@@ -899,7 +899,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   padding-bottom: 3rem;
 }
 .index-block5-ul li {
-  font-size: 0.4rem;
   color: #000;
   line-height: 1rem;
 }
@@ -910,17 +909,18 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   border: solid 3px #6acce8;
   -webkit-border-radius: 50%;
           border-radius: 50%;
-  margin-top: 0.3rem;
+  margin-top: 0.5rem;
   margin-right: 0.3rem;
 }
 .index-block5-ul li span {
   margin-left: 0.3rem;
   color: #bfbfbf;
   position: relative;
-  top: -0.45rem;
+  top: 0rem;
+  font-size: 0.55rem;
 }
 .index-block5-ul li a {
-  font-size: 0.35rem;
+  font-size: 0.55rem;
   color: #000;
   display: inline-block;
   max-width: 10rem;
@@ -942,7 +942,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin: 0.5rem auto 1.5rem;
   position: relative;
   left: -0.45rem;
-  top: -0.45rem;
+  top: 0rem;
 }
 .index-block6 {
   height: 4.75rem;
@@ -1219,8 +1219,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   width: 95%;
   height: 44rem;
   margin: 1.6rem auto 0;
-  background: url(../img/headteach44.png) no-repeat;
-  background-size: 100%;
+  background: url(../img/headteach44.png) no-repeat top center;
+  background-size: 105% auto;
   overflow: hidden;
   position: relative;
   z-index: 10;
@@ -1240,24 +1240,24 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .headtech3-center .headtech3-title3,
 .headtech3-center .headtech3-title4,
 .headtech3-center .headtech3-title5 {
-  width: 6.35rem;
+  width: 6.2rem;
   font-size: 0.4rem;
   color: #999;
   line-height: 0.65rem;
   position: absolute;
   top: 4.5rem;
-  left: 0.75rem;
+  left: 0.4rem;
 }
 .headtech3-center .headtech3-title4 {
-  width: 6.1rem;
+  width: 6.4rem;
   font-size: 0.4rem;
-  top: 15.7rem;
-  left: 0.9rem;
+  top: 16.5rem;
+  left: 0.5rem;
 }
 .headtech3-center .headtech3-title5 {
-  width: 6.35rem;
+  width: 6.1rem;
   font-size: 0.4rem;
-  top: 24.5rem;
+  top: 25.5rem;
   left: 0.75rem;
 }
 .headtech4 {
@@ -1731,7 +1731,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .service3-top.service3-top1 .service3-top-center {
   background: url(../img/service211.png) no-repeat center;
-  background-size: 4rem;
+  background-size: 4rem auto;
   background-position-y: 2rem;
 }
 .service3-top .service3-top-center {
@@ -2259,7 +2259,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin-left: -1.25rem;
 }
 .account3-bottom-top-ul li h3 {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
   font-size: 0.7rem;
   color: #333;
