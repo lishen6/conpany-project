@@ -550,7 +550,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .index-block2 .centerBox-title img {
   width: 2.15rem;
-  height: 2.47;
+  height: 2.47rem;
   margin-right: 0.2rem;
 }
 .margin0 {
@@ -558,7 +558,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .index-block2-ul li {
   width: 6.8rem;
-  height: 12.5rem;
+  height: 11rem;
   border: 1px #3b3b3b solid;
   float: left;
   -webkit-box-sizing: border-box;
@@ -627,10 +627,11 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin-bottom: 0.5rem;
 }
 .index-block2-ul li p {
-  font-size: 0.35rem;
+  font-size: 0.55rem;
   line-height: 0.85rem;
   color: #666666;
   text-align: justify;
+  margin-top: 0.5rem;
 }
 .index-block3 .centerBox {
   margin: 1rem auto 0;
@@ -759,10 +760,11 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   font-style: normal;
 }
 .index-block3-ul li p {
-  font-size: 0.35rem;
+  font-size: 0.55rem;
   color: #666;
   line-height: 0.85rem;
   padding: 0 0.5rem;
+  margin-top: 0.5rem;
 }
 .floatright {
   float: right;
@@ -1314,13 +1316,18 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   width: 100%;
 }
 .headtech4 .headtech4-ul li h4 {
-  height: 1rem;
+  height: 2rem;
   font-size: 0.65rem;
   line-height: 1rem;
   color: #333;
-  text-align: center;
+  text-align: left;
   width: 92%;
   margin: 0.25rem auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 .headtech4 .headtech4-ul li p {
   font-size: 0.55rem;
@@ -1328,7 +1335,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   color: #999;
   width: 92%;
   margin: 0 auto;
-  padding-top: 1rem;
 }
 .headtech4 .headtech4-ul li a {
   display: block;
@@ -1342,7 +1348,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   color: #6acce8;
   background: url(../img/headteach56.png) no-repeat;
   background-position: 4.7rem 0.35rem;
-  padding-left: 1.20rem;
+  padding-left: 0.65rem;
   margin: 0.5rem auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1673,7 +1679,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   width: 50%;
   height: 5rem;
   float: left;
-  background: url(../img/service27.png) no-repeat left center;
+  background: url(../img/service26.png) no-repeat left center;
   background-size: 1.8rem;
   padding: 0.5rem 0 0 2.2rem;
   -webkit-box-sizing: border-box;
@@ -1690,7 +1696,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   line-height: 0.9rem;
 }
 .service2-ul2 li.lst {
-  background: url(../img/service26.png) no-repeat left center;
+  background: url(../img/service27.png) no-repeat left center;
   background-size: 1.8rem;
 }
 .service2-div {
@@ -1733,13 +1739,13 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .service3-top.service3-top1 .service3-top-center {
   background: url(../img/service211.png) no-repeat center;
   background-size: 4rem auto;
-  background-position-y: 1rem;
+  background-position-y: 2rem;
 }
 .service3-top .service3-top-center {
   width: 100%;
   height: 9rem;
   background: url(../img/service31.png) no-repeat center;
-  background-position-y: 1.0rem;
+  background-position-y: 1.5rem;
   overflow: hidden;
 }
 .service3-top h3 {
@@ -1902,8 +1908,9 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 /* 服务 */
 .channel-account-block2 {
-  background: url(../../img/account-money_06.jpg) no-repeat 12rem 0;
-  margin-top: 1rem;
+  background: url(../../img/account-money_06.jpg) no-repeat 15rem top;
+  background-size: 10rem auto;
+  padding-top: 1rem;
 }
 .channel-account-block2-div1 {
   text-align: center;
@@ -2024,36 +2031,40 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   font-size: 1.2rem;
 }
 .account2-ul {
-  width: 100%;
   overflow: hidden;
-  margin: 0.6rem auto 0;
+  margin: 0.6rem 0.75rem 0;
 }
 .account2-ul li {
-  width: 42%;
-  height: 13.5rem;
-  margin: 0 4%;
+  width: 48%;
+  height: 11rem;
   float: left;
   overflow: hidden;
 }
+.account2-ul li:nth-child(2n) {
+  float: right;
+}
 .account2-ul li.account2-num1 {
-  background: #fff url(../img/account-block21_06.jpg) no-repeat;
+  background: #fff url(../img/account-block21_06.jpg) no-repeat bottom center;
+  background-size: 100% auto;
 }
 .account2-ul li.account2-num2 {
-  background: #fff url(../img/account-block22_06.jpg) no-repeat;
+  background: #fff url(../img/account-block22_06.jpg) no-repeat bottom center;
+  background-size: 100% auto;
 }
 .account2-ul li.account2-num3 {
-  background: #fff url(../img/account-block23_06.jpg) no-repeat;
+  background: #fff url(../img/account-block23_06.jpg) no-repeat bottom center;
+  background-size: 100% auto;
 }
 .account2-ul li.account2-num4 {
-  background: #fff url(../img/account-block24_06.jpg) no-repeat;
+  background: #fff url(../img/account-block24_06.jpg) no-repeat bottom center;
+  background-size: 100% auto;
 }
 .account2-ul li h3 {
   font-size: 14px;
   color: #333333;
   line-height: 24px;
-  width: 90%;
+  width: 80%;
   margin: 24px auto 0;
-  text-align: center;
 }
 .account2-ul li p {
   font-size: 12px;
@@ -2080,8 +2091,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   font-weight: bold;
   background: url(../img/account-block3-bg3_03.png) no-repeat;
   background-size: 4rem;
-  background-position-x: 0.3rem;
-  background-position-y: 1.2rem;
+  background-position-x: 4rem;
+  background-position-y: 1.5rem;
   line-height: 1.5rem;
 }
 .account2-bottom-top b {
@@ -2094,21 +2105,22 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   top: -0.5rem;
 }
 .account2-bottom-ul {
-  width: 100%;
+  margin: 0 0.75rem;
   overflow: hidden;
 }
 .account2-bottom-ul li {
   width: 100%;
-  height: 5.5rem;
+  height: 4.5rem;
   float: left;
-  background: url(../img/account-block2-qianbi2.png) no-repeat left;
-  padding: 0.95rem 1.25rem 0 4.5rem;
+  background: url(../img/account-block2-qianbi.png) no-repeat 1rem top;
+  background-size: 5rem auto;
+  padding: 0.95rem 1.25rem 0 4rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-bottom: 1rem;
 }
 .account2-bottom-ul li h3 {
-  width: 60%;
+  width: 80%;
   font-size: 0.75rem;
   color: #333;
   line-height: 1.5rem;
@@ -2116,14 +2128,16 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin-top: -1.2rem;
 }
 .account2-bottom-ul li p {
-  width: 60%;
+  width: 80%;
   float: right;
   font-size: 12px;
   color: #333;
   line-height: 0.75rem;
+  text-align: justify;
 }
 .account2-bottom-ul li.lst {
-  background: url(../img/account-block2-jisuanqi2.png) no-repeat left;
+  background: url(../img/account-block2-jisuanqi.png) no-repeat 1rem top;
+  background-size: 5rem auto;
   padding: 0.75rem 0.8rem 0 4rem;
 }
 .channelaccount-block3 {
@@ -2177,7 +2191,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   margin: 0 auto 0.5rem;
 }
 .channelaccount-block3-top .account3-top-content div h3 {
-  margin: 0 0.25rem 0 0.5rem;
+  margin: 0 0.25rem 0.5rem 0.5rem;
   font-size: 0.75rem;
   color: #333;
   line-height: 1.1rem;
@@ -2214,8 +2228,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   font-weight: bold;
   background: url(../img/account-block5-bg5_03.png) no-repeat;
   background-size: 4rem;
-  background-position-x: 1.45rem;
-  background-position-y: 1.0rem;
+  background-position-x: 5.45rem;
+  background-position-y: 0.9rem;
 }
 .account3-bottom-top .account3-bottom-top-title b {
   font-size: 1.2rem;
@@ -2241,10 +2255,10 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .account3-bottom-top-ul li {
   float: left;
   width: 45%;
-  height: 10.7rem;
+  height: 9.5rem;
   position: relative;
   border: 1px #b4b4b4 solid;
-  padding-top: 0.95rem;
+  padding-top: 1.3rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: #fff;
@@ -2644,7 +2658,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .environment > img {
   width: 100%;
-  padding-top: 2rem;
 }
 .environment > h3 {
   font-size: 0.75rem;
@@ -2699,18 +2712,14 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   bottom: 1.5rem;
   text-align: center;
 }
-.environment .small-span1 {
-  left: 8.4rem;
-  top: 3.4rem;
-}
 .environment .small-span2 {
-  left: 3.9rem;
+  left: 4.16rem;
   bottom: 2.75rem;
 }
 .environment .small-span3 {
   left: auto;
-  right: 4.2rem;
-  bottom: 2.8rem;
+  right: 4rem;
+  bottom: 2.7rem;
 }
 .environment .small-span4 {
   left: auto;
@@ -2719,7 +2728,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .environment .bottom-tips {
   position: absolute;
-  bottom: 0.3rem;
+  bottom: 0.5rem;
   left: 50%;
   color: #333;
   line-height: 0.8rem;
@@ -3568,8 +3577,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   height: 21rem;
   overflow: hidden;
   position: relative;
-  border-top: 0.75rem #7ad1d5 solid;
-  border-bottom: 0.75rem #7ad1d5 solid;
+  background: url(../img/meng-bg.jpg) no-repeat top center;
+  background-size: 100% auto;
   margin-bottom: 1rem;
 }
 .channel-block4-bg {
@@ -3587,18 +3596,19 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   position: absolute;
   top: 1rem;
   left: 0.5rem;
-  right: 1rem;
+  right: 1.3rem;
 }
 .channel-block4-top {
-  height: 1.4rem;
+  height: 1.8rem;
   overflow: hidden;
   border-bottom: 1px #e1e1e1 solid;
 }
 .channel-block4-top p {
-  margin: 0.2rem 0 0;
+  margin: 0;
   font-size: 0.55rem;
   color: #6acce8;
   font-weight: bold;
+  line-height: 2rem;
 }
 .channel-block4-top p a {
   font-size: 0.55rem;
@@ -3618,16 +3628,16 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   position: absolute;
 }
 .channel-block4-center span.block4-span1 {
-  top: 85px;
-  left: 6px;
+  top: 3.8rem;
+  left: 0.2rem;
 }
 .channel-block4-center span.block4-span2 {
-  top: 85px;
-  left: 72px;
+  top: 3.8rem;
+  left: 1.8rem;
 }
 .channel-block4-center span.block4-span3 {
-  top: 85px;
-  left: 147px;
+  top: 3.8rem;
+  left: 7rem;
 }
 .channel-block4-center span.block4-span4 {
   top: 0.25rem;
@@ -3694,6 +3704,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .channel-block5-ul li {
   width: 20%;
   float: left;
+  text-align: center;
 }
 .channel-block5-ul li > img {
   width: 4rem;
@@ -3944,7 +3955,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .sell .step1 {
   height: 10rem;
   background: url(../img/sell-step.jpg) no-repeat top center;
-  background-size: 30rem auto;
+  background-size: 98% auto;
 }
 .sell .step1 .middle {
   height: 100%;
@@ -3954,19 +3965,25 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   color: #333;
   position: absolute;
   line-height: 0.625rem;
-  width: 9rem;
+  width: 11rem;
 }
-.sell .step1 .middle p:nth-child(1) {
+.sell .step1 .middle .step1-btn {
+  font-size: 0.55rem;
+  color: #333;
+  width: 3.6rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
   color: #fff;
-  font-size: 0.35rem;
   left: 5.3rem;
-  top: 2.9rem;
+  top: 1.2rem;
+  background: #6acce8;
+  text-align: center;
 }
 .sell .step1 .middle p:nth-child(2) {
   left: 5.45rem;
-  top: 3.8rem;
+  top: 2.5rem;
   color: #999;
-  font-size: 0.35rem;
+  font-size: 0.45rem;
 }
 .sell .step1 .middle p:nth-child(3) {
   left: 6.43rem;
@@ -3980,18 +3997,17 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   left: 0px;
   text-align: justify;
   width: 100%;
-  line-height: 0.65rem;
+  line-height: 0.8rem;
 }
 .sell .step2 {
   margin: 1rem 0.75rem 1.5rem;
-  overflow: hidden;
+  height: 8.8rem;
 }
 .sell .step2 li {
-  float: left;
   width: 50%;
 }
 .sell .step2 li img {
-  width: 7rem;
+  width: 100%;
 }
 .sell .step2 li:nth-child(2) > p {
   margin: 0.25rem 0 0 1rem;
@@ -3999,7 +4015,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .sell .step2 li > p {
   font-size: 0.55rem;
   color: #333;
-  line-height: 0.65rem;
+  line-height: 0.7rem;
   margin: 0.25rem 0 0 0.85rem;
   text-align: justify;
 }
@@ -4086,8 +4102,11 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .sell .data-info li {
   float: left;
-  width: 50%;
+  width: 48%;
+  height: 4.5rem;
   margin-bottom: 0.8rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .sell .data-info li:nth-child(4n) {
   margin-right: 0px;
@@ -4097,6 +4116,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   color: #6acce8;
   line-height: 0.8rem;
   margin-bottom: 0.3rem;
+  padding: 0 0.25rem;
 }
 .sell .data-info li > p {
   font-size: 0.55rem;
@@ -4104,13 +4124,69 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   line-height: 0.7rem;
   margin-bottom: 0.3rem;
   text-align: justify;
-  padding-right: 0.5rem;
 }
 .sell .data-info li > div {
-  font-size: 0.35rem;
+  font-size: 0.5rem;
   color: #f0f0f0;
 }
 .sell .data-info li > div span {
+  color: #a9a9a9;
+}
+.sell .blue-border {
+  background: #fff;
+  padding: 0.75rem;
+  overflow: hidden;
+  /*Firefox3.5+*/
+  -webkit-box-sizing: border-box;
+  /*Safari3.2+*/
+  -o-box-sizing: border-box;
+  /*Opera9.6*/
+  -ms-box-sizing: border-box;
+  /*IE8*/
+  box-sizing: border-box;
+}
+.sell .blue-border li {
+  float: left;
+  width: 48%;
+  height: 4.5rem;
+  margin-bottom: 0.8rem;
+  border: solid 1px #6ecce6;
+  padding: 0.6rem 0.4rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-border-radius: 0.3rem;
+          border-radius: 0.3rem;
+  position: relative;
+}
+.sell .blue-border li:nth-child(4n) {
+  margin-right: 0px;
+}
+.sell .blue-border li:nth-child(2n) {
+  float: right;
+}
+.sell .blue-border li > h5 {
+  font-size: 0.75rem;
+  color: #6acce8;
+  line-height: 0.8rem;
+  margin-bottom: 0.3rem;
+  position: absolute;
+  top: -0.4rem;
+  left: 0.3rem;
+  background: #fff;
+  padding: 0 0.25rem;
+}
+.sell .blue-border li > p {
+  font-size: 0.55rem;
+  color: #333;
+  line-height: 0.7rem;
+  margin-bottom: 0.3rem;
+  text-align: justify;
+}
+.sell .blue-border li > div {
+  font-size: 0.5rem;
+  color: #f0f0f0;
+}
+.sell .blue-border li > div span {
   color: #a9a9a9;
 }
 .get-data {
@@ -4156,7 +4232,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .sell-block .sell-detail1 h4 {
   font-size: 0.75rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   line-height: 1rem;
 }
 .sell-block .sell-detail1 h4 img {
@@ -4175,9 +4251,11 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   color: #333;
   line-height: 0.95rem;
   margin-bottom: 0.2rem;
+  margin-left: 1.7rem;
 }
-.sell-block .sell-detail1 p span {
+.sell-block .sell-detail1 p > span {
   color: #6acce8;
+  display: block;
 }
 .fl {
   float: left;
@@ -4560,60 +4638,69 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 /* 行业案例详情 */
 .rongzi .data {
   margin: 0 auto;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   overflow: hidden;
 }
 .rongzi .data .wl-title {
   margin: 0 0.75rem 0.5rem;
 }
-.rongzi .data .fl {
-  position: relative;
-  width: 90%;
-  float: none;
-  margin: 0 auto;
-  left: 1rem;
+.rongzi .data .three-tips {
+  margin: 0 0.75rem;
   z-index: 3;
-}
-.rongzi .data .fl > img {
-  width: 90%;
-}
-.rongzi .data .fl > span {
-  position: absolute;
   text-align: center;
-  top: 3.1rem;
-  left: 0.325rem;
-  font-size: 0.35rem;
-}
-.rongzi .data .fl > span:nth-child(3) {
-  left: 5.75rem;
-}
-.rongzi .data .fl > span:nth-child(4) {
-  left: 10.9rem;
-}
-.rongzi .data .fr {
+  height: 4rem;
   position: relative;
-  width: 93%;
-  float: none;
-  margin: 0 auto;
-  left: 0.6rem;
-  top: 0.5rem;
-  z-index: 2;
 }
-.rongzi .data .fr > img {
-  width: 90%;
+.rongzi .data .three-tips:after {
+  content: '';
+  width: 13.5rem;
+  height: 1px;
+  background: #c2c2c2;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  margin-left: -6.75rem;
 }
-.rongzi .data .fr > span {
+.rongzi .data .three-tips > img {
+  width: 14rem;
+}
+.rongzi .data .three-tips > span {
   position: absolute;
   text-align: center;
-  top: 2.125rem;
-  left: 0.375rem;
-  font-size: 0.35rem;
+  top: 2.5rem;
+  left: 2.1rem;
+  font-size: 0.55rem;
+  line-height: 0.7rem;
 }
-.rongzi .data .fr > span:nth-child(3) {
-  left: 6.7rem;
+.rongzi .data .three-tips > span:nth-child(3) {
+  left: 7rem;
 }
-.rongzi .data .fr > span:nth-child(4) {
-  left: 11.225rem;
+.rongzi .data .three-tips > span:nth-child(4) {
+  left: 12.5rem;
+}
+.rongzi .data .num-three {
+  margin: 0.5rem 0.75rem;
+  z-index: 3;
+  text-align: center;
+  position: relative;
+  height: 4rem;
+}
+.rongzi .data .num-three > img {
+  width: 14rem;
+}
+.rongzi .data .num-three > span {
+  position: absolute;
+  text-align: center;
+  top: 2rem;
+  left: 2.1rem;
+  font-size: 0.55rem;
+  line-height: 0.7rem;
+}
+.rongzi .data .num-three > span:nth-child(3) {
+  left: 7rem;
+}
+.rongzi .data .num-three > span:nth-child(4) {
+  left: 12.5rem;
 }
 .rongzi .two-model-div {
   background: url(../img/rong-step.jpg) no-repeat bottom center;
@@ -4632,7 +4719,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   text-align: center;
   width: 48%;
   border: solid 1px #b4b4b4;
-  padding: 1rem 0.25rem ;
+  padding: 1.3rem 0.25rem 1rem;
   /*Firefox3.5+*/
   -webkit-box-sizing: border-box;
   /*Safari3.2+*/
@@ -4651,7 +4738,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   position: absolute;
   top: -0.75rem;
   left: 50%;
-  margin-left: -0.9rem;
+  margin-left: -1.25rem;
   width: 1.5rem;
   text-align: center;
   background: #fff;
@@ -4660,20 +4747,20 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   width: 100%;
 }
 .rongzi .two-model dd h5 {
-  font-size: 0.45rem;
+  font-size: 0.65rem;
   color: #333;
-  line-height: 0.75rem;
+  line-height: 0.8rem;
 }
 .rongzi .two-model dd .gray-span {
   margin-bottom: 0.325rem;
 }
 .rongzi .two-model dd p {
-  font-size: 0.35rem;
+  font-size: 0.55rem;
   color: #333;
   line-height: 0.7rem;
 }
 .rongzi .two-model dd p > span {
-  font-size: 0.35rem;
+  font-size: 0.45rem;
   color: #999;
   line-height: 0.6rem;
   margin-bottom: 0.5rem;
@@ -4696,7 +4783,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   background: transparent;
 }
 .rongzi .data-info h3 {
-  font-size: 0.6rem;
+  font-size: 0.45rem;
   line-height: 1.3rem;
   text-align: center;
   margin-bottom: 0.75rem;
@@ -4712,7 +4799,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   line-height: 0.65rem;
   margin-top: 0.5rem;
   text-align: center;
-  padding-left: 0.4rem;
 }
 .rongzi .data-info li h5 {
   color: #333;

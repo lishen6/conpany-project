@@ -12,7 +12,7 @@
     .step1{
         height: 10rem;
         background: url(../img/sell-step.jpg) no-repeat top center;
-        background-size: 30rem auto;
+        background-size: 98% auto;
         .middle{
             height: 100%;
             p{
@@ -20,19 +20,32 @@
                 color: #333;
                 position: absolute;
                 line-height: 0.625rem;
-                width: 9rem;
+                width: 11rem;
             }
-            p:nth-child(1){
-                    color: #fff;
-                    font-size: 0.35rem;
-                    left: 5.3rem;
-                    top: 2.9rem;
-            } 
+
+            // p:nth-child(1){
+            //         color: #fff;
+            //         font-size: 0.35rem;
+            //         left: 5.3rem;
+            //         top: 2.9rem;
+            // } 
+            .step1-btn{
+                 font-size: @title3;
+                color: #333;
+                width: 3.6rem;
+                height: 0.8rem;
+                line-height:0.8rem;
+                color: #fff;
+                left: 5.3rem;
+                top: 1.2rem;
+                background: #6acce8;
+                text-align: center;
+            }
             p:nth-child(2){
                     left: 5.45rem;
-                    top: 3.8rem;
+                    top: 2.5rem;
                     color: #999;
-                    font-size: 0.35rem;
+                    font-size: 0.45rem;
             }  
             p:nth-child(3){
                 left: 6.43rem;
@@ -48,18 +61,17 @@
             left: 0px;
             text-align: justify;
             width: 100%;
-            line-height: 0.65rem;
+            line-height: 0.8rem;
 
         }
     }
     .step2{
         margin: 1rem 0.75rem 1.5rem;
-        overflow: hidden;
+        height: 8.8rem;
         li{
-            float: left;
             width: 50%;
             img{
-                width: 7rem;
+                width: 100%;
             }
             &:nth-child(2){
                 >p{
@@ -69,7 +81,7 @@
             >p{
                 font-size: @title3;
                 color: #333;
-                line-height: 0.65rem;
+                line-height: 0.7rem;
                 margin: 0.25rem 0 0 0.85rem;
                 text-align: justify;
             }
@@ -155,8 +167,10 @@
          box-sizing: border-box;
         li{
             float: left;
-            width: 50%;
+            width: 48%;
+            height: 4.5rem;
             margin-bottom: 0.8rem;
+            box-sizing: border-box;
             &:nth-child(4n){
                 margin-right: 0px;
             }
@@ -165,6 +179,7 @@
                 color: #6acce8;
                 line-height: 0.8rem;
                 margin-bottom: 0.3rem;
+                padding: 0 0.25rem;
             }
             >p{
                 font-size: @title3;
@@ -172,11 +187,64 @@
                 line-height: 0.7rem;
                 margin-bottom: 0.3rem;
                 text-align: justify;
-                padding-right: 0.5rem;
 
             }
             >div{
-                font-size: 0.35rem;
+                font-size: 0.5rem;
+                color: #f0f0f0;
+                span{
+                    color: #a9a9a9;
+                }
+            }
+        }
+            
+    }
+    .blue-border{
+        background: #fff;
+        padding: 0.75rem;
+        overflow: hidden;
+        -moz-box-sizing: border-box;  /*Firefox3.5+*/
+         -webkit-box-sizing: border-box; /*Safari3.2+*/
+         -o-box-sizing: border-box; /*Opera9.6*/
+         -ms-box-sizing: border-box; /*IE8*/
+         box-sizing: border-box;
+        li{
+            float: left;
+            width: 48%;
+            height: 4.5rem;
+            margin-bottom: 0.8rem;
+            border: solid 1px #6ecce6;
+            padding: 0.6rem 0.4rem;
+            box-sizing: border-box;
+            border-radius: 0.3rem;
+            position: relative;
+            &:nth-child(4n){
+                margin-right: 0px;
+            }
+            &:nth-child(2n){
+                float: right;
+            }
+            >h5{
+                font-size: @title1;
+                color: #6acce8;
+                line-height: 0.8rem;
+                margin-bottom: 0.3rem;
+                position: absolute;
+                top: -0.4rem;
+                left: 0.3rem;
+                background: #fff;
+                padding: 0 0.25rem;
+            }
+            >p{
+                font-size: @title3;
+                color: #333;
+                line-height: 0.7rem;
+                margin-bottom: 0.3rem;
+                text-align: justify;
+
+            }
+            >div{
+                font-size: 0.5rem;
                 color: #f0f0f0;
                 span{
                     color: #a9a9a9;
@@ -228,7 +296,7 @@
         padding-top: 0.5rem;
         h4{
             font-size: @title1;
-            margin-bottom: 1rem;
+            margin-bottom: 0.5rem;
             line-height: 1rem;
             img{
                 width: 1.5rem;
@@ -247,8 +315,10 @@
             color: #333;
             line-height: 0.95rem;
             margin-bottom: 0.2rem;
-            span{
+            margin-left: 1.7rem;
+            >span{
                 color: #6acce8;
+                display: block;
             }
         }
     }
